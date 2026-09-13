@@ -64,7 +64,7 @@ def rewrite_csv(
 class RealDatasetLoaderTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        cls.repository = load_dataset(DATASET_DIR)
+        cls.repository = load_dataset(DATASET_DIR, include_sample_labels=True)
 
     def test_all_participant_rows_load_with_exact_counts(self) -> None:
         self.assertEqual(
@@ -179,6 +179,11 @@ class RealDatasetLoaderTests(unittest.TestCase):
         self.assertFalse(hasattr(sample_request, "amount_safe_to_pay"))
         self.assertNotIn("request_01", self.repository.requests_by_request_id)
         self.assertNotIn("request_26", self.repository.sample_labels_by_request_id)
+
+    def test_production_load_excludes_solved_sample_labels_by_default(self) -> None:
+        repository = load_dataset(DATASET_DIR)
+        self.assertEqual(repository.sample_labels, ())
+        self.assertEqual(repository.sample_labels_by_request_id, {})
 
 
 class MalformedDatasetTests(unittest.TestCase):

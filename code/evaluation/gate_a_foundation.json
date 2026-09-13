@@ -1,0 +1,265 @@
+{
+  "checks": [
+    {
+      "details": {
+        "all_metrics": "100%",
+        "rows": 25
+      },
+      "name": "evaluator: solved outputs score 100% field-by-field",
+      "status": "PASS"
+    },
+    {
+      "details": {
+        "amount_bound": "safe_amount_out_of_bounds",
+        "date": "invalid_earliest_date",
+        "duplicate_id": "duplicate_request_id",
+        "enum": "invalid_affordability_status",
+        "installment_option": "installment_option_mismatch",
+        "partial_sum": "partial_payment_sum_or_schedule",
+        "payment_order": "nonchronological_payment_plan",
+        "spending_action": "invalid_spending_change_grammar"
+      },
+      "name": "evaluator: required corruptions are rejected",
+      "status": "PASS"
+    },
+    {
+      "details": {
+        "blank_event_amounts": 16,
+        "bundles": 275,
+        "rows": {
+          "exchange_rates.csv": 134,
+          "financial_events.csv": 25342,
+          "financial_profiles.csv": 275,
+          "images.csv": 16,
+          "messages.csv": 215,
+          "output.csv": 250,
+          "request_payment_options.csv": 790,
+          "requests.csv": 250,
+          "sample_requests.csv": 25
+        }
+      },
+      "name": "data layer: schemas, joins, bundles, None handling, label isolation",
+      "status": "PASS"
+    },
+    {
+      "details": {
+        "float_conversion_hits": 0,
+        "runtime_decimal_values": 31287
+      },
+      "name": "money: Decimal runtime precision and serialization",
+      "status": "PASS"
+    },
+    {
+      "details": {
+        "foreign_cash_events": 140,
+        "spot_check": "10.25 EUR -> 205.00 ZAR"
+      },
+      "name": "FX: exact dated directional conversion only",
+      "status": "PASS"
+    },
+    {
+      "details": {
+        "cache_second_run": {
+          "hits": 231,
+          "misses": 0
+        },
+        "facts": 239,
+        "resolved_blank_amounts": 16,
+        "seeded_images": 16
+      },
+      "name": "evidence: all blank amounts traceable, cached, and decision-isolated",
+      "status": "PASS"
+    },
+    {
+      "details": {
+        "production_id_specific_hits": 0,
+        "sample_labels_default": 0
+      },
+      "name": "anti-overfitting: no request/user-specific production logic",
+      "status": "PASS"
+    },
+    {
+      "details": {
+        "exit_code": 0,
+        "summary": "OK"
+      },
+      "name": "foundation regression suite",
+      "status": "PASS"
+    }
+  ],
+  "commands": [
+    "python -m unittest discover -s code\\tests -v",
+    "python code\\evaluation\\gate_a.py"
+  ],
+  "counts": {
+    "audit": {
+      "exchange_rates.csv": 134,
+      "financial_events.csv": 25342,
+      "financial_profiles.csv": 275,
+      "images.csv": 16,
+      "messages.csv": 215,
+      "output.csv": 250,
+      "request_payment_options.csv": 790,
+      "requests.csv": 250,
+      "sample_requests.csv": 25
+    },
+    "resolved_evidence": 16
+  },
+  "failing_fixtures": [],
+  "files_changed_by_gate": [
+    "code/buy_or_wait/data.py",
+    "code/tests/test_data_loader.py",
+    "code/evaluation/gate_a.py",
+    "code/evaluation/gate_a_foundation.json",
+    "code/evaluation/gate_a_foundation.md"
+  ],
+  "gate": "VERIFY A",
+  "resolved_image_evidence": [
+    {
+      "amount": "4365000",
+      "currency": "IDR",
+      "event_id": "event_253",
+      "extractor_version": "image-reviewed-v1",
+      "image_id": "image_01",
+      "provenance": "images.csv:2",
+      "source_hash": "f37b40e6af42"
+    },
+    {
+      "amount": "100000.00",
+      "currency": "INR",
+      "event_id": "event_1442",
+      "extractor_version": "image-reviewed-v1",
+      "image_id": "image_02",
+      "provenance": "images.csv:3",
+      "source_hash": "ccd779e5382b"
+    },
+    {
+      "amount": "41272.00",
+      "currency": "INR",
+      "event_id": "event_1545",
+      "extractor_version": "image-reviewed-v1",
+      "image_id": "image_03",
+      "provenance": "images.csv:4",
+      "source_hash": "e5fb0bbcda6c"
+    },
+    {
+      "amount": "2854.00",
+      "currency": "INR",
+      "event_id": "event_1700",
+      "extractor_version": "image-reviewed-v1",
+      "image_id": "image_04",
+      "provenance": "images.csv:5",
+      "source_hash": "281e7f1e7bd1"
+    },
+    {
+      "amount": "822.05",
+      "currency": "INR",
+      "event_id": "event_1786",
+      "extractor_version": "image-reviewed-v1",
+      "image_id": "image_05",
+      "provenance": "images.csv:6",
+      "source_hash": "9abcda5647af"
+    },
+    {
+      "amount": "1995.00",
+      "currency": "INR",
+      "event_id": "event_3051",
+      "extractor_version": "image-reviewed-v1",
+      "image_id": "image_06",
+      "provenance": "images.csv:7",
+      "source_hash": "9055551fbe59"
+    },
+    {
+      "amount": "8528.00",
+      "currency": "INR",
+      "event_id": "event_3231",
+      "extractor_version": "image-reviewed-v1",
+      "image_id": "image_07",
+      "provenance": "images.csv:8",
+      "source_hash": "f6d30a743552"
+    },
+    {
+      "amount": "15339.00",
+      "currency": "INR",
+      "event_id": "event_4535",
+      "extractor_version": "image-reviewed-v1",
+      "image_id": "image_08",
+      "provenance": "images.csv:9",
+      "source_hash": "e28592ad8b4d"
+    },
+    {
+      "amount": "723.00",
+      "currency": "INR",
+      "event_id": "event_5170",
+      "extractor_version": "image-reviewed-v1",
+      "image_id": "image_09",
+      "provenance": "images.csv:10",
+      "source_hash": "e0e74e14425d"
+    },
+    {
+      "amount": "79679.26",
+      "currency": "INR",
+      "event_id": "event_6033",
+      "extractor_version": "image-reviewed-v1",
+      "image_id": "image_10",
+      "provenance": "images.csv:11",
+      "source_hash": "c90f98caf087"
+    },
+    {
+      "amount": "3650.00",
+      "currency": "INR",
+      "event_id": "event_6859",
+      "extractor_version": "image-reviewed-v1",
+      "image_id": "image_11",
+      "provenance": "images.csv:12",
+      "source_hash": "795e000d4842"
+    },
+    {
+      "amount": "33.50",
+      "currency": "USD",
+      "event_id": "event_7307",
+      "extractor_version": "image-reviewed-v1",
+      "image_id": "image_12",
+      "provenance": "images.csv:13",
+      "source_hash": "e10b0123e66d"
+    },
+    {
+      "amount": "2298",
+      "currency": "INR",
+      "event_id": "event_7941",
+      "extractor_version": "image-reviewed-v1",
+      "image_id": "image_13",
+      "provenance": "images.csv:14",
+      "source_hash": "1ae54b378a95"
+    },
+    {
+      "amount": "4593.00",
+      "currency": "INR",
+      "event_id": "event_9421",
+      "extractor_version": "image-reviewed-v1",
+      "image_id": "image_14",
+      "provenance": "images.csv:15",
+      "source_hash": "bf88e4aa35e6"
+    },
+    {
+      "amount": "9968.00",
+      "currency": "INR",
+      "event_id": "event_9806",
+      "extractor_version": "image-reviewed-v1",
+      "image_id": "image_15",
+      "provenance": "images.csv:16",
+      "source_hash": "0c0fe3d79e67"
+    },
+    {
+      "amount": "393.22",
+      "currency": "INR",
+      "event_id": "event_10521",
+      "extractor_version": "image-reviewed-v1",
+      "image_id": "image_16",
+      "provenance": "images.csv:17",
+      "source_hash": "2665cf731a86"
+    }
+  ],
+  "status": "PASS",
+  "unresolved_evidence": []
+}

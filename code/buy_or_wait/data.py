@@ -609,8 +609,15 @@ def _require_reference(
         )
 
 
-def load_dataset(dataset_dir: str | Path = "dataset") -> DatasetRepository:
-    """Load and validate all participant-facing tables into immutable indexes."""
+def load_dataset(
+    dataset_dir: str | Path = "dataset", *, include_sample_labels: bool = False
+) -> DatasetRepository:
+    """Load participant-facing tables into immutable indexes.
+
+    Production callers receive request inputs only.  The solved sample labels are
+    deliberately opt-in so that a decision run cannot accidentally consume them.
+    The evaluator and its tests may request the separate label index explicitly.
+    """
 
     root = Path(dataset_dir).resolve()
     if not root.is_dir():
@@ -632,8 +639,10 @@ def load_dataset(dataset_dir: str | Path = "dataset") -> DatasetRepository:
     )
     messages = tuple(_parse_message(row) for row in raw["messages.csv"])
     images = tuple(_parse_image(row, root) for row in raw["images.csv"])
-    sample_labels = tuple(
-        _parse_prediction(row) for row in raw["sample_requests.csv"]
+    sample_labels = (
+        tuple(_parse_prediction(row) for row in raw["sample_requests.csv"])
+        if include_sample_labels
+        else ()
     )
 
     profiles_by_user = _unique_index(
