@@ -97,6 +97,12 @@ class ForecastTests(unittest.TestCase):
         self.assertTrue(result.safe)
         self.assertEqual(result.minimum_balance_observed, Decimal("200"))
 
+    def test_opening_balance_below_minimum_is_unsafe(self) -> None:
+        state, _ = self.state((), p=profile(balance="199.99", minimum="200.00"))
+        result = simulate(state)
+        self.assertFalse(result.safe)
+        self.assertIn("opening balance", result.first_violation_reason or "")
+
     def test_mid_period_violation_is_unsafe_despite_positive_ending_balance(self) -> None:
         events = (
             event("debit", amount="150", settlement=date(2026, 9, 2)),
@@ -146,6 +152,12 @@ class ForecastTests(unittest.TestCase):
         transfer_fact = fact(None, kind=EvidenceFactType.INTERNAL_TRANSFER, action=EvidenceAction.CONFIRMATION, timestamp=datetime(2026, 9, 3, tzinfo=timezone.utc))
         state, _ = self.state((debit, credit), facts=(transfer_fact,))
         self.assertEqual(state.baseline_movements, ())
+
+    def test_internal_transfer_is_not_neutralized_without_evidence(self) -> None:
+        debit = event("transfer_out", amount="80", settlement=date(2026, 9, 3))
+        credit = event("transfer_in", amount="80", settlement=date(2026, 9, 3), direction=Direction.CREDIT, category=Category.SALARY, event_type=EventType.INCOME)
+        state, _ = self.state((debit, credit))
+        self.assertEqual({movement.source_id for movement in state.baseline_movements}, {"transfer_out", "transfer_in"})
 
     def test_exact_dated_fx_is_traced(self) -> None:
         foreign = event("foreign", amount="100", settlement=date(2026, 9, 4), currency=Currency.USD)

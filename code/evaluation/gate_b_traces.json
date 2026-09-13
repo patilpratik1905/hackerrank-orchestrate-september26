@@ -1,0 +1,2077 @@
+{
+  "fixed_recurring_expense": {
+    "ledger": [
+      {
+        "amount": "2081148.84",
+        "balance_after": "98764101.16",
+        "date": "2025-08-06",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "2081148.84",
+        "recurrence_rule_id": "recurrence:event_2320",
+        "source_event_id": "event_2320",
+        "source_id": "recurrence:event_2320"
+      },
+      {
+        "amount": "560500",
+        "balance_after": "98203601.16",
+        "date": "2025-08-09",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "560500",
+        "recurrence_rule_id": "recurrence:event_2322",
+        "source_event_id": "event_2322",
+        "source_id": "recurrence:event_2322"
+      },
+      {
+        "amount": "214700",
+        "balance_after": "97988901.16",
+        "date": "2025-08-12",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "214700",
+        "recurrence_rule_id": "recurrence:event_2321",
+        "source_event_id": "event_2321",
+        "source_id": "recurrence:event_2321"
+      },
+      {
+        "amount": "10374000",
+        "balance_after": "87614901.16",
+        "date": "2025-09-01",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "10374000",
+        "recurrence_rule_id": "recurrence:event_2319",
+        "source_event_id": "event_2319",
+        "source_id": "recurrence:event_2319"
+      },
+      {
+        "amount": "1171160.69",
+        "balance_after": "86443740.47",
+        "date": "2025-09-02",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "variable_essential",
+        "raw_amount": "1171160.69",
+        "recurrence_rule_id": "variable:groceries:IDR",
+        "source_event_id": "event_2341",
+        "source_id": "variable:groceries:IDR"
+      },
+      {
+        "amount": "2081148.84",
+        "balance_after": "84362591.63",
+        "date": "2025-09-05",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "2081148.84",
+        "recurrence_rule_id": "recurrence:event_2320",
+        "source_event_id": "event_2320",
+        "source_id": "recurrence:event_2320"
+      },
+      {
+        "amount": "560500",
+        "balance_after": "83802091.63",
+        "date": "2025-09-08",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "560500",
+        "recurrence_rule_id": "recurrence:event_2322",
+        "source_event_id": "event_2322",
+        "source_id": "recurrence:event_2322"
+      },
+      {
+        "amount": "214700",
+        "balance_after": "83587391.63",
+        "date": "2025-09-11",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "214700",
+        "recurrence_rule_id": "recurrence:event_2321",
+        "source_event_id": "event_2321",
+        "source_id": "recurrence:event_2321"
+      },
+      {
+        "amount": "10374000",
+        "balance_after": "73213391.63",
+        "date": "2025-10-01",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "10374000",
+        "recurrence_rule_id": "recurrence:event_2319",
+        "source_event_id": "event_2319",
+        "source_id": "recurrence:event_2319"
+      },
+      {
+        "amount": "1171160.69",
+        "balance_after": "72042230.94",
+        "date": "2025-10-02",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "variable_essential",
+        "raw_amount": "1171160.69",
+        "recurrence_rule_id": "variable:groceries:IDR",
+        "source_event_id": "event_2341",
+        "source_id": "variable:groceries:IDR"
+      },
+      {
+        "amount": "2081148.84",
+        "balance_after": "69961082.10",
+        "date": "2025-10-05",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "2081148.84",
+        "recurrence_rule_id": "recurrence:event_2320",
+        "source_event_id": "event_2320",
+        "source_id": "recurrence:event_2320"
+      },
+      {
+        "amount": "560500",
+        "balance_after": "69400582.10",
+        "date": "2025-10-08",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "560500",
+        "recurrence_rule_id": "recurrence:event_2322",
+        "source_event_id": "event_2322",
+        "source_id": "recurrence:event_2322"
+      },
+      {
+        "amount": "214700",
+        "balance_after": "69185882.10",
+        "date": "2025-10-11",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "214700",
+        "recurrence_rule_id": "recurrence:event_2321",
+        "source_event_id": "event_2321",
+        "source_id": "recurrence:event_2321"
+      },
+      {
+        "amount": "10374000",
+        "balance_after": "58811882.10",
+        "date": "2025-10-31",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "10374000",
+        "recurrence_rule_id": "recurrence:event_2319",
+        "source_event_id": "event_2319",
+        "source_id": "recurrence:event_2319"
+      },
+      {
+        "amount": "1171160.69",
+        "balance_after": "57640721.41",
+        "date": "2025-11-01",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "variable_essential",
+        "raw_amount": "1171160.69",
+        "recurrence_rule_id": "variable:groceries:IDR",
+        "source_event_id": "event_2341",
+        "source_id": "variable:groceries:IDR"
+      }
+    ],
+    "ledger_rows_total": 15,
+    "minimum_balance_observed": "57640721.41",
+    "recurrence_rules": [
+      {
+        "amount": "214700",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for cloud storage plan",
+        "rule_id": "recurrence:event_2321",
+        "source_event_ids": [
+          "event_2293",
+          "event_2300",
+          "event_2307",
+          "event_2314",
+          "event_2321"
+        ]
+      },
+      {
+        "amount": "10374000",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for residential rent payment",
+        "rule_id": "recurrence:event_2319",
+        "source_event_ids": [
+          "event_2291",
+          "event_2298",
+          "event_2305",
+          "event_2312",
+          "event_2319"
+        ]
+      },
+      {
+        "amount": "1241687.85",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for clothing and household items",
+        "rule_id": "recurrence:event_2323",
+        "source_event_ids": [
+          "event_2295",
+          "event_2302",
+          "event_2309",
+          "event_2316",
+          "event_2323"
+        ]
+      },
+      {
+        "amount": "560500",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for video streaming plan",
+        "rule_id": "recurrence:event_2322",
+        "source_event_ids": [
+          "event_2294",
+          "event_2301",
+          "event_2308",
+          "event_2315",
+          "event_2322"
+        ]
+      },
+      {
+        "amount": "2081148.84",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for water and power payment",
+        "rule_id": "recurrence:event_2320",
+        "source_event_ids": [
+          "event_2292",
+          "event_2299",
+          "event_2306",
+          "event_2313",
+          "event_2320"
+        ]
+      },
+      {
+        "amount": "1171160.69",
+        "cadence_days": 30,
+        "rationale": "upper median protected-category settled debit amount over prior 90 days",
+        "rule_id": "variable:groceries:IDR",
+        "source_event_ids": [
+          "event_2333",
+          "event_2334",
+          "event_2335",
+          "event_2336",
+          "event_2337",
+          "event_2338",
+          "event_2339",
+          "event_2340",
+          "event_2341"
+        ]
+      }
+    ],
+    "request_id": "request_26",
+    "safe": true
+  },
+  "foreign_currency": {
+    "ledger": [
+      {
+        "amount": "15188.58",
+        "balance_after": "401316.42",
+        "date": "2026-04-07",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "15188.58",
+        "recurrence_rule_id": "recurrence:event_3526",
+        "source_event_id": "event_3526",
+        "source_id": "recurrence:event_3526"
+      },
+      {
+        "amount": "10200",
+        "balance_after": "391116.42",
+        "date": "2026-04-08",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "10200",
+        "recurrence_rule_id": "recurrence:event_3527",
+        "source_event_id": "event_3527",
+        "source_id": "recurrence:event_3527"
+      },
+      {
+        "amount": "5580",
+        "balance_after": "385536.42",
+        "date": "2026-04-10",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "5580",
+        "recurrence_rule_id": "recurrence:event_3529",
+        "source_event_id": "event_3529",
+        "source_id": "recurrence:event_3529"
+      },
+      {
+        "amount": "1265",
+        "balance_after": "384271.42",
+        "date": "2026-04-13",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "1265",
+        "recurrence_rule_id": "recurrence:event_3528",
+        "source_event_id": "event_3528",
+        "source_id": "recurrence:event_3528"
+      },
+      {
+        "amount": "10303.77",
+        "balance_after": "373967.65",
+        "date": "2026-04-15",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "10303.77",
+        "recurrence_rule_id": "recurrence:event_3531",
+        "source_event_id": "event_3531",
+        "source_id": "recurrence:event_3531"
+      },
+      {
+        "amount": "253989.84",
+        "balance_after": "627957.49",
+        "date": "2026-04-15",
+        "direction": "credit",
+        "evidence_ids": [],
+        "fx_rate": "83.33",
+        "kind": "event",
+        "raw_amount": "3048",
+        "recurrence_rule_id": null,
+        "source_event_id": "event_3611",
+        "source_id": "event_3611"
+      },
+      {
+        "amount": "78000",
+        "balance_after": "549957.49",
+        "date": "2026-05-03",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "78000",
+        "recurrence_rule_id": "recurrence:event_3525",
+        "source_event_id": "event_3525",
+        "source_id": "recurrence:event_3525"
+      },
+      {
+        "amount": "4801.49",
+        "balance_after": "545156.00",
+        "date": "2026-05-04",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "variable_essential",
+        "raw_amount": "4801.49",
+        "recurrence_rule_id": "variable:transport:INR",
+        "source_event_id": "event_3584",
+        "source_id": "variable:transport:INR"
+      },
+      {
+        "amount": "15188.58",
+        "balance_after": "529967.42",
+        "date": "2026-05-07",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "15188.58",
+        "recurrence_rule_id": "recurrence:event_3526",
+        "source_event_id": "event_3526",
+        "source_id": "recurrence:event_3526"
+      },
+      {
+        "amount": "10200",
+        "balance_after": "519767.42",
+        "date": "2026-05-08",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "10200",
+        "recurrence_rule_id": "recurrence:event_3527",
+        "source_event_id": "event_3527",
+        "source_id": "recurrence:event_3527"
+      },
+      {
+        "amount": "5580",
+        "balance_after": "514187.42",
+        "date": "2026-05-10",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "5580",
+        "recurrence_rule_id": "recurrence:event_3529",
+        "source_event_id": "event_3529",
+        "source_id": "recurrence:event_3529"
+      },
+      {
+        "amount": "1265",
+        "balance_after": "512922.42",
+        "date": "2026-05-13",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "1265",
+        "recurrence_rule_id": "recurrence:event_3528",
+        "source_event_id": "event_3528",
+        "source_id": "recurrence:event_3528"
+      },
+      {
+        "amount": "10303.77",
+        "balance_after": "502618.65",
+        "date": "2026-05-15",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "10303.77",
+        "recurrence_rule_id": "recurrence:event_3531",
+        "source_event_id": "event_3531",
+        "source_id": "recurrence:event_3531"
+      },
+      {
+        "amount": "78000",
+        "balance_after": "424618.65",
+        "date": "2026-06-02",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "78000",
+        "recurrence_rule_id": "recurrence:event_3525",
+        "source_event_id": "event_3525",
+        "source_id": "recurrence:event_3525"
+      },
+      {
+        "amount": "4801.49",
+        "balance_after": "419817.16",
+        "date": "2026-06-03",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "variable_essential",
+        "raw_amount": "4801.49",
+        "recurrence_rule_id": "variable:transport:INR",
+        "source_event_id": "event_3584",
+        "source_id": "variable:transport:INR"
+      },
+      {
+        "amount": "15188.58",
+        "balance_after": "404628.58",
+        "date": "2026-06-06",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "15188.58",
+        "recurrence_rule_id": "recurrence:event_3526",
+        "source_event_id": "event_3526",
+        "source_id": "recurrence:event_3526"
+      },
+      {
+        "amount": "10200",
+        "balance_after": "394428.58",
+        "date": "2026-06-07",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "10200",
+        "recurrence_rule_id": "recurrence:event_3527",
+        "source_event_id": "event_3527",
+        "source_id": "recurrence:event_3527"
+      },
+      {
+        "amount": "5580",
+        "balance_after": "388848.58",
+        "date": "2026-06-09",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "5580",
+        "recurrence_rule_id": "recurrence:event_3529",
+        "source_event_id": "event_3529",
+        "source_id": "recurrence:event_3529"
+      },
+      {
+        "amount": "1265",
+        "balance_after": "387583.58",
+        "date": "2026-06-12",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "1265",
+        "recurrence_rule_id": "recurrence:event_3528",
+        "source_event_id": "event_3528",
+        "source_id": "recurrence:event_3528"
+      },
+      {
+        "amount": "10303.77",
+        "balance_after": "377279.81",
+        "date": "2026-06-14",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "10303.77",
+        "recurrence_rule_id": "recurrence:event_3531",
+        "source_event_id": "event_3531",
+        "source_id": "recurrence:event_3531"
+      },
+      {
+        "amount": "78000",
+        "balance_after": "299279.81",
+        "date": "2026-07-02",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "78000",
+        "recurrence_rule_id": "recurrence:event_3525",
+        "source_event_id": "event_3525",
+        "source_id": "recurrence:event_3525"
+      },
+      {
+        "amount": "4801.49",
+        "balance_after": "294478.32",
+        "date": "2026-07-03",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "variable_essential",
+        "raw_amount": "4801.49",
+        "recurrence_rule_id": "variable:transport:INR",
+        "source_event_id": "event_3584",
+        "source_id": "variable:transport:INR"
+      }
+    ],
+    "ledger_rows_total": 22,
+    "minimum_balance_observed": "294478.32",
+    "recurrence_rules": [
+      {
+        "amount": "1265",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for shared storage plan",
+        "rule_id": "recurrence:event_3528",
+        "source_event_ids": [
+          "event_3496",
+          "event_3504",
+          "event_3512",
+          "event_3520",
+          "event_3528"
+        ]
+      },
+      {
+        "amount": "10303.77",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for local event tickets",
+        "rule_id": "recurrence:event_3531",
+        "source_event_ids": [
+          "event_3499",
+          "event_3507",
+          "event_3515",
+          "event_3523",
+          "event_3531"
+        ]
+      },
+      {
+        "amount": "10200",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for vehicle insurance premium",
+        "rule_id": "recurrence:event_3527",
+        "source_event_ids": [
+          "event_3495",
+          "event_3503",
+          "event_3511",
+          "event_3519",
+          "event_3527"
+        ]
+      },
+      {
+        "amount": "78000",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for residential rent payment",
+        "rule_id": "recurrence:event_3525",
+        "source_event_ids": [
+          "event_3493",
+          "event_3501",
+          "event_3509",
+          "event_3517",
+          "event_3525"
+        ]
+      },
+      {
+        "amount": "3048",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for payroll credit",
+        "rule_id": "recurrence:event_3524",
+        "source_event_ids": [
+          "event_3492",
+          "event_3500",
+          "event_3508",
+          "event_3516",
+          "event_3524"
+        ]
+      },
+      {
+        "amount": "10493.1",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for clothing and household items",
+        "rule_id": "recurrence:event_3530",
+        "source_event_ids": [
+          "event_3498",
+          "event_3506",
+          "event_3514",
+          "event_3522",
+          "event_3530"
+        ]
+      },
+      {
+        "amount": "5580",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for family streaming plan",
+        "rule_id": "recurrence:event_3529",
+        "source_event_ids": [
+          "event_3497",
+          "event_3505",
+          "event_3513",
+          "event_3521",
+          "event_3529"
+        ]
+      },
+      {
+        "amount": "15188.58",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for energy provider bill",
+        "rule_id": "recurrence:event_3526",
+        "source_event_ids": [
+          "event_3494",
+          "event_3502",
+          "event_3510",
+          "event_3518",
+          "event_3526"
+        ]
+      },
+      {
+        "amount": "4801.49",
+        "cadence_days": 30,
+        "rationale": "upper median protected-category settled debit amount over prior 90 days",
+        "rule_id": "variable:transport:INR",
+        "source_event_ids": [
+          "event_3567",
+          "event_3568",
+          "event_3569",
+          "event_3570",
+          "event_3571",
+          "event_3572",
+          "event_3573",
+          "event_3574",
+          "event_3575",
+          "event_3576",
+          "event_3577",
+          "event_3578",
+          "event_3579",
+          "event_3580",
+          "event_3581",
+          "event_3582",
+          "event_3583",
+          "event_3584"
+        ]
+      }
+    ],
+    "request_id": "request_39",
+    "safe": true
+  },
+  "image_evidence": {
+    "ledger": [
+      {
+        "amount": "2081148.84",
+        "balance_after": "98764101.16",
+        "date": "2025-08-06",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "2081148.84",
+        "recurrence_rule_id": "recurrence:event_2320",
+        "source_event_id": "event_2320",
+        "source_id": "recurrence:event_2320"
+      },
+      {
+        "amount": "560500",
+        "balance_after": "98203601.16",
+        "date": "2025-08-09",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "560500",
+        "recurrence_rule_id": "recurrence:event_2322",
+        "source_event_id": "event_2322",
+        "source_id": "recurrence:event_2322"
+      },
+      {
+        "amount": "214700",
+        "balance_after": "97988901.16",
+        "date": "2025-08-12",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "214700",
+        "recurrence_rule_id": "recurrence:event_2321",
+        "source_event_id": "event_2321",
+        "source_id": "recurrence:event_2321"
+      },
+      {
+        "amount": "10374000",
+        "balance_after": "87614901.16",
+        "date": "2025-09-01",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "10374000",
+        "recurrence_rule_id": "recurrence:event_2319",
+        "source_event_id": "event_2319",
+        "source_id": "recurrence:event_2319"
+      },
+      {
+        "amount": "1171160.69",
+        "balance_after": "86443740.47",
+        "date": "2025-09-02",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "variable_essential",
+        "raw_amount": "1171160.69",
+        "recurrence_rule_id": "variable:groceries:IDR",
+        "source_event_id": "event_2341",
+        "source_id": "variable:groceries:IDR"
+      },
+      {
+        "amount": "2081148.84",
+        "balance_after": "84362591.63",
+        "date": "2025-09-05",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "2081148.84",
+        "recurrence_rule_id": "recurrence:event_2320",
+        "source_event_id": "event_2320",
+        "source_id": "recurrence:event_2320"
+      },
+      {
+        "amount": "560500",
+        "balance_after": "83802091.63",
+        "date": "2025-09-08",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "560500",
+        "recurrence_rule_id": "recurrence:event_2322",
+        "source_event_id": "event_2322",
+        "source_id": "recurrence:event_2322"
+      },
+      {
+        "amount": "214700",
+        "balance_after": "83587391.63",
+        "date": "2025-09-11",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "214700",
+        "recurrence_rule_id": "recurrence:event_2321",
+        "source_event_id": "event_2321",
+        "source_id": "recurrence:event_2321"
+      },
+      {
+        "amount": "10374000",
+        "balance_after": "73213391.63",
+        "date": "2025-10-01",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "10374000",
+        "recurrence_rule_id": "recurrence:event_2319",
+        "source_event_id": "event_2319",
+        "source_id": "recurrence:event_2319"
+      },
+      {
+        "amount": "1171160.69",
+        "balance_after": "72042230.94",
+        "date": "2025-10-02",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "variable_essential",
+        "raw_amount": "1171160.69",
+        "recurrence_rule_id": "variable:groceries:IDR",
+        "source_event_id": "event_2341",
+        "source_id": "variable:groceries:IDR"
+      },
+      {
+        "amount": "2081148.84",
+        "balance_after": "69961082.10",
+        "date": "2025-10-05",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "2081148.84",
+        "recurrence_rule_id": "recurrence:event_2320",
+        "source_event_id": "event_2320",
+        "source_id": "recurrence:event_2320"
+      },
+      {
+        "amount": "560500",
+        "balance_after": "69400582.10",
+        "date": "2025-10-08",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "560500",
+        "recurrence_rule_id": "recurrence:event_2322",
+        "source_event_id": "event_2322",
+        "source_id": "recurrence:event_2322"
+      },
+      {
+        "amount": "214700",
+        "balance_after": "69185882.10",
+        "date": "2025-10-11",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "214700",
+        "recurrence_rule_id": "recurrence:event_2321",
+        "source_event_id": "event_2321",
+        "source_id": "recurrence:event_2321"
+      },
+      {
+        "amount": "10374000",
+        "balance_after": "58811882.10",
+        "date": "2025-10-31",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "10374000",
+        "recurrence_rule_id": "recurrence:event_2319",
+        "source_event_id": "event_2319",
+        "source_id": "recurrence:event_2319"
+      },
+      {
+        "amount": "1171160.69",
+        "balance_after": "57640721.41",
+        "date": "2025-11-01",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "variable_essential",
+        "raw_amount": "1171160.69",
+        "recurrence_rule_id": "variable:groceries:IDR",
+        "source_event_id": "event_2341",
+        "source_id": "variable:groceries:IDR"
+      }
+    ],
+    "ledger_rows_total": 15,
+    "minimum_balance_observed": "57640721.41",
+    "recurrence_rules": [
+      {
+        "amount": "214700",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for cloud storage plan",
+        "rule_id": "recurrence:event_2321",
+        "source_event_ids": [
+          "event_2293",
+          "event_2300",
+          "event_2307",
+          "event_2314",
+          "event_2321"
+        ]
+      },
+      {
+        "amount": "10374000",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for residential rent payment",
+        "rule_id": "recurrence:event_2319",
+        "source_event_ids": [
+          "event_2291",
+          "event_2298",
+          "event_2305",
+          "event_2312",
+          "event_2319"
+        ]
+      },
+      {
+        "amount": "1241687.85",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for clothing and household items",
+        "rule_id": "recurrence:event_2323",
+        "source_event_ids": [
+          "event_2295",
+          "event_2302",
+          "event_2309",
+          "event_2316",
+          "event_2323"
+        ]
+      },
+      {
+        "amount": "560500",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for video streaming plan",
+        "rule_id": "recurrence:event_2322",
+        "source_event_ids": [
+          "event_2294",
+          "event_2301",
+          "event_2308",
+          "event_2315",
+          "event_2322"
+        ]
+      },
+      {
+        "amount": "2081148.84",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for water and power payment",
+        "rule_id": "recurrence:event_2320",
+        "source_event_ids": [
+          "event_2292",
+          "event_2299",
+          "event_2306",
+          "event_2313",
+          "event_2320"
+        ]
+      },
+      {
+        "amount": "1171160.69",
+        "cadence_days": 30,
+        "rationale": "upper median protected-category settled debit amount over prior 90 days",
+        "rule_id": "variable:groceries:IDR",
+        "source_event_ids": [
+          "event_2333",
+          "event_2334",
+          "event_2335",
+          "event_2336",
+          "event_2337",
+          "event_2338",
+          "event_2339",
+          "event_2340",
+          "event_2341"
+        ]
+      }
+    ],
+    "request_id": "request_26",
+    "safe": true
+  },
+  "pending_or_scheduled": {
+    "ledger": [
+      {
+        "amount": "6080000",
+        "balance_after": "24349260",
+        "date": "2024-09-03",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "6080000",
+        "recurrence_rule_id": "recurrence:event_2762",
+        "source_event_id": "event_2762",
+        "source_id": "recurrence:event_2762"
+      },
+      {
+        "amount": "1213040.64",
+        "balance_after": "23136219.36",
+        "date": "2024-09-07",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "1213040.64",
+        "recurrence_rule_id": "recurrence:event_2763",
+        "source_event_id": "event_2763",
+        "source_id": "recurrence:event_2763"
+      },
+      {
+        "amount": "475000",
+        "balance_after": "22661219.36",
+        "date": "2024-09-11",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "475000",
+        "recurrence_rule_id": "recurrence:event_2766",
+        "source_event_id": "event_2766",
+        "source_id": "recurrence:event_2766"
+      },
+      {
+        "amount": "123500",
+        "balance_after": "22537719.36",
+        "date": "2024-09-12",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "123500",
+        "recurrence_rule_id": "recurrence:event_2764",
+        "source_event_id": "event_2764",
+        "source_id": "recurrence:event_2764"
+      },
+      {
+        "amount": "325850",
+        "balance_after": "22211869.36",
+        "date": "2024-09-14",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "325850",
+        "recurrence_rule_id": "recurrence:event_2765",
+        "source_event_id": "event_2765",
+        "source_id": "recurrence:event_2765"
+      },
+      {
+        "amount": "19972800",
+        "balance_after": "42184669.36",
+        "date": "2024-09-14",
+        "direction": "credit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "19972800",
+        "recurrence_rule_id": "recurrence:event_2761",
+        "source_event_id": "event_2761",
+        "source_id": "recurrence:event_2761"
+      },
+      {
+        "amount": "367474.01",
+        "balance_after": "41817195.35",
+        "date": "2024-09-15",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "367474.01",
+        "recurrence_rule_id": "recurrence:event_2767",
+        "source_event_id": "event_2767",
+        "source_id": "recurrence:event_2767"
+      },
+      {
+        "amount": "19972800",
+        "balance_after": "61789995.35",
+        "date": "2024-09-15",
+        "direction": "credit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "event",
+        "raw_amount": "19972800",
+        "recurrence_rule_id": null,
+        "source_event_id": "event_2831",
+        "source_id": "event_2831"
+      },
+      {
+        "amount": "451671.32",
+        "balance_after": "61338324.03",
+        "date": "2024-09-18",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "451671.32",
+        "recurrence_rule_id": "recurrence:event_2811",
+        "source_event_id": "event_2811",
+        "source_id": "recurrence:event_2811"
+      },
+      {
+        "amount": "6080000",
+        "balance_after": "55258324.03",
+        "date": "2024-10-03",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "6080000",
+        "recurrence_rule_id": "recurrence:event_2762",
+        "source_event_id": "event_2762",
+        "source_id": "recurrence:event_2762"
+      },
+      {
+        "amount": "1213040.64",
+        "balance_after": "54045283.39",
+        "date": "2024-10-07",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "1213040.64",
+        "recurrence_rule_id": "recurrence:event_2763",
+        "source_event_id": "event_2763",
+        "source_id": "recurrence:event_2763"
+      },
+      {
+        "amount": "451671.32",
+        "balance_after": "53593612.07",
+        "date": "2024-10-09",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "451671.32",
+        "recurrence_rule_id": "recurrence:event_2811",
+        "source_event_id": "event_2811",
+        "source_id": "recurrence:event_2811"
+      },
+      {
+        "amount": "475000",
+        "balance_after": "53118612.07",
+        "date": "2024-10-11",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "475000",
+        "recurrence_rule_id": "recurrence:event_2766",
+        "source_event_id": "event_2766",
+        "source_id": "recurrence:event_2766"
+      },
+      {
+        "amount": "123500",
+        "balance_after": "52995112.07",
+        "date": "2024-10-12",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "123500",
+        "recurrence_rule_id": "recurrence:event_2764",
+        "source_event_id": "event_2764",
+        "source_id": "recurrence:event_2764"
+      },
+      {
+        "amount": "325850",
+        "balance_after": "52669262.07",
+        "date": "2024-10-14",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "325850",
+        "recurrence_rule_id": "recurrence:event_2765",
+        "source_event_id": "event_2765",
+        "source_id": "recurrence:event_2765"
+      },
+      {
+        "amount": "19972800",
+        "balance_after": "72642062.07",
+        "date": "2024-10-14",
+        "direction": "credit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "19972800",
+        "recurrence_rule_id": "recurrence:event_2761",
+        "source_event_id": "event_2761",
+        "source_id": "recurrence:event_2761"
+      },
+      {
+        "amount": "367474.01",
+        "balance_after": "72274588.06",
+        "date": "2024-10-15",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "367474.01",
+        "recurrence_rule_id": "recurrence:event_2767",
+        "source_event_id": "event_2767",
+        "source_id": "recurrence:event_2767"
+      },
+      {
+        "amount": "451671.32",
+        "balance_after": "71822916.74",
+        "date": "2024-10-30",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "451671.32",
+        "recurrence_rule_id": "recurrence:event_2811",
+        "source_event_id": "event_2811",
+        "source_id": "recurrence:event_2811"
+      },
+      {
+        "amount": "6080000",
+        "balance_after": "65742916.74",
+        "date": "2024-11-02",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "6080000",
+        "recurrence_rule_id": "recurrence:event_2762",
+        "source_event_id": "event_2762",
+        "source_id": "recurrence:event_2762"
+      },
+      {
+        "amount": "1213040.64",
+        "balance_after": "64529876.10",
+        "date": "2024-11-06",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "1213040.64",
+        "recurrence_rule_id": "recurrence:event_2763",
+        "source_event_id": "event_2763",
+        "source_id": "recurrence:event_2763"
+      },
+      {
+        "amount": "475000",
+        "balance_after": "64054876.10",
+        "date": "2024-11-10",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "475000",
+        "recurrence_rule_id": "recurrence:event_2766",
+        "source_event_id": "event_2766",
+        "source_id": "recurrence:event_2766"
+      },
+      {
+        "amount": "123500",
+        "balance_after": "63931376.10",
+        "date": "2024-11-11",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "123500",
+        "recurrence_rule_id": "recurrence:event_2764",
+        "source_event_id": "event_2764",
+        "source_id": "recurrence:event_2764"
+      },
+      {
+        "amount": "325850",
+        "balance_after": "63605526.10",
+        "date": "2024-11-13",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "325850",
+        "recurrence_rule_id": "recurrence:event_2765",
+        "source_event_id": "event_2765",
+        "source_id": "recurrence:event_2765"
+      },
+      {
+        "amount": "19972800",
+        "balance_after": "83578326.10",
+        "date": "2024-11-13",
+        "direction": "credit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "19972800",
+        "recurrence_rule_id": "recurrence:event_2761",
+        "source_event_id": "event_2761",
+        "source_id": "recurrence:event_2761"
+      },
+      {
+        "amount": "367474.01",
+        "balance_after": "83210852.09",
+        "date": "2024-11-14",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "367474.01",
+        "recurrence_rule_id": "recurrence:event_2767",
+        "source_event_id": "event_2767",
+        "source_id": "recurrence:event_2767"
+      },
+      {
+        "amount": "451671.32",
+        "balance_after": "82759180.77",
+        "date": "2024-11-20",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "451671.32",
+        "recurrence_rule_id": "recurrence:event_2811",
+        "source_event_id": "event_2811",
+        "source_id": "recurrence:event_2811"
+      },
+      {
+        "amount": "6080000",
+        "balance_after": "76679180.77",
+        "date": "2024-12-02",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "6080000",
+        "recurrence_rule_id": "recurrence:event_2762",
+        "source_event_id": "event_2762",
+        "source_id": "recurrence:event_2762"
+      }
+    ],
+    "ledger_rows_total": 27,
+    "minimum_balance_observed": "22211869.36",
+    "recurrence_rules": [
+      {
+        "amount": "325850",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for delivery service plan",
+        "rule_id": "recurrence:event_2765",
+        "source_event_ids": [
+          "event_2737",
+          "event_2744",
+          "event_2751",
+          "event_2758",
+          "event_2765"
+        ]
+      },
+      {
+        "amount": "367474.01",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for weekend entertainment",
+        "rule_id": "recurrence:event_2767",
+        "source_event_ids": [
+          "event_2739",
+          "event_2746",
+          "event_2753",
+          "event_2760",
+          "event_2767"
+        ]
+      },
+      {
+        "amount": "475000",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for gym membership",
+        "rule_id": "recurrence:event_2766",
+        "source_event_ids": [
+          "event_2738",
+          "event_2745",
+          "event_2752",
+          "event_2759",
+          "event_2766"
+        ]
+      },
+      {
+        "amount": "123500",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for music service subscription",
+        "rule_id": "recurrence:event_2764",
+        "source_event_ids": [
+          "event_2736",
+          "event_2743",
+          "event_2750",
+          "event_2757",
+          "event_2764"
+        ]
+      },
+      {
+        "amount": "6080000",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for residential rent payment",
+        "rule_id": "recurrence:event_2762",
+        "source_event_ids": [
+          "event_2734",
+          "event_2741",
+          "event_2748",
+          "event_2755",
+          "event_2762"
+        ]
+      },
+      {
+        "amount": "19972800",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for payroll credit",
+        "rule_id": "recurrence:event_2761",
+        "source_event_ids": [
+          "event_2733",
+          "event_2740",
+          "event_2747",
+          "event_2754",
+          "event_2761"
+        ]
+      },
+      {
+        "amount": "451671.32",
+        "cadence_days": 21,
+        "rationale": "3 settled 21-day observations for ride hailing trip",
+        "rule_id": "recurrence:event_2811",
+        "source_event_ids": [
+          "event_2805",
+          "event_2808",
+          "event_2811"
+        ]
+      },
+      {
+        "amount": "1213040.64",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for household utility payment",
+        "rule_id": "recurrence:event_2763",
+        "source_event_ids": [
+          "event_2735",
+          "event_2742",
+          "event_2749",
+          "event_2756",
+          "event_2763"
+        ]
+      },
+      {
+        "amount": "821390.61",
+        "cadence_days": 30,
+        "rationale": "upper median protected-category settled debit amount over prior 90 days",
+        "rule_id": "variable:groceries:IDR",
+        "source_event_ids": [
+          "event_2781",
+          "event_2782",
+          "event_2783",
+          "event_2784",
+          "event_2785",
+          "event_2786",
+          "event_2787",
+          "event_2788",
+          "event_2789",
+          "event_2790",
+          "event_2791",
+          "event_2792"
+        ]
+      },
+      {
+        "amount": "596620.87",
+        "cadence_days": 30,
+        "rationale": "upper median protected-category settled debit amount over prior 90 days",
+        "rule_id": "variable:transport:IDR",
+        "source_event_ids": [
+          "event_2806",
+          "event_2807",
+          "event_2809",
+          "event_2810",
+          "event_2812",
+          "event_2813",
+          "event_2814",
+          "event_2815",
+          "event_2816",
+          "event_2817"
+        ]
+      }
+    ],
+    "request_id": "request_31",
+    "safe": true
+  },
+  "salary_recurrence": {
+    "ledger": [
+      {
+        "amount": "2081148.84",
+        "balance_after": "98764101.16",
+        "date": "2025-08-06",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "2081148.84",
+        "recurrence_rule_id": "recurrence:event_2320",
+        "source_event_id": "event_2320",
+        "source_id": "recurrence:event_2320"
+      },
+      {
+        "amount": "560500",
+        "balance_after": "98203601.16",
+        "date": "2025-08-09",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "560500",
+        "recurrence_rule_id": "recurrence:event_2322",
+        "source_event_id": "event_2322",
+        "source_id": "recurrence:event_2322"
+      },
+      {
+        "amount": "214700",
+        "balance_after": "97988901.16",
+        "date": "2025-08-12",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "214700",
+        "recurrence_rule_id": "recurrence:event_2321",
+        "source_event_id": "event_2321",
+        "source_id": "recurrence:event_2321"
+      },
+      {
+        "amount": "10374000",
+        "balance_after": "87614901.16",
+        "date": "2025-09-01",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "10374000",
+        "recurrence_rule_id": "recurrence:event_2319",
+        "source_event_id": "event_2319",
+        "source_id": "recurrence:event_2319"
+      },
+      {
+        "amount": "1171160.69",
+        "balance_after": "86443740.47",
+        "date": "2025-09-02",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "variable_essential",
+        "raw_amount": "1171160.69",
+        "recurrence_rule_id": "variable:groceries:IDR",
+        "source_event_id": "event_2341",
+        "source_id": "variable:groceries:IDR"
+      },
+      {
+        "amount": "2081148.84",
+        "balance_after": "84362591.63",
+        "date": "2025-09-05",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "2081148.84",
+        "recurrence_rule_id": "recurrence:event_2320",
+        "source_event_id": "event_2320",
+        "source_id": "recurrence:event_2320"
+      },
+      {
+        "amount": "560500",
+        "balance_after": "83802091.63",
+        "date": "2025-09-08",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "560500",
+        "recurrence_rule_id": "recurrence:event_2322",
+        "source_event_id": "event_2322",
+        "source_id": "recurrence:event_2322"
+      },
+      {
+        "amount": "214700",
+        "balance_after": "83587391.63",
+        "date": "2025-09-11",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "214700",
+        "recurrence_rule_id": "recurrence:event_2321",
+        "source_event_id": "event_2321",
+        "source_id": "recurrence:event_2321"
+      },
+      {
+        "amount": "10374000",
+        "balance_after": "73213391.63",
+        "date": "2025-10-01",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "10374000",
+        "recurrence_rule_id": "recurrence:event_2319",
+        "source_event_id": "event_2319",
+        "source_id": "recurrence:event_2319"
+      },
+      {
+        "amount": "1171160.69",
+        "balance_after": "72042230.94",
+        "date": "2025-10-02",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "variable_essential",
+        "raw_amount": "1171160.69",
+        "recurrence_rule_id": "variable:groceries:IDR",
+        "source_event_id": "event_2341",
+        "source_id": "variable:groceries:IDR"
+      },
+      {
+        "amount": "2081148.84",
+        "balance_after": "69961082.10",
+        "date": "2025-10-05",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "2081148.84",
+        "recurrence_rule_id": "recurrence:event_2320",
+        "source_event_id": "event_2320",
+        "source_id": "recurrence:event_2320"
+      },
+      {
+        "amount": "560500",
+        "balance_after": "69400582.10",
+        "date": "2025-10-08",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "560500",
+        "recurrence_rule_id": "recurrence:event_2322",
+        "source_event_id": "event_2322",
+        "source_id": "recurrence:event_2322"
+      },
+      {
+        "amount": "214700",
+        "balance_after": "69185882.10",
+        "date": "2025-10-11",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "214700",
+        "recurrence_rule_id": "recurrence:event_2321",
+        "source_event_id": "event_2321",
+        "source_id": "recurrence:event_2321"
+      },
+      {
+        "amount": "10374000",
+        "balance_after": "58811882.10",
+        "date": "2025-10-31",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "10374000",
+        "recurrence_rule_id": "recurrence:event_2319",
+        "source_event_id": "event_2319",
+        "source_id": "recurrence:event_2319"
+      },
+      {
+        "amount": "1171160.69",
+        "balance_after": "57640721.41",
+        "date": "2025-11-01",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "variable_essential",
+        "raw_amount": "1171160.69",
+        "recurrence_rule_id": "variable:groceries:IDR",
+        "source_event_id": "event_2341",
+        "source_id": "variable:groceries:IDR"
+      }
+    ],
+    "ledger_rows_total": 15,
+    "minimum_balance_observed": "57640721.41",
+    "recurrence_rules": [
+      {
+        "amount": "214700",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for cloud storage plan",
+        "rule_id": "recurrence:event_2321",
+        "source_event_ids": [
+          "event_2293",
+          "event_2300",
+          "event_2307",
+          "event_2314",
+          "event_2321"
+        ]
+      },
+      {
+        "amount": "10374000",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for residential rent payment",
+        "rule_id": "recurrence:event_2319",
+        "source_event_ids": [
+          "event_2291",
+          "event_2298",
+          "event_2305",
+          "event_2312",
+          "event_2319"
+        ]
+      },
+      {
+        "amount": "1241687.85",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for clothing and household items",
+        "rule_id": "recurrence:event_2323",
+        "source_event_ids": [
+          "event_2295",
+          "event_2302",
+          "event_2309",
+          "event_2316",
+          "event_2323"
+        ]
+      },
+      {
+        "amount": "560500",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for video streaming plan",
+        "rule_id": "recurrence:event_2322",
+        "source_event_ids": [
+          "event_2294",
+          "event_2301",
+          "event_2308",
+          "event_2315",
+          "event_2322"
+        ]
+      },
+      {
+        "amount": "2081148.84",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for water and power payment",
+        "rule_id": "recurrence:event_2320",
+        "source_event_ids": [
+          "event_2292",
+          "event_2299",
+          "event_2306",
+          "event_2313",
+          "event_2320"
+        ]
+      },
+      {
+        "amount": "1171160.69",
+        "cadence_days": 30,
+        "rationale": "upper median protected-category settled debit amount over prior 90 days",
+        "rule_id": "variable:groceries:IDR",
+        "source_event_ids": [
+          "event_2333",
+          "event_2334",
+          "event_2335",
+          "event_2336",
+          "event_2337",
+          "event_2338",
+          "event_2339",
+          "event_2340",
+          "event_2341"
+        ]
+      }
+    ],
+    "request_id": "request_26",
+    "safe": true
+  },
+  "variable_essential": {
+    "ledger": [
+      {
+        "amount": "2081148.84",
+        "balance_after": "98764101.16",
+        "date": "2025-08-06",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "2081148.84",
+        "recurrence_rule_id": "recurrence:event_2320",
+        "source_event_id": "event_2320",
+        "source_id": "recurrence:event_2320"
+      },
+      {
+        "amount": "560500",
+        "balance_after": "98203601.16",
+        "date": "2025-08-09",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "560500",
+        "recurrence_rule_id": "recurrence:event_2322",
+        "source_event_id": "event_2322",
+        "source_id": "recurrence:event_2322"
+      },
+      {
+        "amount": "214700",
+        "balance_after": "97988901.16",
+        "date": "2025-08-12",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "214700",
+        "recurrence_rule_id": "recurrence:event_2321",
+        "source_event_id": "event_2321",
+        "source_id": "recurrence:event_2321"
+      },
+      {
+        "amount": "10374000",
+        "balance_after": "87614901.16",
+        "date": "2025-09-01",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "10374000",
+        "recurrence_rule_id": "recurrence:event_2319",
+        "source_event_id": "event_2319",
+        "source_id": "recurrence:event_2319"
+      },
+      {
+        "amount": "1171160.69",
+        "balance_after": "86443740.47",
+        "date": "2025-09-02",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "variable_essential",
+        "raw_amount": "1171160.69",
+        "recurrence_rule_id": "variable:groceries:IDR",
+        "source_event_id": "event_2341",
+        "source_id": "variable:groceries:IDR"
+      },
+      {
+        "amount": "2081148.84",
+        "balance_after": "84362591.63",
+        "date": "2025-09-05",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "2081148.84",
+        "recurrence_rule_id": "recurrence:event_2320",
+        "source_event_id": "event_2320",
+        "source_id": "recurrence:event_2320"
+      },
+      {
+        "amount": "560500",
+        "balance_after": "83802091.63",
+        "date": "2025-09-08",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "560500",
+        "recurrence_rule_id": "recurrence:event_2322",
+        "source_event_id": "event_2322",
+        "source_id": "recurrence:event_2322"
+      },
+      {
+        "amount": "214700",
+        "balance_after": "83587391.63",
+        "date": "2025-09-11",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "214700",
+        "recurrence_rule_id": "recurrence:event_2321",
+        "source_event_id": "event_2321",
+        "source_id": "recurrence:event_2321"
+      },
+      {
+        "amount": "10374000",
+        "balance_after": "73213391.63",
+        "date": "2025-10-01",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "10374000",
+        "recurrence_rule_id": "recurrence:event_2319",
+        "source_event_id": "event_2319",
+        "source_id": "recurrence:event_2319"
+      },
+      {
+        "amount": "1171160.69",
+        "balance_after": "72042230.94",
+        "date": "2025-10-02",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "variable_essential",
+        "raw_amount": "1171160.69",
+        "recurrence_rule_id": "variable:groceries:IDR",
+        "source_event_id": "event_2341",
+        "source_id": "variable:groceries:IDR"
+      },
+      {
+        "amount": "2081148.84",
+        "balance_after": "69961082.10",
+        "date": "2025-10-05",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "2081148.84",
+        "recurrence_rule_id": "recurrence:event_2320",
+        "source_event_id": "event_2320",
+        "source_id": "recurrence:event_2320"
+      },
+      {
+        "amount": "560500",
+        "balance_after": "69400582.10",
+        "date": "2025-10-08",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "560500",
+        "recurrence_rule_id": "recurrence:event_2322",
+        "source_event_id": "event_2322",
+        "source_id": "recurrence:event_2322"
+      },
+      {
+        "amount": "214700",
+        "balance_after": "69185882.10",
+        "date": "2025-10-11",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "214700",
+        "recurrence_rule_id": "recurrence:event_2321",
+        "source_event_id": "event_2321",
+        "source_id": "recurrence:event_2321"
+      },
+      {
+        "amount": "10374000",
+        "balance_after": "58811882.10",
+        "date": "2025-10-31",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "recurrence",
+        "raw_amount": "10374000",
+        "recurrence_rule_id": "recurrence:event_2319",
+        "source_event_id": "event_2319",
+        "source_id": "recurrence:event_2319"
+      },
+      {
+        "amount": "1171160.69",
+        "balance_after": "57640721.41",
+        "date": "2025-11-01",
+        "direction": "debit",
+        "evidence_ids": [],
+        "fx_rate": null,
+        "kind": "variable_essential",
+        "raw_amount": "1171160.69",
+        "recurrence_rule_id": "variable:groceries:IDR",
+        "source_event_id": "event_2341",
+        "source_id": "variable:groceries:IDR"
+      }
+    ],
+    "ledger_rows_total": 15,
+    "minimum_balance_observed": "57640721.41",
+    "recurrence_rules": [
+      {
+        "amount": "214700",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for cloud storage plan",
+        "rule_id": "recurrence:event_2321",
+        "source_event_ids": [
+          "event_2293",
+          "event_2300",
+          "event_2307",
+          "event_2314",
+          "event_2321"
+        ]
+      },
+      {
+        "amount": "10374000",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for residential rent payment",
+        "rule_id": "recurrence:event_2319",
+        "source_event_ids": [
+          "event_2291",
+          "event_2298",
+          "event_2305",
+          "event_2312",
+          "event_2319"
+        ]
+      },
+      {
+        "amount": "1241687.85",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for clothing and household items",
+        "rule_id": "recurrence:event_2323",
+        "source_event_ids": [
+          "event_2295",
+          "event_2302",
+          "event_2309",
+          "event_2316",
+          "event_2323"
+        ]
+      },
+      {
+        "amount": "560500",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for video streaming plan",
+        "rule_id": "recurrence:event_2322",
+        "source_event_ids": [
+          "event_2294",
+          "event_2301",
+          "event_2308",
+          "event_2315",
+          "event_2322"
+        ]
+      },
+      {
+        "amount": "2081148.84",
+        "cadence_days": 30,
+        "rationale": "5 settled monthly observations for water and power payment",
+        "rule_id": "recurrence:event_2320",
+        "source_event_ids": [
+          "event_2292",
+          "event_2299",
+          "event_2306",
+          "event_2313",
+          "event_2320"
+        ]
+      },
+      {
+        "amount": "1171160.69",
+        "cadence_days": 30,
+        "rationale": "upper median protected-category settled debit amount over prior 90 days",
+        "rule_id": "variable:groceries:IDR",
+        "source_event_ids": [
+          "event_2333",
+          "event_2334",
+          "event_2335",
+          "event_2336",
+          "event_2337",
+          "event_2338",
+          "event_2339",
+          "event_2340",
+          "event_2341"
+        ]
+      }
+    ],
+    "request_id": "request_26",
+    "safe": true
+  }
+}

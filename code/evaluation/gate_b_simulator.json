@@ -1,0 +1,95 @@
+{
+  "checks": [
+    {
+      "details": {
+        "exit_code": 0,
+        "summary": "OK"
+      },
+      "name": "focused reconstruction/simulator fixtures",
+      "status": "PASS"
+    },
+    {
+      "details": {
+        "baseline_movements": 5026,
+        "recurrence_rules": 2027,
+        "requests": 250
+      },
+      "name": "state reconstruction: opening balance, exclusions, horizon, provenance",
+      "status": "PASS"
+    },
+    {
+      "details": {
+        "prohibited_categories": [
+          "investment",
+          "windfall"
+        ],
+        "supported_rules": 2027,
+        "thresholds": {
+          "interval_tolerance_days": 3,
+          "min_observations": 3
+        }
+      },
+      "name": "recurrence: supported history, categories, latest amounts, no ID tuning",
+      "status": "PASS"
+    },
+    {
+      "details": {
+        "fx_movements_checked": 10,
+        "method": "raw Decimal amount * exact settlement-date rate once"
+      },
+      "name": "FX: exact conversion once and traceable",
+      "status": "PASS"
+    },
+    {
+      "details": {
+        "horizon": "inclusive request_date through request_date + 90 days",
+        "minimum_recomputed": true,
+        "reconciliation_difference": "0",
+        "requests": 250
+      },
+      "name": "simulator: exact reconciliation, minimum, and horizon",
+      "status": "PASS"
+    },
+    {
+      "details": {
+        "byte_stable_structures": true,
+        "requests_checked": [
+          "request_26",
+          "request_151",
+          "request_275"
+        ]
+      },
+      "name": "simulator: repeat-run deterministic structures",
+      "status": "PASS"
+    },
+    {
+      "details": {
+        "all_ledger_movements_provenanced": true
+      },
+      "name": "traceability: event, recurrence, evidence, and FX origins",
+      "status": "PASS"
+    }
+  ],
+  "commands": [
+    "python -m unittest discover -s code\\tests -p test_forecast.py",
+    "python code\\evaluation\\gate_b.py"
+  ],
+  "first_divergence": null,
+  "gate": "post-Step-6 VERIFY B",
+  "next_step": "Steps 7\u20139 may proceed",
+  "recurrence_rejected_series": [
+    {
+      "fixture": "irregular rent intervals",
+      "reason": "interval variance exceeds configured tolerance"
+    }
+  ],
+  "selected_representatives": {
+    "fixed_recurring_expense": "request_26",
+    "foreign_currency": "request_39",
+    "image_evidence": "request_26",
+    "pending_or_scheduled": "request_31",
+    "salary_recurrence": "request_26",
+    "variable_essential": "request_26"
+  },
+  "status": "PASS"
+}

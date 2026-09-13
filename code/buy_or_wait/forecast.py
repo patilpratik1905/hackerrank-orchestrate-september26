@@ -367,7 +367,7 @@ def _variable_essential_rules(
     fixed_ids = {event_id for rule in fixed_rules for event_id in rule.source_event_ids}
     facts_by_event = _facts_by_event(facts)
     cutoff = bundle.request.request_date - timedelta(days=config.variable_lookback_days)
-    category_totals: dict[tuple[Category, object], list[Decimal]] = defaultdict(list)
+    category_totals: dict[tuple[Category, object], list[tuple[Decimal, str]]] = defaultdict(list)
     for event in bundle.events:
         if event.event_id in fixed_ids or event.category not in bundle.profile.protected_categories:
             continue
@@ -377,18 +377,19 @@ def _variable_essential_rules(
         if settlement is None or not cutoff <= settlement < bundle.request.request_date:
             continue
         amount = _effective_amount(event, facts_by_event.get(event.event_id, ()), resolved_amounts)
-        category_totals[(event.category, event.currency)].append(amount)
+        category_totals[(event.category, event.currency)].append((amount, event.event_id))
     rules: list[RecurrenceRule] = []
     for (category, currency), amounts in sorted(category_totals.items(), key=lambda item: (item[0][0].value, str(item[0][1]))):
         if len(amounts) < 2:
             continue
         # Upper median is robust to a lone outlier and conservative versus mean.
-        sorted_amounts = sorted(amounts)
+        sorted_amounts = sorted(amount for amount, _ in amounts)
         conservative = sorted_amounts[len(sorted_amounts) // 2]
+        source_ids = tuple(event_id for _, event_id in amounts)
         rules.append(RecurrenceRule(
             rule_id=f"variable:{category.value}:{str(currency)}", user_id=bundle.profile.user_id,
             category=category, direction=Direction.DEBIT, currency=currency, cadence_days=30,
-            amount=conservative, anchor_date=bundle.request.request_date, source_event_ids=(),
+            amount=conservative, anchor_date=bundle.request.request_date, source_event_ids=source_ids,
             fixed=False, confidence=Decimal("0.70"),
             rationale="upper median protected-category settled debit amount over prior 90 days",
         ))
@@ -543,6 +544,10 @@ def simulate(
     entries: list[LedgerEntry] = []
     violation: LedgerEntry | None = None
     violation_reason: str | None = None
+    if balance < state.minimum_balance:
+        violation_reason = (
+            f"opening balance {balance} is below required minimum {state.minimum_balance}"
+        )
     for movement in sorted(movements, key=order):
         balance += movement.signed_amount
         entry = LedgerEntry(movement, balance)
@@ -556,6 +561,8 @@ def simulate(
             )
     return SimulationResult(
         entries=tuple(entries), ending_balance=balance, minimum_balance_observed=minimum,
-        minimum_balance_date=minimum_date, safe=violation is None, first_violation=violation,
+        minimum_balance_date=minimum_date,
+        safe=violation is None and violation_reason is None,
+        first_violation=violation,
         first_violation_reason=violation_reason,
     )
