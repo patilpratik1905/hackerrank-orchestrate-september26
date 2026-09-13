@@ -1,0 +1,1150 @@
+{
+  "all_failures": [],
+  "gate": "C",
+  "overall_result": "PASS",
+  "pass_criteria": {
+    "all_fixes_have_regression_tests": true,
+    "all_mismatches_routed": true,
+    "deterministic_runs": true,
+    "no_preference_deadline_violations": true,
+    "no_ranking_loss": true,
+    "no_request_specific_logic": true,
+    "no_unsafe_plan_accepted": true,
+    "structural_validation_100": true,
+    "tie_fixtures_pass": true
+  },
+  "sample_accuracy_metrics": {
+    "affordability_status_accuracy": 0.68,
+    "amount_safe_exact_accuracy": 0.12,
+    "amount_safe_mae": "803055.456",
+    "amount_safe_max_error": "12086559.54",
+    "amount_safe_median_error": "1930.29",
+    "complete_structured_row_accuracy": 0.12,
+    "earliest_date_blank_nonblank_accuracy": 0.8,
+    "earliest_date_exact_accuracy": 0.48,
+    "mismatch_count": 61,
+    "mismatched_request_ids": [
+      "request_01",
+      "request_02",
+      "request_03",
+      "request_04",
+      "request_05",
+      "request_06",
+      "request_07",
+      "request_08",
+      "request_10",
+      "request_11",
+      "request_13",
+      "request_14",
+      "request_15",
+      "request_17",
+      "request_18",
+      "request_19",
+      "request_20",
+      "request_21",
+      "request_22",
+      "request_23",
+      "request_24",
+      "request_25"
+    ],
+    "payment_plan_exact_match": 0.6,
+    "recommended_method_accuracy": 0.8,
+    "spending_change_exact_match": 0.88
+  },
+  "sections": {
+    "25_sample_evaluation": {
+      "checks": [
+        {
+          "check": "structural_validator_pass_rate",
+          "expected": 1.0,
+          "passed": true,
+          "value": 1.0
+        },
+        {
+          "check": "amount_safe_exact_accuracy",
+          "informational": true,
+          "value": 0.12
+        },
+        {
+          "check": "amount_safe_mae",
+          "informational": true,
+          "value": "803055.456"
+        },
+        {
+          "check": "amount_safe_median_error",
+          "informational": true,
+          "value": "1930.29"
+        },
+        {
+          "check": "amount_safe_max_error",
+          "informational": true,
+          "value": "12086559.54"
+        },
+        {
+          "check": "earliest_date_exact_accuracy",
+          "informational": true,
+          "value": 0.48
+        },
+        {
+          "check": "earliest_date_blank_nonblank_accuracy",
+          "informational": true,
+          "value": 0.8
+        },
+        {
+          "check": "affordability_status_accuracy",
+          "informational": true,
+          "value": 0.68
+        },
+        {
+          "check": "recommended_method_accuracy",
+          "informational": true,
+          "value": 0.8
+        },
+        {
+          "check": "payment_plan_exact_match",
+          "informational": true,
+          "value": 0.6
+        },
+        {
+          "check": "spending_change_exact_match",
+          "informational": true,
+          "value": 0.88
+        },
+        {
+          "check": "complete_structured_row_accuracy",
+          "informational": true,
+          "value": 0.12
+        },
+        {
+          "check": "mismatch_count",
+          "informational": true,
+          "value": 61
+        },
+        {
+          "check": "mismatched_request_ids",
+          "informational": true,
+          "value": [
+            "request_01",
+            "request_02",
+            "request_03",
+            "request_04",
+            "request_05",
+            "request_06",
+            "request_07",
+            "request_08",
+            "request_10",
+            "request_11",
+            "request_13",
+            "request_14",
+            "request_15",
+            "request_17",
+            "request_18",
+            "request_19",
+            "request_20",
+            "request_21",
+            "request_22",
+            "request_23",
+            "request_24",
+            "request_25"
+          ]
+        }
+      ],
+      "failures": [],
+      "passed": true
+    },
+    "candidate_verification": {
+      "checks": [
+        {
+          "check": "total_candidates_checked",
+          "value": 128
+        },
+        {
+          "check": "unsafe_labelled_safe",
+          "expected": 0,
+          "passed": true,
+          "value": 0
+        },
+        {
+          "check": "rejected_no_reason",
+          "expected": 0,
+          "passed": true,
+          "value": 0
+        },
+        {
+          "check": "valid_silently_omitted",
+          "expected": 0,
+          "passed": true,
+          "value": 0
+        }
+      ],
+      "failures": [],
+      "passed": true
+    },
+    "capacity_verification": {
+      "checks": [
+        {
+          "check": "request_01_safe_bounds",
+          "passed": true,
+          "requested": "25256",
+          "value": "22744.81"
+        },
+        {
+          "actual": "22744.81",
+          "check": "request_01_safe_recomputed",
+          "expected": "22744.81",
+          "passed": true
+        },
+        {
+          "check": "request_01_safe_payment_remains_safe",
+          "min_balance": "18000.00",
+          "passed": true,
+          "required": "18000"
+        },
+        {
+          "check": "request_01_safe_plus_epsilon_unsafe",
+          "over_amount": "22744.82",
+          "over_min_balance": "17999.99",
+          "passed": true
+        },
+        {
+          "actual": "None",
+          "check": "request_01_earliest_date_recomputed",
+          "expected": "None",
+          "passed": true
+        },
+        {
+          "check": "request_01_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_02_safe_bounds",
+          "passed": true,
+          "requested": "46018000",
+          "value": "5142579.66"
+        },
+        {
+          "actual": "5142579.66",
+          "check": "request_02_safe_recomputed",
+          "expected": "5142579.66",
+          "passed": true
+        },
+        {
+          "check": "request_02_safe_payment_remains_safe",
+          "min_balance": "29158400.00",
+          "passed": true,
+          "required": "29158400"
+        },
+        {
+          "check": "request_02_safe_plus_epsilon_unsafe",
+          "over_amount": "5142579.67",
+          "over_min_balance": "29158399.99",
+          "passed": true
+        },
+        {
+          "actual": "2025-10-15",
+          "check": "request_02_earliest_date_recomputed",
+          "expected": "2025-10-15",
+          "passed": true
+        },
+        {
+          "check": "request_02_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_03_safe_bounds",
+          "passed": true,
+          "requested": "5491000",
+          "value": "1537587.02"
+        },
+        {
+          "actual": "1537587.02",
+          "check": "request_03_safe_recomputed",
+          "expected": "1537587.02",
+          "passed": true
+        },
+        {
+          "check": "request_03_safe_payment_remains_safe",
+          "min_balance": "2668700.00",
+          "passed": true,
+          "required": "2668700"
+        },
+        {
+          "check": "request_03_safe_plus_epsilon_unsafe",
+          "over_amount": "1537587.03",
+          "over_min_balance": "2668699.99",
+          "passed": true
+        },
+        {
+          "actual": "2019-10-15",
+          "check": "request_03_earliest_date_recomputed",
+          "expected": "2019-10-15",
+          "passed": true
+        },
+        {
+          "check": "request_03_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_04_safe_bounds",
+          "passed": true,
+          "requested": "12693000",
+          "value": "11876727.39"
+        },
+        {
+          "actual": "11876727.39",
+          "check": "request_04_safe_recomputed",
+          "expected": "11876727.39",
+          "passed": true
+        },
+        {
+          "check": "request_04_safe_payment_remains_safe",
+          "min_balance": "30686600.00",
+          "passed": true,
+          "required": "30686600"
+        },
+        {
+          "check": "request_04_safe_plus_epsilon_unsafe",
+          "over_amount": "11876727.40",
+          "over_min_balance": "30686599.99",
+          "passed": true
+        },
+        {
+          "actual": "2024-06-15",
+          "check": "request_04_earliest_date_recomputed",
+          "expected": "2024-06-15",
+          "passed": true
+        },
+        {
+          "check": "request_04_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_05_safe_bounds",
+          "passed": true,
+          "requested": "15488",
+          "value": "1521.91"
+        },
+        {
+          "actual": "1521.91",
+          "check": "request_05_safe_recomputed",
+          "expected": "1521.91",
+          "passed": true
+        },
+        {
+          "check": "request_05_safe_payment_remains_safe",
+          "min_balance": "13100.00",
+          "passed": true,
+          "required": "13100"
+        },
+        {
+          "check": "request_05_safe_plus_epsilon_unsafe",
+          "over_amount": "1521.92",
+          "over_min_balance": "13099.99",
+          "passed": true
+        },
+        {
+          "actual": "None",
+          "check": "request_05_earliest_date_recomputed",
+          "expected": "None",
+          "passed": true
+        },
+        {
+          "check": "request_05_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_06_safe_bounds",
+          "passed": true,
+          "requested": "620.4",
+          "value": "620.4"
+        },
+        {
+          "actual": "620.4",
+          "check": "request_06_safe_recomputed",
+          "expected": "620.4",
+          "passed": true
+        },
+        {
+          "check": "request_06_safe_payment_remains_safe",
+          "min_balance": "946.61",
+          "passed": true,
+          "required": "800"
+        },
+        {
+          "actual": "2026-01-03",
+          "check": "request_06_earliest_date_recomputed",
+          "expected": "2026-01-03",
+          "passed": true
+        },
+        {
+          "check": "request_06_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_07_safe_bounds",
+          "passed": true,
+          "requested": "197400",
+          "value": "0"
+        },
+        {
+          "actual": "0",
+          "check": "request_07_safe_recomputed",
+          "expected": "0",
+          "passed": true
+        },
+        {
+          "actual": "None",
+          "check": "request_07_earliest_date_recomputed",
+          "expected": "None",
+          "passed": true
+        },
+        {
+          "check": "request_07_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_08_safe_bounds",
+          "passed": true,
+          "requested": "996.6",
+          "value": "0"
+        },
+        {
+          "actual": "0",
+          "check": "request_08_safe_recomputed",
+          "expected": "0",
+          "passed": true
+        },
+        {
+          "actual": "None",
+          "check": "request_08_earliest_date_recomputed",
+          "expected": "None",
+          "passed": true
+        },
+        {
+          "check": "request_08_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_09_safe_bounds",
+          "passed": true,
+          "requested": "166.61",
+          "value": "166.61"
+        },
+        {
+          "actual": "166.61",
+          "check": "request_09_safe_recomputed",
+          "expected": "166.61",
+          "passed": true
+        },
+        {
+          "check": "request_09_safe_payment_remains_safe",
+          "min_balance": "793.73",
+          "passed": true,
+          "required": "600"
+        },
+        {
+          "actual": "2026-07-04",
+          "check": "request_09_earliest_date_recomputed",
+          "expected": "2026-07-04",
+          "passed": true
+        },
+        {
+          "check": "request_09_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_10_safe_bounds",
+          "passed": true,
+          "requested": "266700",
+          "value": "266700"
+        },
+        {
+          "actual": "266700",
+          "check": "request_10_safe_recomputed",
+          "expected": "266700",
+          "passed": true
+        },
+        {
+          "check": "request_10_safe_payment_remains_safe",
+          "min_balance": "252884.79",
+          "passed": true,
+          "required": "225400"
+        },
+        {
+          "actual": "2024-12-06",
+          "check": "request_10_earliest_date_recomputed",
+          "expected": "2024-12-06",
+          "passed": true
+        },
+        {
+          "check": "request_10_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_11_safe_bounds",
+          "passed": true,
+          "requested": "13110000",
+          "value": "13110000"
+        },
+        {
+          "actual": "13110000",
+          "check": "request_11_safe_recomputed",
+          "expected": "13110000",
+          "passed": true
+        },
+        {
+          "check": "request_11_safe_payment_remains_safe",
+          "min_balance": "37250977.90",
+          "passed": true,
+          "required": "34140600"
+        },
+        {
+          "actual": "2025-05-03",
+          "check": "request_11_earliest_date_recomputed",
+          "expected": "2025-05-03",
+          "passed": true
+        },
+        {
+          "check": "request_11_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_12_safe_bounds",
+          "passed": true,
+          "requested": "65164",
+          "value": "65164"
+        },
+        {
+          "actual": "65164",
+          "check": "request_12_safe_recomputed",
+          "expected": "65164",
+          "passed": true
+        },
+        {
+          "check": "request_12_safe_payment_remains_safe",
+          "min_balance": "53515.90",
+          "passed": true,
+          "required": "43200"
+        },
+        {
+          "actual": "2026-04-05",
+          "check": "request_12_earliest_date_recomputed",
+          "expected": "2026-04-05",
+          "passed": true
+        },
+        {
+          "check": "request_12_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_13_safe_bounds",
+          "passed": true,
+          "requested": "941.6",
+          "value": "941.6"
+        },
+        {
+          "actual": "941.6",
+          "check": "request_13_safe_recomputed",
+          "expected": "941.6",
+          "passed": true
+        },
+        {
+          "check": "request_13_safe_payment_remains_safe",
+          "min_balance": "1604.79",
+          "passed": true,
+          "required": "1300"
+        },
+        {
+          "actual": "2024-03-07",
+          "check": "request_13_earliest_date_recomputed",
+          "expected": "2024-03-07",
+          "passed": true
+        },
+        {
+          "check": "request_13_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_14_safe_bounds",
+          "passed": true,
+          "requested": "5414.2",
+          "value": "0"
+        },
+        {
+          "actual": "0",
+          "check": "request_14_safe_recomputed",
+          "expected": "0",
+          "passed": true
+        },
+        {
+          "actual": "None",
+          "check": "request_14_earliest_date_recomputed",
+          "expected": "None",
+          "passed": true
+        },
+        {
+          "check": "request_14_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_15_safe_bounds",
+          "passed": true,
+          "requested": "3685",
+          "value": "0"
+        },
+        {
+          "actual": "0",
+          "check": "request_15_safe_recomputed",
+          "expected": "0",
+          "passed": true
+        },
+        {
+          "actual": "None",
+          "check": "request_15_earliest_date_recomputed",
+          "expected": "None",
+          "passed": true
+        },
+        {
+          "check": "request_15_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_16_safe_bounds",
+          "passed": true,
+          "requested": "122500",
+          "value": "122500"
+        },
+        {
+          "actual": "122500",
+          "check": "request_16_safe_recomputed",
+          "expected": "122500",
+          "passed": true
+        },
+        {
+          "check": "request_16_safe_payment_remains_safe",
+          "min_balance": "171639.52",
+          "passed": true,
+          "required": "122400"
+        },
+        {
+          "actual": "2023-08-12",
+          "check": "request_16_earliest_date_recomputed",
+          "expected": "2023-08-12",
+          "passed": true
+        },
+        {
+          "check": "request_16_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_17_safe_bounds",
+          "passed": true,
+          "requested": "274600",
+          "value": "274600"
+        },
+        {
+          "actual": "274600",
+          "check": "request_17_safe_recomputed",
+          "expected": "274600",
+          "passed": true
+        },
+        {
+          "check": "request_17_safe_payment_remains_safe",
+          "min_balance": "172157.43",
+          "passed": true,
+          "required": "166100"
+        },
+        {
+          "actual": "2026-03-01",
+          "check": "request_17_earliest_date_recomputed",
+          "expected": "2026-03-01",
+          "passed": true
+        },
+        {
+          "check": "request_17_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_18_safe_bounds",
+          "passed": true,
+          "requested": "3246.1",
+          "value": "694.61"
+        },
+        {
+          "actual": "694.61",
+          "check": "request_18_safe_recomputed",
+          "expected": "694.61",
+          "passed": true
+        },
+        {
+          "check": "request_18_safe_payment_remains_safe",
+          "min_balance": "1400.00",
+          "passed": true,
+          "required": "1400"
+        },
+        {
+          "check": "request_18_safe_plus_epsilon_unsafe",
+          "over_amount": "694.62",
+          "over_min_balance": "1399.99",
+          "passed": true
+        },
+        {
+          "actual": "2026-08-15",
+          "check": "request_18_earliest_date_recomputed",
+          "expected": "2026-08-15",
+          "passed": true
+        },
+        {
+          "check": "request_18_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_19_safe_bounds",
+          "passed": true,
+          "requested": "39660",
+          "value": "26231.32"
+        },
+        {
+          "actual": "26231.32",
+          "check": "request_19_safe_recomputed",
+          "expected": "26231.32",
+          "passed": true
+        },
+        {
+          "check": "request_19_safe_payment_remains_safe",
+          "min_balance": "92800.00",
+          "passed": true,
+          "required": "92800"
+        },
+        {
+          "check": "request_19_safe_plus_epsilon_unsafe",
+          "over_amount": "26231.33",
+          "over_min_balance": "92799.99",
+          "passed": true
+        },
+        {
+          "actual": "2024-09-15",
+          "check": "request_19_earliest_date_recomputed",
+          "expected": "2024-09-15",
+          "passed": true
+        },
+        {
+          "check": "request_19_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_20_safe_bounds",
+          "passed": true,
+          "requested": "303700",
+          "value": "21614.85"
+        },
+        {
+          "actual": "21614.85",
+          "check": "request_20_safe_recomputed",
+          "expected": "21614.85",
+          "passed": true
+        },
+        {
+          "check": "request_20_safe_payment_remains_safe",
+          "min_balance": "64500.00",
+          "passed": true,
+          "required": "64500"
+        },
+        {
+          "check": "request_20_safe_plus_epsilon_unsafe",
+          "over_amount": "21614.86",
+          "over_min_balance": "64499.99",
+          "passed": true
+        },
+        {
+          "actual": "None",
+          "check": "request_20_earliest_date_recomputed",
+          "expected": "None",
+          "passed": true
+        },
+        {
+          "check": "request_20_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_21_safe_bounds",
+          "passed": true,
+          "requested": "1574.4",
+          "value": "1574.4"
+        },
+        {
+          "actual": "1574.4",
+          "check": "request_21_safe_recomputed",
+          "expected": "1574.4",
+          "passed": true
+        },
+        {
+          "check": "request_21_safe_payment_remains_safe",
+          "min_balance": "2101.87",
+          "passed": true,
+          "required": "1800"
+        },
+        {
+          "actual": "2026-04-03",
+          "check": "request_21_earliest_date_recomputed",
+          "expected": "2026-04-03",
+          "passed": true
+        },
+        {
+          "check": "request_21_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_22_safe_bounds",
+          "passed": true,
+          "requested": "731.5",
+          "value": "500.99"
+        },
+        {
+          "actual": "500.99",
+          "check": "request_22_safe_recomputed",
+          "expected": "500.99",
+          "passed": true
+        },
+        {
+          "check": "request_22_safe_payment_remains_safe",
+          "min_balance": "500.00",
+          "passed": true,
+          "required": "500"
+        },
+        {
+          "check": "request_22_safe_plus_epsilon_unsafe",
+          "over_amount": "501.00",
+          "over_min_balance": "499.99",
+          "passed": true
+        },
+        {
+          "actual": "2025-01-15",
+          "check": "request_22_earliest_date_recomputed",
+          "expected": "2025-01-15",
+          "passed": true
+        },
+        {
+          "check": "request_22_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_23_safe_bounds",
+          "passed": true,
+          "requested": "38016",
+          "value": "7221.71"
+        },
+        {
+          "actual": "7221.71",
+          "check": "request_23_safe_recomputed",
+          "expected": "7221.71",
+          "passed": true
+        },
+        {
+          "check": "request_23_safe_payment_remains_safe",
+          "min_balance": "27000.00",
+          "passed": true,
+          "required": "27000"
+        },
+        {
+          "check": "request_23_safe_plus_epsilon_unsafe",
+          "over_amount": "7221.72",
+          "over_min_balance": "26999.99",
+          "passed": true
+        },
+        {
+          "actual": "2025-07-15",
+          "check": "request_23_earliest_date_recomputed",
+          "expected": "2025-07-15",
+          "passed": true
+        },
+        {
+          "check": "request_23_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_24_safe_bounds",
+          "passed": true,
+          "requested": "109600",
+          "value": "23118.25"
+        },
+        {
+          "actual": "23118.25",
+          "check": "request_24_safe_recomputed",
+          "expected": "23118.25",
+          "passed": true
+        },
+        {
+          "check": "request_24_safe_payment_remains_safe",
+          "min_balance": "51000.00",
+          "passed": true,
+          "required": "51000"
+        },
+        {
+          "check": "request_24_safe_plus_epsilon_unsafe",
+          "over_amount": "23118.26",
+          "over_min_balance": "50999.99",
+          "passed": true
+        },
+        {
+          "actual": "2026-03-15",
+          "check": "request_24_earliest_date_recomputed",
+          "expected": "2026-03-15",
+          "passed": true
+        },
+        {
+          "check": "request_24_earliest_preference_independent",
+          "passed": true
+        },
+        {
+          "check": "request_25_safe_bounds",
+          "passed": true,
+          "requested": "60496000",
+          "value": "4268528.45"
+        },
+        {
+          "actual": "4268528.45",
+          "check": "request_25_safe_recomputed",
+          "expected": "4268528.45",
+          "passed": true
+        },
+        {
+          "check": "request_25_safe_payment_remains_safe",
+          "min_balance": "23379100.00",
+          "passed": true,
+          "required": "23379100"
+        },
+        {
+          "check": "request_25_safe_plus_epsilon_unsafe",
+          "over_amount": "4268528.46",
+          "over_min_balance": "23379099.99",
+          "passed": true
+        },
+        {
+          "actual": "None",
+          "check": "request_25_earliest_date_recomputed",
+          "expected": "None",
+          "passed": true
+        },
+        {
+          "check": "request_25_earliest_preference_independent",
+          "passed": true
+        }
+      ],
+      "failures": [],
+      "passed": true
+    },
+    "mismatch_routing": {
+      "checks": [
+        {
+          "all_routed": true,
+          "check": "mismatch_count",
+          "passed": true,
+          "value": 61
+        },
+        {
+          "check": "all_mismatches_routed",
+          "passed": true
+        }
+      ],
+      "failures": [],
+      "passed": true
+    },
+    "ranking_verification": {
+      "checks": [
+        {
+          "check": "request_01_ranking",
+          "note": "no eligible candidates",
+          "passed": true
+        },
+        {
+          "check": "request_02_ranking",
+          "note": "no eligible candidates",
+          "passed": true
+        },
+        {
+          "check": "request_03_ranking_sorted",
+          "eligible_count": 1,
+          "passed": true
+        },
+        {
+          "check": "request_04_ranking_sorted",
+          "eligible_count": 2,
+          "passed": true
+        },
+        {
+          "check": "request_05_ranking",
+          "note": "no eligible candidates",
+          "passed": true
+        },
+        {
+          "check": "request_06_ranking_sorted",
+          "eligible_count": 2,
+          "passed": true
+        },
+        {
+          "check": "request_07_ranking",
+          "note": "no eligible candidates",
+          "passed": true
+        },
+        {
+          "check": "request_08_ranking",
+          "note": "no eligible candidates",
+          "passed": true
+        },
+        {
+          "check": "request_09_ranking_sorted",
+          "eligible_count": 1,
+          "passed": true
+        },
+        {
+          "check": "request_10_ranking",
+          "note": "no eligible candidates",
+          "passed": true
+        },
+        {
+          "check": "request_11_ranking_sorted",
+          "eligible_count": 4,
+          "passed": true
+        },
+        {
+          "check": "request_12_ranking_sorted",
+          "eligible_count": 2,
+          "passed": true
+        },
+        {
+          "check": "request_13_ranking_sorted",
+          "eligible_count": 8,
+          "passed": true
+        },
+        {
+          "check": "request_14_ranking",
+          "note": "no eligible candidates",
+          "passed": true
+        },
+        {
+          "check": "request_15_ranking",
+          "note": "no eligible candidates",
+          "passed": true
+        },
+        {
+          "check": "request_16_ranking_sorted",
+          "eligible_count": 1,
+          "passed": true
+        },
+        {
+          "check": "request_17_ranking_sorted",
+          "eligible_count": 2,
+          "passed": true
+        },
+        {
+          "check": "request_18_ranking_sorted",
+          "eligible_count": 1,
+          "passed": true
+        },
+        {
+          "check": "request_19_ranking_sorted",
+          "eligible_count": 3,
+          "passed": true
+        },
+        {
+          "check": "request_20_ranking",
+          "note": "no eligible candidates",
+          "passed": true
+        },
+        {
+          "check": "request_21_ranking_sorted",
+          "eligible_count": 6,
+          "passed": true
+        },
+        {
+          "check": "request_22_ranking_sorted",
+          "eligible_count": 4,
+          "passed": true
+        },
+        {
+          "check": "request_23_ranking_sorted",
+          "eligible_count": 1,
+          "passed": true
+        },
+        {
+          "check": "request_24_ranking",
+          "note": "no eligible candidates",
+          "passed": true
+        },
+        {
+          "check": "request_25_ranking",
+          "note": "no eligible candidates",
+          "passed": true
+        },
+        {
+          "check": "total_ranking_violations",
+          "expected": 0,
+          "passed": true,
+          "value": 0
+        },
+        {
+          "check": "tie_fixtures",
+          "fixture_count": 4,
+          "passed": true
+        }
+      ],
+      "failures": [],
+      "passed": true
+    },
+    "regression_overfitting_check": {
+      "checks": [
+        {
+          "check": "no_request_specific_branches",
+          "findings": [],
+          "passed": true
+        },
+        {
+          "check": "no_label_leakage",
+          "findings": [],
+          "passed": true
+        },
+        {
+          "check": "deterministic_runs",
+          "passed": true
+        },
+        {
+          "check": "regression_test_test_capacity_candidates.py",
+          "passed": true
+        },
+        {
+          "check": "regression_test_test_forecast.py",
+          "passed": true
+        },
+        {
+          "check": "regression_test_test_data_loader.py",
+          "passed": true
+        },
+        {
+          "check": "regression_test_test_evaluator.py",
+          "passed": true
+        },
+        {
+          "check": "no_validator_regression",
+          "current": 1.0,
+          "passed": true,
+          "saved": 1.0
+        },
+        {
+          "check": "method_accuracy_vs_baseline",
+          "current": 0.8,
+          "informational": true,
+          "passed": true,
+          "saved": 0.8
+        }
+      ],
+      "failures": [],
+      "passed": true
+    }
+  },
+  "steps_verified": [
+    7,
+    8,
+    9
+  ]
+}
