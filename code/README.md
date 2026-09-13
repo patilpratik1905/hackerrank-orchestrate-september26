@@ -59,3 +59,30 @@ results use a separate extractor version and cache key.
 The refresh path uses a 20-second timeout and two attempts by default. Credentials
 are never stored in the cache. The cache records provider/model token metadata for
 later aggregation into `evaluation/usage_report.md`.
+
+## Deterministic state reconstruction and 90-day ledger
+
+`buy_or_wait.forecast` reconstructs future cash movements from the typed source
+records and evidence, detects only supported recurring commitments, applies exact
+dated FX, and simulates the inclusive range from `request_date` through
+`request_date + 90 days`. It starts at `current_available_balance`, never replays
+historical settled cash, reserves pending debits, excludes pending credits/refunds,
+and processes debits and hypothetical payments before credits on the same date.
+
+The recurrence assumptions are global and configurable through `ForecastConfig`:
+three settled observations are required; weekly (6–8 day), monthly (25–35 day), or
+otherwise regular 8–60 day intervals must agree within three days. Protected,
+non-fixed variable categories use an upper-median settled debit estimate from the
+prior 90 days. A recurrence that would require an unavailable exact FX rate is
+omitted and explicitly traced rather than converted with an invented rate.
+
+Inspect a baseline ledger without selecting a payment recommendation:
+
+```text
+python code/forecast_inspect.py request_26 --dataset-dir dataset
+python code/forecast_inspect.py request_01 --sample --dataset-dir dataset
+```
+
+Each ledger row carries its event, evidence, recurrence, and FX provenance. The
+same `simulate()` function accepts hypothetical payments and spending modifications
+for the future capacity and candidate-validation steps.
