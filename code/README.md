@@ -1,91 +1,151 @@
-# Buy or Wait? code
+# Buy or Wait?
 
-The current implementation includes strict participant-data normalization and the
-25-sample evaluation harness. It does not yet forecast cash flow or recommend a
-payment plan.
+AI-powered financial decision agent for the HackerRank Orchestrate challenge.
 
-From the repository root, validate and bundle every participant-facing row:
+For every purchase/payment request, the agent determines whether to pay in full,
+pay partially, use installments, wait, or not proceed — based on the user's
+financial position, recurring commitments, evidence from messages/images, and
+available payment options.
 
-```text
-python code/main.py --dataset-dir dataset --check-data
+## Quick Start
+
+```bash
+# Install dependencies (standard library only — no pip install needed)
+# Python 3.12+ required
+
+# Run the full pipeline (250 requests → output.csv)
+python code/main.py
+
+# Run only the 25 solved samples
+python code/main.py --sample-only --output sample_output.csv
+
+# Validate dataset integrity
+python code/main.py --check-data
 ```
 
-Python integration example:
+## Setup
 
-```python
-import sys
-from pathlib import Path
+**Python 3.12+** is required. The solution uses only the Python standard library
+(no external packages needed).
 
-sys.path.insert(0, str(Path("code").resolve()))
-from buy_or_wait.data import load_dataset
+Optional: Copy `.env.example` to `.env` and set credentials if you need to
+re-extract evidence from images using a vision model:
 
-repository = load_dataset(Path("dataset"))
-bundle = repository.bundle_for("request_26")
+```bash
+cp .env.example .env
+# Edit .env with your API credentials
 ```
 
-`bundle` contains the typed request, profile, all user events, payment options,
-source messages, source images, and the exact dated exchange-rate records required
-by the user's foreign-currency cash events. Sample requests and their completed
-labels are stored separately; production `Request` objects never contain labels.
+## Execution
 
-See `evaluation/README.md` for sample-scoring commands.
+From the repository root:
 
-## Evidence extraction
-
-Build or reuse the hash-bound evidence cache and verify that all 16 blank event
-amounts resolve:
-
-```text
-python code/evidence/main.py --dataset-dir dataset
+```bash
+python code/main.py
 ```
 
-The checked-in reviewed-image manifest records the context-selected value, visible
-document label, source hash, and confidence for every supplied image. Messages are
-parsed deterministically from the supplied multilingual templates. Source text is
-always treated as untrusted data.
+This reads `dataset/` and writes `output.csv` at the repository root.
 
-To deliberately re-extract images with a structured vision model, configure
-`EVIDENCE_API_URL`, `EVIDENCE_API_KEY`, and `EVIDENCE_MODEL` in the environment,
-then run:
+Options:
+- `--dataset-dir PATH` — dataset directory (default: `dataset`)
+- `--output PATH` — output CSV path (default: `output.csv`)
+- `--sample-only` — process only the 25 solved samples
+- `--check-data` — validate inputs without processing
+- `--quiet` — suppress progress output
 
-```text
+## Evaluation
+
+Evaluate predictions against the 25 solved samples:
+
+```bash
+python code/evaluation/main.py --predictions code/evaluation/sample_baseline_predictions.csv --dataset-dir dataset
+```
+
+Run the full test suite:
+
+```bash
+python -m pytest code/tests/ -v
+```
+
+Run the strict final validation on output.csv:
+
+```bash
+python code/evaluation/final_validation.py
+```
+
+## Evidence Cache
+
+The evidence cache (`code/evidence/evidence_cache.json`) stores extracted facts
+from messages and images, keyed by content hash. The reviewed-image manifest
+(`code/evidence/reviewed_images.json`) contains human-verified amounts for all
+16 blank event amounts.
+
+To refresh evidence extraction (requires API credentials):
+
+```bash
 python code/evidence/main.py --dataset-dir dataset --refresh-images
 ```
 
-Add `--model-ambiguous-messages` to route only messages outside the deterministic
-template rules through the configured structured multilingual model. Valid model
-results use a separate extractor version and cache key.
+To re-extract only ambiguous messages through a language model:
 
-The refresh path uses a 20-second timeout and two attempts by default. Credentials
-are never stored in the cache. The cache records provider/model token metadata for
-later aggregation into `evaluation/usage_report.md`.
-
-## Deterministic state reconstruction and 90-day ledger
-
-`buy_or_wait.forecast` reconstructs future cash movements from the typed source
-records and evidence, detects only supported recurring commitments, applies exact
-dated FX, and simulates the inclusive range from `request_date` through
-`request_date + 90 days`. It starts at `current_available_balance`, never replays
-historical settled cash, reserves pending debits, excludes pending credits/refunds,
-and processes required debits before same-day credits, then hypothetical plan
-payments after same-day credits. This ordering is calibrated from the public
-salary-settlement examples: a payment on a confirmed salary date can use that
-day's credited salary, while debit reservations still happen first.
-
-The recurrence assumptions are global and configurable through `ForecastConfig`:
-three settled observations are required; weekly (6–8 day), monthly (25–35 day), or
-otherwise regular 8–60 day intervals must agree within three days. Protected,
-non-fixed variable categories use an upper-median settled debit estimate from the
-prior 90 days. A recurrence that would require an unavailable exact FX rate is
-omitted and explicitly traced rather than converted with an invented rate.
-
-Inspect a baseline ledger without selecting a payment recommendation:
-
-```text
-python code/forecast_inspect.py request_26 --dataset-dir dataset
-python code/forecast_inspect.py request_01 --sample --dataset-dir dataset
+```bash
+python code/evidence/main.py --dataset-dir dataset --model-ambiguous-messages
 ```
 
-Each ledger row carries its event, evidence, recurrence, and FX provenance. The
-same `simulate()` function accepts hypothetical payments and spending modifications
-for the future capacity and candidate-validation steps.
+## Architecture
+
+```
+code/
+├── main.py                          # Production entry point
+├── buy_or_wait/
+│   ├── data.py                      # Dataset loading and typed bundles
+│   ├── models.py                    # Data contracts (Request, Profile, Event)
+│   ├── schema.py                    # CSV column schemas
+│   ├── evidence.py                  # Evidence extraction and caching
+│   ├── forecast.py                  # State reconstruction and 90-day simulator
+│   ├── capacity.py                  # Safe-amount and earliest-date calculation
+│   ├── candidates.py                # Candidate generation, validation, ranking
+│   └── serialize.py                 # Output serialization and explanations
+├── evidence/
+│   ├── main.py                      # Evidence extraction CLI
+│   ├── evidence_cache.json          # Hash-bound evidence cache
+│   └── reviewed_images.json         # Human-verified image amounts
+├── evaluation/
+│   ├── main.py                      # Sample evaluation scorer
+│   ├── validators.py                # Structural validation contracts
+│   ├── final_validation.py          # Strict 16-check output validation
+│   ├── gate_c.py                    # Steps 7-9 verification gate
+│   ├── run_sample_baseline.py       # 25-sample baseline runner
+│   └── usage_report.md              # Model usage and cost report
+└── tests/
+    ├── test_capacity_candidates.py  # Capacity and candidate unit tests
+    ├── test_data_audit.py           # Data integrity tests
+    ├── test_data_loader.py          # Data loading tests
+    ├── test_evaluator.py            # Evaluator tests
+    ├── test_evidence.py             # Evidence extraction tests
+    └── test_forecast.py             # Forecast and simulation tests
+```
+
+## Decision Pipeline
+
+1. **Evidence extraction** — Parse messages (deterministic templates) and images
+   (human-reviewed manifest) into typed facts
+2. **State reconstruction** — Build cash movements from events, evidence,
+   recurrence detection, and FX conversion
+3. **Simulation** — Run 90-day inclusive ledger with debit-before-credit ordering
+4. **Capacity** — Calculate safe-to-pay amount and earliest full-payment date
+5. **Candidate generation** — Enumerate full, partial, installment, and wait options
+6. **Validation** — Simulate each candidate, check preferences/deadlines/limits
+7. **Ranking** — Select best candidate using 6-rule priority key
+8. **Serialization** — Format output with trace-driven explanations
+
+## Tests
+
+84 tests covering:
+- Data loading and integrity (14 tests)
+- Evidence extraction and caching (8 tests)
+- Forecast and simulation (10 tests)
+- Capacity and candidates (5 tests)
+- Evaluator contracts (24 tests)
+- Data audit (7 tests)
+- Structural validation (16 tests)

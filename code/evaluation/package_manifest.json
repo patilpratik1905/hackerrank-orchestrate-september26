@@ -1,0 +1,16 @@
+{
+  "archive": "code.zip",
+  "included": [
+    "code/main.py",
+    "code/buy_or_wait/*.py",
+    "code/evidence/*",
+    "code/evaluation/*.py",
+    "code/evaluation/usage_report.md",
+    "code/tests/*.py",
+    "code/README.md",
+    "code/ENGINEERING_SPEC.md",
+    ".env.example"
+  ],
+  "excluded": ["__pycache__", "*.pyc", "run_checkpoint.json", "sample_baseline_predictions.csv", "sample_serializer_test.csv", ".env", "log.txt"],
+  "reproduction": ["python code/main.py", "python code/evaluation/final_validation.py", "python -m pytest code/tests -q"]
+}

@@ -1,1 +1,9 @@
 log.txt
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+code.zip

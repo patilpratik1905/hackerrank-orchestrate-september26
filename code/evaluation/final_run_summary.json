@@ -1,0 +1,25 @@
+{
+  "avg_time_per_request": 0.015,
+  "checkpoint": "C:\\Pratik\\Projects\\hackerrank-orchestrate-september26\\code\\evaluation\\run_checkpoint.json",
+  "evidence_cache_hits": 231,
+  "evidence_cache_misses": 0,
+  "evidence_usage": {
+    "input_tokens": 0,
+    "model": null,
+    "model_calls": 0,
+    "output_tokens": 0,
+    "provider": null
+  },
+  "methods": {
+    "full_payment": 64,
+    "installments": 57,
+    "not_recommended": 81,
+    "partial_payment": 8,
+    "wait": 40
+  },
+  "output_path": "output.final.csv",
+  "request_count": 250,
+  "resumed": false,
+  "status": "PASS",
+  "total_time_seconds": 3.75
+}

@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": 1,
+      "name": "output_exists",
+      "passed": true,
+      "detail": "C:\\Pratik\\Projects\\hackerrank-orchestrate-september26\\output.csv"
+    },
+    {
+      "check": 2,
+      "name": "exactly_250_rows",
+      "passed": true,
+      "detail": "found 250 data rows"
+    },
+    {
+      "check": 3,
+      "name": "request_ids_match",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": 4,
+      "name": "column_order_exact",
+      "passed": true,
+      "detail": "got ('request_id', 'amount_safe_to_pay', 'affordability_status', 'recommended_payment_method', 'payment_plan', 'earliest_date_for_full_payment', 'spending_changes_needed', 'decision_explanation')"
+    },
+    {
+      "check": 5,
+      "name": "no_blank_required_fields",
+      "passed": true,
+      "detail": "0 blanks"
+    },
+    {
+      "check": 6,
+      "name": "valid_bounded_amounts",
+      "passed": true,
+      "detail": "0 invalid"
+    },
+    {
+      "check": 7,
+      "name": "allowed_status_method",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": 8,
+      "name": "plans_parseable_chronological",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": 9,
+      "name": "full_partial_plan_rules",
+      "passed": true,
+      "detail": "full=0 partial=0"
+    },
+    {
+      "check": 10,
+      "name": "installments_match_options",
+      "passed": true,
+      "detail": "0 mismatches"
+    },
+    {
+      "check": 11,
+      "name": "installment_prefs_months",
+      "passed": true,
+      "detail": "0 violations"
+    },
+    {
+      "check": 12,
+      "name": "deadline_satisfied",
+      "passed": true,
+      "detail": "0 misses"
+    },
+    {
+      "check": 13,
+      "name": "simulator_verified",
+      "passed": true,
+      "detail": "0 unsafe"
+    },
+    {
+      "check": 14,
+      "name": "spending_changes_legal",
+      "passed": true,
+      "detail": "0 issues"
+    },
+    {
+      "check": 15,
+      "name": "explanations_consistent",
+      "passed": true,
+      "detail": "0 issues"
+    },
+    {
+      "check": 16,
+      "name": "deterministic_output",
+      "passed": true,
+      "detail": "verified via separate determinism test"
+    }
+  ],
+  "failures": []
+}

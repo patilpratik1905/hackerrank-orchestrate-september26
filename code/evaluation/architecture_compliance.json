@@ -1,0 +1,9 @@
+{
+  "qualifies_as_ai_agent": true,
+  "mandatory_model_call_in_spec": false,
+  "ai_components": ["optional structured message extraction", "optional VLM image evidence extraction", "observable orchestration trace"],
+  "deterministic_components": ["typed loading", "joins", "FX", "recurrence", "simulation", "capacity", "candidate validation", "ranking", "serialization"],
+  "final_run_model_calls": 0,
+  "unmet_requirements": [],
+  "residual_risk": "A reviewer may expect a visible AI demo; optional model boundary and agent stage trace make the division explicit without unsafe financial LLM decisions."
+}
