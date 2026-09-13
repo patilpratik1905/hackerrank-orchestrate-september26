@@ -7,6 +7,7 @@ intentionally does not calculate capacity or select/rank payment plans.
 from __future__ import annotations
 
 import re
+import calendar
 from collections import defaultdict
 from dataclasses import dataclass
 from datetime import date, timedelta
@@ -292,12 +293,33 @@ def _home_amount(repository: DatasetRepository, bundle: RequestBundle, event: Fi
     return rate.convert(amount), rate.rate
 
 
+def _advance_recurrence(anchor: date, cadence_days: int, current: date) -> date:
+    """Advance monthly rules by calendar month; retain exact-day cadence otherwise."""
+    # Day-one series in the supplied history are conventionally 30-day billing
+    # cycles; retaining the measured interval avoids changing an existing rule's
+    # observed cadence (and handles the February boundary conservatively).
+    if 25 <= cadence_days <= 35 and anchor.day != 1:
+        month = anchor.month + 1
+        year = anchor.year
+        while date(year, month if month <= 12 else 12, 1) <= current.replace(day=1):
+            if month > 12:
+                year += 1
+                month -= 12
+            else:
+                month += 1
+        day = min(anchor.day, calendar.monthrange(year, month)[1])
+        return date(year, month, day)
+    return current + timedelta(days=cadence_days)
+
+
 def _recurring_eligible(event: FinancialEvent) -> bool:
+    description = event.description.lower()
     return (
         event.status is EventStatus.SETTLED
         and event.direction is not Direction.NON_CASH
         and event.category not in {Category.WINDFALL, Category.INVESTMENT}
         and event.event_type.value not in {"refund", "investment_sale", "investment_purchase", "investment_valuation"}
+        and not any(token in description for token in ("final", "one-time", "one off", "bonus", "arrears"))
     )
 
 
@@ -312,6 +334,13 @@ def detect_recurrence(
 
     resolved_amounts = resolved_amounts or {}
     facts_by_event = _facts_by_event(facts)
+    terminal_series: set[tuple[Category, Direction]] = set()
+    for event in bundle.events:
+        event_facts = facts_by_event.get(event.event_id, ())
+        if any(fact.recurrence is EvidenceRecurrence.ENDED for fact in event_facts):
+            terminal_series.add((event.category, event.direction))
+        if any(token in event.description.lower() for token in ("final", "ended", "terminated")):
+            terminal_series.add((event.category, event.direction))
     groups: dict[tuple[object, ...], list[tuple[FinancialEvent, date, Decimal]]] = defaultdict(list)
     for event in bundle.events:
         event_facts = facts_by_event.get(event.event_id, ())
@@ -319,6 +348,8 @@ def detect_recurrence(
             continue
         settlement = _effective_date(event, event_facts)
         if settlement is None or settlement >= bundle.request.request_date:
+            continue
+        if (event.category, event.direction) in terminal_series:
             continue
         try:
             amount = _effective_amount(event, event_facts, resolved_amounts)
@@ -362,12 +393,12 @@ def _variable_essential_rules(
     bundle: RequestBundle, repository: DatasetRepository, facts: Iterable[EvidenceFact],
     resolved_amounts: Mapping[str, Decimal], fixed_rules: Sequence[RecurrenceRule], config: ForecastConfig,
 ) -> tuple[RecurrenceRule, ...]:
-    """Forecast protected non-fixed debit categories from conservative 30-day totals."""
+    """Forecast protected non-fixed debits using an observed conservative cadence."""
 
     fixed_ids = {event_id for rule in fixed_rules for event_id in rule.source_event_ids}
     facts_by_event = _facts_by_event(facts)
-    cutoff = bundle.request.request_date - timedelta(days=config.variable_lookback_days)
-    category_totals: dict[tuple[Category, object], list[tuple[Decimal, str]]] = defaultdict(list)
+    cutoff = bundle.request.request_date - timedelta(days=max(config.variable_lookback_days, 365))
+    category_totals: dict[tuple[Category, object], list[tuple[date, Decimal, str]]] = defaultdict(list)
     for event in bundle.events:
         if event.event_id in fixed_ids or event.category not in bundle.profile.protected_categories:
             continue
@@ -377,21 +408,45 @@ def _variable_essential_rules(
         if settlement is None or not cutoff <= settlement < bundle.request.request_date:
             continue
         amount = _effective_amount(event, facts_by_event.get(event.event_id, ()), resolved_amounts)
-        category_totals[(event.category, event.currency)].append((amount, event.event_id))
+        category_totals[(event.category, event.currency)].append((settlement, amount, event.event_id))
     rules: list[RecurrenceRule] = []
     for (category, currency), amounts in sorted(category_totals.items(), key=lambda item: (item[0][0].value, str(item[0][1]))):
         if len(amounts) < 2:
             continue
+        amounts.sort(key=lambda item: item[0])
         # Upper median is robust to a lone outlier and conservative versus mean.
-        sorted_amounts = sorted(amount for amount, _ in amounts)
+        sorted_amounts = sorted(amount for _, amount, _ in amounts)
         conservative = sorted_amounts[len(sorted_amounts) // 2]
-        source_ids = tuple(event_id for _, event_id in amounts)
+        source_ids = tuple(event_id for _, _, event_id in amounts)
+        intervals = [(right[0] - left[0]).days for left, right in zip(amounts, amounts[1:])]
+        cadence = int(median(intervals)) if intervals else 30
+        if cadence < 3 or cadence > 60 or not all(abs(interval - cadence) <= config.interval_tolerance_days for interval in intervals):
+            cadence = 30
+        anchor = amounts[-1][0]
         rules.append(RecurrenceRule(
             rule_id=f"variable:{category.value}:{str(currency)}", user_id=bundle.profile.user_id,
-            category=category, direction=Direction.DEBIT, currency=currency, cadence_days=30,
-            amount=conservative, anchor_date=bundle.request.request_date, source_event_ids=source_ids,
+            category=category, direction=Direction.DEBIT, currency=currency, cadence_days=cadence,
+            amount=conservative, anchor_date=anchor, source_event_ids=source_ids,
             fixed=False, confidence=Decimal("0.70"),
-            rationale="upper median protected-category settled debit amount over prior 90 days",
+            rationale=f"upper median protected-category settled debit amount with observed {cadence}-day cadence",
+        ))
+    return tuple(rules)
+
+
+def _evidence_recurrence_rules(bundle: RequestBundle, facts: Sequence[EvidenceFact]) -> tuple[RecurrenceRule, ...]:
+    """Turn explicit unlinked recurring salary amendments into typed cash rules."""
+    rules: list[RecurrenceRule] = []
+    for fact in facts:
+        if fact.fact_type is not EvidenceFactType.SALARY_CHANGE or fact.amount is None or fact.currency is None:
+            continue
+        if fact.recurrence is not EvidenceRecurrence.RECURRING or fact.effective_date is None:
+            continue
+        rules.append(RecurrenceRule(
+            rule_id=f"evidence:{fact.evidence_id}", user_id=bundle.profile.user_id,
+            category=Category.SALARY, direction=Direction.CREDIT, currency=fact.currency,
+            cadence_days=30, amount=fact.amount, anchor_date=fact.effective_date,
+            source_event_ids=(), fixed=True, confidence=fact.confidence,
+            rationale="explicit recurring salary amendment from unlinked evidence",
         ))
     return tuple(rules)
 
@@ -450,16 +505,19 @@ def reconstruct_state(
         ))
 
     fixed_rules = detect_recurrence(bundle, repository, facts, resolved_amounts, config)
+    evidence_rules = _evidence_recurrence_rules(bundle, facts)
+    if any(rule.category is Category.SALARY for rule in evidence_rules):
+        fixed_rules = tuple(rule for rule in fixed_rules if rule.category is not Category.SALARY)
     variable_rules = _variable_essential_rules(bundle, repository, facts, resolved_amounts, fixed_rules, config)
-    for rule in (*fixed_rules, *variable_rules):
-        next_date = rule.anchor_date + timedelta(days=rule.cadence_days)
+    for rule in (*fixed_rules, *evidence_rules, *variable_rules):
+        next_date = _advance_recurrence(rule.anchor_date, rule.cadence_days, rule.anchor_date)
         while next_date < bundle.request.request_date:
-            next_date += timedelta(days=rule.cadence_days)
+            next_date = _advance_recurrence(rule.anchor_date, rule.cadence_days, next_date)
         while next_date <= horizon_end:
             source_event_id = rule.source_event_ids[-1] if rule.source_event_ids else None
             # A known future row from this recurrence is more authoritative than a synthetic one.
             if not any(movement.movement_date == next_date and movement.direction is rule.direction for movement in movements):
-                raw_event = repository.events_by_event_id[source_event_id] if source_event_id else None
+                raw_event = repository.events_by_event_id.get(source_event_id) if source_event_id else None
                 try:
                     if raw_event is not None:
                         home_amount, rate = _home_amount(repository, bundle, raw_event, rule.amount, next_date)
@@ -481,13 +539,13 @@ def reconstruct_state(
                     recurrence_rule_id=rule.rule_id, fx_rate=rate, raw_amount=rule.amount,
                     raw_currency=rule.currency, detail=rule.rationale,
                 ))
-            next_date += timedelta(days=rule.cadence_days)
+            next_date = _advance_recurrence(rule.anchor_date, rule.cadence_days, next_date)
     return ReconstructedState(
         request_id=bundle.request.request_id, user_id=bundle.profile.user_id,
         request_date=bundle.request.request_date, horizon_end=horizon_end,
         starting_balance=bundle.profile.current_available_balance,
         minimum_balance=bundle.profile.minimum_balance_to_keep,
-        baseline_movements=tuple(movements), recurrence_rules=tuple((*fixed_rules, *variable_rules)),
+        baseline_movements=tuple(movements), recurrence_rules=tuple((*fixed_rules, *evidence_rules, *variable_rules)),
         excluded_event_reasons=excluded, resolved_event_amounts=dict(resolved_amounts),
     )
 
@@ -519,7 +577,13 @@ def simulate(
     payments: Sequence[HypotheticalPayment] = (),
     modifications: Sequence[SpendingModification] = (),
 ) -> SimulationResult:
-    """Run the single inclusive-horizon ledger, debits/payments before credits."""
+    """Run the single inclusive-horizon ledger.
+
+    Required debits are applied before same-day credits; hypothetical plan
+    payments are applied after same-day credits. Public samples consistently
+    place a payment on the settlement date of a confirmed salary, so that credit
+    is available for that day's payment while debit reservations remain safe.
+    """
 
     modification_by_event = {item.event_id: item for item in modifications}
     if len(modification_by_event) != len(modifications):
@@ -536,7 +600,7 @@ def simulate(
                 raw_amount=payment.amount, detail="hypothetical payment",
             ))
     def order(movement: CashMovement) -> tuple[date, int, str]:
-        priority = 2 if movement.direction is Direction.CREDIT else (1 if movement.kind is MovementKind.PAYMENT else 0)
+        priority = 2 if movement.kind is MovementKind.PAYMENT else (1 if movement.direction is Direction.CREDIT else 0)
         return movement.movement_date, priority, movement.source_id
     balance = state.starting_balance
     minimum = balance

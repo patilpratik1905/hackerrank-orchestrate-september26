@@ -1,0 +1,22 @@
+{
+  "before_systemic_fixes": {
+    "description": "Initial Step 7-9 baseline before calendar-month recurrence and same-day salary-credit ordering fixes",
+    "mismatches": 68,
+    "amount_safe_exact_accuracy": 0.16,
+    "amount_safe_mae": "498414.7268",
+    "earliest_date_exact_accuracy": 0.40,
+    "recommended_method_accuracy": 0.80,
+    "validator_pass_rate": 0.68
+  },
+  "after_systemic_fixes": {
+    "description": "Current deterministic baseline after calendar recurrence, same-day ordering, terminal-series suppression, observed variable cadence, and validator explanation fixes",
+    "mismatches": 61,
+    "amount_safe_exact_accuracy": 0.12,
+    "amount_safe_mae": "803055.4560",
+    "earliest_date_exact_accuracy": 0.48,
+    "recommended_method_accuracy": 0.80,
+    "validator_pass_rate": 1.0,
+    "structurally_valid": true
+  },
+  "interpretation": "The regression suite and structural validity improved; remaining label differences are retained in sample_baseline_root_causes.md and are not request-specific patches."
+}

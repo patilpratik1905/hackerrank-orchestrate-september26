@@ -1,0 +1,3768 @@
+[
+  {
+    "ledger": [
+      {
+        "amount": "1140000",
+        "balance_after": "4670300",
+        "date": "2019-09-04",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_212"
+      },
+      {
+        "amount": "95000",
+        "balance_after": "4575300",
+        "date": "2019-09-07",
+        "direction": "debit",
+        "kind": "event",
+        "source": "event_254"
+      },
+      {
+        "amount": "230312.98",
+        "balance_after": "4344987.02",
+        "date": "2019-09-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_219"
+      },
+      {
+        "amount": "117800",
+        "balance_after": "4227187.02",
+        "date": "2019-09-11",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_215"
+      },
+      {
+        "amount": "20900",
+        "balance_after": "4206287.02",
+        "date": "2019-09-14",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_214"
+      },
+      {
+        "amount": "4365000",
+        "balance_after": "8571287.02",
+        "date": "2019-09-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_210"
+      },
+      {
+        "amount": "230312.98",
+        "balance_after": "8340974.04",
+        "date": "2019-09-18",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_219"
+      },
+      {
+        "amount": "230312.98",
+        "balance_after": "8110661.06",
+        "date": "2019-09-28",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_219"
+      },
+      {
+        "amount": "1140000",
+        "balance_after": "6970661.06",
+        "date": "2019-10-04",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_212"
+      },
+      {
+        "amount": "230312.98",
+        "balance_after": "6740348.08",
+        "date": "2019-10-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_219"
+      },
+      {
+        "amount": "117800",
+        "balance_after": "6622548.08",
+        "date": "2019-10-11",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_215"
+      },
+      {
+        "amount": "20900",
+        "balance_after": "6601648.08",
+        "date": "2019-10-14",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_214"
+      },
+      {
+        "amount": "4365000",
+        "balance_after": "10966648.08",
+        "date": "2019-10-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_210"
+      },
+      {
+        "amount": "5491000",
+        "balance_after": "5475648.08",
+        "date": "2019-10-15",
+        "direction": "debit",
+        "kind": "hypothetical_payment",
+        "source": "wait_full_payment"
+      },
+      {
+        "amount": "230312.98",
+        "balance_after": "5245335.10",
+        "date": "2019-10-18",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_219"
+      },
+      {
+        "amount": "230312.98",
+        "balance_after": "5015022.12",
+        "date": "2019-10-28",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_219"
+      },
+      {
+        "amount": "1140000",
+        "balance_after": "3875022.12",
+        "date": "2019-11-04",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_212"
+      },
+      {
+        "amount": "230312.98",
+        "balance_after": "3644709.14",
+        "date": "2019-11-07",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_219"
+      },
+      {
+        "amount": "262344.55",
+        "balance_after": "3382364.59",
+        "date": "2019-11-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_213"
+      },
+      {
+        "amount": "117800",
+        "balance_after": "3264564.59",
+        "date": "2019-11-11",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_215"
+      },
+      {
+        "amount": "20900",
+        "balance_after": "3243664.59",
+        "date": "2019-11-14",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_214"
+      },
+      {
+        "amount": "4365000",
+        "balance_after": "7608664.59",
+        "date": "2019-11-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_210"
+      },
+      {
+        "amount": "230312.98",
+        "balance_after": "7378351.61",
+        "date": "2019-11-17",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_219"
+      },
+      {
+        "amount": "230312.98",
+        "balance_after": "7148038.63",
+        "date": "2019-11-27",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_219"
+      }
+    ],
+    "minimum_balance_date": "2019-11-14",
+    "minimum_balance_observed": "3243664.59",
+    "request_id": "request_03",
+    "safe": true,
+    "selected_method": "wait"
+  },
+  {
+    "ledger": [
+      {
+        "amount": "2004118.6",
+        "balance_after": "50202831.4",
+        "date": "2024-06-05",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_286"
+      },
+      {
+        "amount": "1482897.31",
+        "balance_after": "48719934.09",
+        "date": "2024-06-08",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:IDR"
+      },
+      {
+        "amount": "1027900",
+        "balance_after": "47692034.09",
+        "date": "2024-06-09",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_289"
+      },
+      {
+        "amount": "332500",
+        "balance_after": "47359534.09",
+        "date": "2024-06-10",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_287"
+      },
+      {
+        "amount": "1704300",
+        "balance_after": "45655234.09",
+        "date": "2024-06-11",
+        "direction": "debit",
+        "kind": "event",
+        "source": "event_357"
+      },
+      {
+        "amount": "377150",
+        "balance_after": "45278084.09",
+        "date": "2024-06-12",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_288"
+      },
+      {
+        "amount": "1231859.39",
+        "balance_after": "44046224.70",
+        "date": "2024-06-13",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_290"
+      },
+      {
+        "amount": "1482897.31",
+        "balance_after": "42563327.39",
+        "date": "2024-06-15",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:IDR"
+      },
+      {
+        "amount": "38190000",
+        "balance_after": "80753327.39",
+        "date": "2024-06-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_284"
+      },
+      {
+        "amount": "12693000",
+        "balance_after": "68060327.39",
+        "date": "2024-06-15",
+        "direction": "debit",
+        "kind": "hypothetical_payment",
+        "source": "wait_full_payment"
+      },
+      {
+        "amount": "853091.62",
+        "balance_after": "67207235.77",
+        "date": "2024-06-16",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:IDR"
+      },
+      {
+        "amount": "1482897.31",
+        "balance_after": "65724338.46",
+        "date": "2024-06-22",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:IDR"
+      },
+      {
+        "amount": "853091.62",
+        "balance_after": "64871246.84",
+        "date": "2024-06-23",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:IDR"
+      },
+      {
+        "amount": "1482897.31",
+        "balance_after": "63388349.53",
+        "date": "2024-06-29",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:IDR"
+      },
+      {
+        "amount": "853091.62",
+        "balance_after": "62535257.91",
+        "date": "2024-06-30",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:IDR"
+      },
+      {
+        "amount": "12293000",
+        "balance_after": "50242257.91",
+        "date": "2024-07-02",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_291"
+      },
+      {
+        "amount": "2004118.6",
+        "balance_after": "48238139.31",
+        "date": "2024-07-05",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_286"
+      },
+      {
+        "amount": "1482897.31",
+        "balance_after": "46755242.00",
+        "date": "2024-07-06",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:IDR"
+      },
+      {
+        "amount": "853091.62",
+        "balance_after": "45902150.38",
+        "date": "2024-07-07",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:IDR"
+      },
+      {
+        "amount": "1027900",
+        "balance_after": "44874250.38",
+        "date": "2024-07-09",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_289"
+      },
+      {
+        "amount": "332500",
+        "balance_after": "44541750.38",
+        "date": "2024-07-10",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_287"
+      },
+      {
+        "amount": "377150",
+        "balance_after": "44164600.38",
+        "date": "2024-07-12",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_288"
+      },
+      {
+        "amount": "1231859.39",
+        "balance_after": "42932740.99",
+        "date": "2024-07-13",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_290"
+      },
+      {
+        "amount": "853091.62",
+        "balance_after": "42079649.37",
+        "date": "2024-07-14",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:IDR"
+      },
+      {
+        "amount": "38190000",
+        "balance_after": "80269649.37",
+        "date": "2024-07-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_284"
+      },
+      {
+        "amount": "1482897.31",
+        "balance_after": "78786752.06",
+        "date": "2024-07-20",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:IDR"
+      },
+      {
+        "amount": "853091.62",
+        "balance_after": "77933660.44",
+        "date": "2024-07-21",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:IDR"
+      },
+      {
+        "amount": "1482897.31",
+        "balance_after": "76450763.13",
+        "date": "2024-07-27",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:IDR"
+      },
+      {
+        "amount": "853091.62",
+        "balance_after": "75597671.51",
+        "date": "2024-07-28",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:IDR"
+      },
+      {
+        "amount": "12293000",
+        "balance_after": "63304671.51",
+        "date": "2024-08-02",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_291"
+      },
+      {
+        "amount": "1482897.31",
+        "balance_after": "61821774.20",
+        "date": "2024-08-03",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:IDR"
+      },
+      {
+        "amount": "853091.62",
+        "balance_after": "60968682.58",
+        "date": "2024-08-04",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:IDR"
+      },
+      {
+        "amount": "2004118.6",
+        "balance_after": "58964563.98",
+        "date": "2024-08-05",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_286"
+      },
+      {
+        "amount": "1027900",
+        "balance_after": "57936663.98",
+        "date": "2024-08-09",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_289"
+      },
+      {
+        "amount": "332500",
+        "balance_after": "57604163.98",
+        "date": "2024-08-10",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_287"
+      },
+      {
+        "amount": "853091.62",
+        "balance_after": "56751072.36",
+        "date": "2024-08-11",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:IDR"
+      },
+      {
+        "amount": "377150",
+        "balance_after": "56373922.36",
+        "date": "2024-08-12",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_288"
+      },
+      {
+        "amount": "1231859.39",
+        "balance_after": "55142062.97",
+        "date": "2024-08-13",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_290"
+      },
+      {
+        "amount": "38190000",
+        "balance_after": "93332062.97",
+        "date": "2024-08-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_284"
+      },
+      {
+        "amount": "1482897.31",
+        "balance_after": "91849165.66",
+        "date": "2024-08-17",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:IDR"
+      },
+      {
+        "amount": "853091.62",
+        "balance_after": "90996074.04",
+        "date": "2024-08-18",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:IDR"
+      },
+      {
+        "amount": "1482897.31",
+        "balance_after": "89513176.73",
+        "date": "2024-08-24",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:IDR"
+      },
+      {
+        "amount": "853091.62",
+        "balance_after": "88660085.11",
+        "date": "2024-08-25",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:IDR"
+      },
+      {
+        "amount": "1482897.31",
+        "balance_after": "87177187.80",
+        "date": "2024-08-31",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:IDR"
+      },
+      {
+        "amount": "853091.62",
+        "balance_after": "86324096.18",
+        "date": "2024-09-01",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:IDR"
+      },
+      {
+        "amount": "12293000",
+        "balance_after": "74031096.18",
+        "date": "2024-09-02",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_291"
+      }
+    ],
+    "minimum_balance_date": "2024-07-14",
+    "minimum_balance_observed": "42079649.37",
+    "request_id": "request_04",
+    "safe": true,
+    "selected_method": "wait"
+  },
+  {
+    "ledger": [
+      {
+        "amount": "254.1",
+        "balance_after": "1688.3",
+        "date": "2026-01-03",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_472"
+      },
+      {
+        "amount": "620.4",
+        "balance_after": "1067.9",
+        "date": "2026-01-03",
+        "direction": "debit",
+        "kind": "hypothetical_payment",
+        "source": "full_payment"
+      },
+      {
+        "amount": "32.96",
+        "balance_after": "1034.94",
+        "date": "2026-01-07",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_489"
+      },
+      {
+        "amount": "26",
+        "balance_after": "1008.94",
+        "date": "2026-01-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_474"
+      },
+      {
+        "amount": "19",
+        "balance_after": "989.94",
+        "date": "2026-01-10",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_476"
+      },
+      {
+        "amount": "5",
+        "balance_after": "984.94",
+        "date": "2026-01-13",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_475"
+      },
+      {
+        "amount": "38.33",
+        "balance_after": "946.61",
+        "date": "2026-01-15",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_478"
+      },
+      {
+        "amount": "1037.52",
+        "balance_after": "1984.13",
+        "date": "2026-01-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_471"
+      },
+      {
+        "amount": "32.96",
+        "balance_after": "1951.17",
+        "date": "2026-01-17",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_489"
+      },
+      {
+        "amount": "27.8",
+        "balance_after": "1923.37",
+        "date": "2026-01-18",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "27.8",
+        "balance_after": "1895.57",
+        "date": "2026-01-23",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "32.96",
+        "balance_after": "1862.61",
+        "date": "2026-01-27",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_489"
+      },
+      {
+        "amount": "27.8",
+        "balance_after": "1834.81",
+        "date": "2026-01-28",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "27.8",
+        "balance_after": "1807.01",
+        "date": "2026-02-02",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "254.1",
+        "balance_after": "1552.91",
+        "date": "2026-02-03",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_472"
+      },
+      {
+        "amount": "32.96",
+        "balance_after": "1519.95",
+        "date": "2026-02-06",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_489"
+      },
+      {
+        "amount": "51.86",
+        "balance_after": "1468.09",
+        "date": "2026-02-07",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_473"
+      },
+      {
+        "amount": "26",
+        "balance_after": "1442.09",
+        "date": "2026-02-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_474"
+      },
+      {
+        "amount": "19",
+        "balance_after": "1423.09",
+        "date": "2026-02-10",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_476"
+      },
+      {
+        "amount": "27.8",
+        "balance_after": "1395.29",
+        "date": "2026-02-12",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "5",
+        "balance_after": "1390.29",
+        "date": "2026-02-13",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_475"
+      },
+      {
+        "amount": "38.33",
+        "balance_after": "1351.96",
+        "date": "2026-02-15",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_478"
+      },
+      {
+        "amount": "1037.52",
+        "balance_after": "2389.48",
+        "date": "2026-02-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_471"
+      },
+      {
+        "amount": "32.96",
+        "balance_after": "2356.52",
+        "date": "2026-02-16",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_489"
+      },
+      {
+        "amount": "27.8",
+        "balance_after": "2328.72",
+        "date": "2026-02-17",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "27.8",
+        "balance_after": "2300.92",
+        "date": "2026-02-22",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "32.96",
+        "balance_after": "2267.96",
+        "date": "2026-02-26",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_489"
+      },
+      {
+        "amount": "27.8",
+        "balance_after": "2240.16",
+        "date": "2026-02-27",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "254.1",
+        "balance_after": "1986.06",
+        "date": "2026-03-03",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_472"
+      },
+      {
+        "amount": "27.8",
+        "balance_after": "1958.26",
+        "date": "2026-03-04",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "51.86",
+        "balance_after": "1906.40",
+        "date": "2026-03-07",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_473"
+      },
+      {
+        "amount": "32.96",
+        "balance_after": "1873.44",
+        "date": "2026-03-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_489"
+      },
+      {
+        "amount": "27.8",
+        "balance_after": "1845.64",
+        "date": "2026-03-09",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "19",
+        "balance_after": "1826.64",
+        "date": "2026-03-10",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_476"
+      },
+      {
+        "amount": "5",
+        "balance_after": "1821.64",
+        "date": "2026-03-13",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_475"
+      },
+      {
+        "amount": "27.8",
+        "balance_after": "1793.84",
+        "date": "2026-03-14",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "38.33",
+        "balance_after": "1755.51",
+        "date": "2026-03-15",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_478"
+      },
+      {
+        "amount": "1037.52",
+        "balance_after": "2793.03",
+        "date": "2026-03-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_471"
+      },
+      {
+        "amount": "32.96",
+        "balance_after": "2760.07",
+        "date": "2026-03-18",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_489"
+      },
+      {
+        "amount": "27.8",
+        "balance_after": "2732.27",
+        "date": "2026-03-19",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "27.8",
+        "balance_after": "2704.47",
+        "date": "2026-03-24",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "32.96",
+        "balance_after": "2671.51",
+        "date": "2026-03-28",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_489"
+      },
+      {
+        "amount": "27.8",
+        "balance_after": "2643.71",
+        "date": "2026-03-29",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "254.1",
+        "balance_after": "2389.61",
+        "date": "2026-04-03",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_472"
+      }
+    ],
+    "minimum_balance_date": "2026-01-15",
+    "minimum_balance_observed": "946.61",
+    "request_id": "request_06",
+    "safe": true,
+    "selected_method": "full_payment"
+  },
+  {
+    "ledger": [
+      {
+        "amount": "166.61",
+        "balance_after": "2064.49",
+        "date": "2026-07-04",
+        "direction": "debit",
+        "kind": "hypothetical_payment",
+        "source": "full_payment"
+      },
+      {
+        "amount": "60.88",
+        "balance_after": "2003.61",
+        "date": "2026-07-06",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_748"
+      },
+      {
+        "amount": "47.44",
+        "balance_after": "1956.17",
+        "date": "2026-07-07",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "20",
+        "balance_after": "1936.17",
+        "date": "2026-07-09",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_750"
+      },
+      {
+        "amount": "5",
+        "balance_after": "1931.17",
+        "date": "2026-07-12",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_749"
+      },
+      {
+        "amount": "47.44",
+        "balance_after": "1883.73",
+        "date": "2026-07-17",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "47.44",
+        "balance_after": "1836.29",
+        "date": "2026-07-27",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "211.2",
+        "balance_after": "1625.09",
+        "date": "2026-08-02",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_752"
+      },
+      {
+        "amount": "60.88",
+        "balance_after": "1564.21",
+        "date": "2026-08-06",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_748"
+      },
+      {
+        "amount": "20",
+        "balance_after": "1544.21",
+        "date": "2026-08-09",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_750"
+      },
+      {
+        "amount": "5",
+        "balance_after": "1539.21",
+        "date": "2026-08-12",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_749"
+      },
+      {
+        "amount": "47.44",
+        "balance_after": "1491.77",
+        "date": "2026-08-16",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "47.44",
+        "balance_after": "1444.33",
+        "date": "2026-08-26",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "211.2",
+        "balance_after": "1233.13",
+        "date": "2026-09-02",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_752"
+      },
+      {
+        "amount": "47.44",
+        "balance_after": "1185.69",
+        "date": "2026-09-05",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "60.88",
+        "balance_after": "1124.81",
+        "date": "2026-09-06",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_748"
+      },
+      {
+        "amount": "20",
+        "balance_after": "1104.81",
+        "date": "2026-09-09",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_750"
+      },
+      {
+        "amount": "5",
+        "balance_after": "1099.81",
+        "date": "2026-09-12",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_749"
+      },
+      {
+        "amount": "47.44",
+        "balance_after": "1052.37",
+        "date": "2026-09-15",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "47.44",
+        "balance_after": "1004.93",
+        "date": "2026-09-25",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "211.2",
+        "balance_after": "793.73",
+        "date": "2026-10-02",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_752"
+      }
+    ],
+    "minimum_balance_date": "2026-10-02",
+    "minimum_balance_observed": "793.73",
+    "request_id": "request_09",
+    "safe": true,
+    "selected_method": "full_payment"
+  },
+  {
+    "ledger": [
+      {
+        "amount": "13110000",
+        "balance_after": "50421795",
+        "date": "2025-05-03",
+        "direction": "debit",
+        "kind": "hypothetical_payment",
+        "source": "full_payment"
+      },
+      {
+        "amount": "2954500",
+        "balance_after": "47467295",
+        "date": "2025-05-05",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_943"
+      },
+      {
+        "amount": "2796165.18",
+        "balance_after": "44671129.82",
+        "date": "2025-05-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_944"
+      },
+      {
+        "amount": "1881000",
+        "balance_after": "42790129.82",
+        "date": "2025-05-09",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_945"
+      },
+      {
+        "amount": "2544100",
+        "balance_after": "40246029.82",
+        "date": "2025-05-10",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_946"
+      },
+      {
+        "amount": "2826901.92",
+        "balance_after": "37419127.90",
+        "date": "2025-05-12",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_947"
+      },
+      {
+        "amount": "168150",
+        "balance_after": "37250977.90",
+        "date": "2025-05-14",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_949"
+      },
+      {
+        "amount": "23256000",
+        "balance_after": "60506977.90",
+        "date": "2025-05-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_941"
+      },
+      {
+        "amount": "1674887.61",
+        "balance_after": "58832090.29",
+        "date": "2025-05-16",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_948"
+      },
+      {
+        "amount": "15989420",
+        "balance_after": "74821510.29",
+        "date": "2025-05-24",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_924"
+      },
+      {
+        "amount": "2954500",
+        "balance_after": "71867010.29",
+        "date": "2025-06-05",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_943"
+      },
+      {
+        "amount": "2796165.18",
+        "balance_after": "69070845.11",
+        "date": "2025-06-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_944"
+      },
+      {
+        "amount": "1881000",
+        "balance_after": "67189845.11",
+        "date": "2025-06-09",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_945"
+      },
+      {
+        "amount": "2544100",
+        "balance_after": "64645745.11",
+        "date": "2025-06-10",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_946"
+      },
+      {
+        "amount": "2826901.92",
+        "balance_after": "61818843.19",
+        "date": "2025-06-12",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_947"
+      },
+      {
+        "amount": "168150",
+        "balance_after": "61650693.19",
+        "date": "2025-06-14",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_949"
+      },
+      {
+        "amount": "23256000",
+        "balance_after": "84906693.19",
+        "date": "2025-06-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_941"
+      },
+      {
+        "amount": "1674887.61",
+        "balance_after": "83231805.58",
+        "date": "2025-06-16",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_948"
+      },
+      {
+        "amount": "15989420",
+        "balance_after": "99221225.58",
+        "date": "2025-06-24",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_924"
+      },
+      {
+        "amount": "2954500",
+        "balance_after": "96266725.58",
+        "date": "2025-07-05",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_943"
+      },
+      {
+        "amount": "2796165.18",
+        "balance_after": "93470560.40",
+        "date": "2025-07-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_944"
+      },
+      {
+        "amount": "1881000",
+        "balance_after": "91589560.40",
+        "date": "2025-07-09",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_945"
+      },
+      {
+        "amount": "2544100",
+        "balance_after": "89045460.40",
+        "date": "2025-07-10",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_946"
+      },
+      {
+        "amount": "2826901.92",
+        "balance_after": "86218558.48",
+        "date": "2025-07-12",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_947"
+      },
+      {
+        "amount": "168150",
+        "balance_after": "86050408.48",
+        "date": "2025-07-14",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_949"
+      },
+      {
+        "amount": "23256000",
+        "balance_after": "109306408.48",
+        "date": "2025-07-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_941"
+      },
+      {
+        "amount": "1674887.61",
+        "balance_after": "107631520.87",
+        "date": "2025-07-16",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_948"
+      },
+      {
+        "amount": "15989420",
+        "balance_after": "123620940.87",
+        "date": "2025-07-24",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_924"
+      }
+    ],
+    "minimum_balance_date": "2025-05-14",
+    "minimum_balance_observed": "37250977.90",
+    "request_id": "request_11",
+    "safe": true,
+    "selected_method": "full_payment"
+  },
+  {
+    "ledger": [
+      {
+        "amount": "3606.2",
+        "balance_after": "189483.69",
+        "date": "2026-04-05",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1014"
+      },
+      {
+        "amount": "2333.56",
+        "balance_after": "187150.13",
+        "date": "2026-04-07",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:ZAR"
+      },
+      {
+        "amount": "1504.8",
+        "balance_after": "185645.33",
+        "date": "2026-04-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1016"
+      },
+      {
+        "amount": "447.7",
+        "balance_after": "185197.63",
+        "date": "2026-04-11",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1015"
+      },
+      {
+        "amount": "2333.56",
+        "balance_after": "182864.07",
+        "date": "2026-04-17",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:ZAR"
+      },
+      {
+        "amount": "22590.19",
+        "balance_after": "160273.88",
+        "date": "2026-04-19",
+        "direction": "debit",
+        "kind": "hypothetical_payment",
+        "source": "option:payment_option_33:1"
+      },
+      {
+        "amount": "2333.56",
+        "balance_after": "157940.32",
+        "date": "2026-04-27",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:ZAR"
+      },
+      {
+        "amount": "11792",
+        "balance_after": "146148.32",
+        "date": "2026-05-02",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1018"
+      },
+      {
+        "amount": "3606.2",
+        "balance_after": "142542.12",
+        "date": "2026-05-05",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1014"
+      },
+      {
+        "amount": "2333.56",
+        "balance_after": "140208.56",
+        "date": "2026-05-07",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:ZAR"
+      },
+      {
+        "amount": "1504.8",
+        "balance_after": "138703.76",
+        "date": "2026-05-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1016"
+      },
+      {
+        "amount": "447.7",
+        "balance_after": "138256.06",
+        "date": "2026-05-11",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1015"
+      },
+      {
+        "amount": "2333.56",
+        "balance_after": "135922.50",
+        "date": "2026-05-17",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:ZAR"
+      },
+      {
+        "amount": "22590.19",
+        "balance_after": "113332.31",
+        "date": "2026-05-20",
+        "direction": "debit",
+        "kind": "hypothetical_payment",
+        "source": "option:payment_option_33:2"
+      },
+      {
+        "amount": "2333.56",
+        "balance_after": "110998.75",
+        "date": "2026-05-27",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:ZAR"
+      },
+      {
+        "amount": "11792",
+        "balance_after": "99206.75",
+        "date": "2026-06-02",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1018"
+      },
+      {
+        "amount": "3606.2",
+        "balance_after": "95600.55",
+        "date": "2026-06-05",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1014"
+      },
+      {
+        "amount": "2333.56",
+        "balance_after": "93266.99",
+        "date": "2026-06-06",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:ZAR"
+      },
+      {
+        "amount": "1504.8",
+        "balance_after": "91762.19",
+        "date": "2026-06-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1016"
+      },
+      {
+        "amount": "447.7",
+        "balance_after": "91314.49",
+        "date": "2026-06-11",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1015"
+      },
+      {
+        "amount": "2333.56",
+        "balance_after": "88980.93",
+        "date": "2026-06-16",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:ZAR"
+      },
+      {
+        "amount": "1355.85",
+        "balance_after": "87625.08",
+        "date": "2026-06-19",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1043"
+      },
+      {
+        "amount": "22590.19",
+        "balance_after": "65034.89",
+        "date": "2026-06-20",
+        "direction": "debit",
+        "kind": "hypothetical_payment",
+        "source": "option:payment_option_33:3"
+      },
+      {
+        "amount": "2333.56",
+        "balance_after": "62701.33",
+        "date": "2026-06-26",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:ZAR"
+      },
+      {
+        "amount": "11792",
+        "balance_after": "50909.33",
+        "date": "2026-07-03",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1018"
+      }
+    ],
+    "minimum_balance_date": "2026-07-03",
+    "minimum_balance_observed": "50909.33",
+    "request_id": "request_12",
+    "safe": true,
+    "selected_method": "installments"
+  },
+  {
+    "ledger": [
+      {
+        "amount": "941.6",
+        "balance_after": "1847.92",
+        "date": "2024-03-07",
+        "direction": "debit",
+        "kind": "hypothetical_payment",
+        "source": "full_payment"
+      },
+      {
+        "amount": "61",
+        "balance_after": "1786.92",
+        "date": "2024-03-10",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1092"
+      },
+      {
+        "amount": "29",
+        "balance_after": "1757.92",
+        "date": "2024-03-11",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1090"
+      },
+      {
+        "amount": "101.74",
+        "balance_after": "1656.18",
+        "date": "2024-03-12",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "21",
+        "balance_after": "1635.18",
+        "date": "2024-03-13",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1091"
+      },
+      {
+        "amount": "30.39",
+        "balance_after": "1604.79",
+        "date": "2024-03-14",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1093"
+      },
+      {
+        "amount": "1343.54",
+        "balance_after": "2948.33",
+        "date": "2024-03-15",
+        "direction": "credit",
+        "kind": "event",
+        "source": "event_1161"
+      },
+      {
+        "amount": "101.74",
+        "balance_after": "2846.59",
+        "date": "2024-03-19",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "45.37",
+        "balance_after": "2801.22",
+        "date": "2024-03-20",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "881.45",
+        "balance_after": "3682.67",
+        "date": "2024-03-20",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1080"
+      },
+      {
+        "amount": "101.74",
+        "balance_after": "3580.93",
+        "date": "2024-03-26",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "45.37",
+        "balance_after": "3535.56",
+        "date": "2024-03-27",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "622.6",
+        "balance_after": "2912.96",
+        "date": "2024-04-02",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1094"
+      },
+      {
+        "amount": "45.37",
+        "balance_after": "2867.59",
+        "date": "2024-04-03",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "134.25",
+        "balance_after": "2733.34",
+        "date": "2024-04-06",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1095"
+      },
+      {
+        "amount": "101.74",
+        "balance_after": "2631.60",
+        "date": "2024-04-09",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "61",
+        "balance_after": "2570.60",
+        "date": "2024-04-10",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1092"
+      },
+      {
+        "amount": "29",
+        "balance_after": "2541.60",
+        "date": "2024-04-11",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1090"
+      },
+      {
+        "amount": "21",
+        "balance_after": "2520.60",
+        "date": "2024-04-13",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1091"
+      },
+      {
+        "amount": "30.39",
+        "balance_after": "2490.21",
+        "date": "2024-04-14",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1093"
+      },
+      {
+        "amount": "1343.54",
+        "balance_after": "3833.75",
+        "date": "2024-04-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1087"
+      },
+      {
+        "amount": "101.74",
+        "balance_after": "3732.01",
+        "date": "2024-04-16",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "45.37",
+        "balance_after": "3686.64",
+        "date": "2024-04-17",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "881.45",
+        "balance_after": "4568.09",
+        "date": "2024-04-20",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1080"
+      },
+      {
+        "amount": "101.74",
+        "balance_after": "4466.35",
+        "date": "2024-04-23",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "45.37",
+        "balance_after": "4420.98",
+        "date": "2024-04-24",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "101.74",
+        "balance_after": "4319.24",
+        "date": "2024-04-30",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "45.37",
+        "balance_after": "4273.87",
+        "date": "2024-05-01",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "622.6",
+        "balance_after": "3651.27",
+        "date": "2024-05-02",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1094"
+      },
+      {
+        "amount": "134.25",
+        "balance_after": "3517.02",
+        "date": "2024-05-06",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1095"
+      },
+      {
+        "amount": "101.74",
+        "balance_after": "3415.28",
+        "date": "2024-05-07",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "45.37",
+        "balance_after": "3369.91",
+        "date": "2024-05-08",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "61",
+        "balance_after": "3308.91",
+        "date": "2024-05-10",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1092"
+      },
+      {
+        "amount": "29",
+        "balance_after": "3279.91",
+        "date": "2024-05-11",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1090"
+      },
+      {
+        "amount": "21",
+        "balance_after": "3258.91",
+        "date": "2024-05-13",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1091"
+      },
+      {
+        "amount": "30.39",
+        "balance_after": "3228.52",
+        "date": "2024-05-14",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1093"
+      },
+      {
+        "amount": "45.37",
+        "balance_after": "3183.15",
+        "date": "2024-05-15",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "1343.54",
+        "balance_after": "4526.69",
+        "date": "2024-05-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1087"
+      },
+      {
+        "amount": "881.45",
+        "balance_after": "5408.14",
+        "date": "2024-05-20",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1080"
+      },
+      {
+        "amount": "101.74",
+        "balance_after": "5306.40",
+        "date": "2024-05-21",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "45.37",
+        "balance_after": "5261.03",
+        "date": "2024-05-22",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "101.74",
+        "balance_after": "5159.29",
+        "date": "2024-05-28",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "45.37",
+        "balance_after": "5113.92",
+        "date": "2024-05-29",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "622.6",
+        "balance_after": "4491.32",
+        "date": "2024-06-02",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1094"
+      },
+      {
+        "amount": "101.74",
+        "balance_after": "4389.58",
+        "date": "2024-06-04",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "45.37",
+        "balance_after": "4344.21",
+        "date": "2024-06-05",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      }
+    ],
+    "minimum_balance_date": "2024-03-14",
+    "minimum_balance_observed": "1604.79",
+    "request_id": "request_13",
+    "safe": true,
+    "selected_method": "full_payment"
+  },
+  {
+    "ledger": [
+      {
+        "amount": "122500",
+        "balance_after": "239870",
+        "date": "2023-08-12",
+        "direction": "debit",
+        "kind": "hypothetical_payment",
+        "source": "full_payment"
+      },
+      {
+        "amount": "173000",
+        "balance_after": "412870",
+        "date": "2023-08-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1364"
+      },
+      {
+        "amount": "100000.00",
+        "balance_after": "312870.00",
+        "date": "2023-08-16",
+        "direction": "debit",
+        "kind": "event",
+        "source": "event_1442"
+      },
+      {
+        "amount": "4483.65",
+        "balance_after": "308386.35",
+        "date": "2023-08-17",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:INR"
+      },
+      {
+        "amount": "6971.09",
+        "balance_after": "301415.26",
+        "date": "2023-08-23",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:INR"
+      },
+      {
+        "amount": "4483.65",
+        "balance_after": "296931.61",
+        "date": "2023-08-24",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:INR"
+      },
+      {
+        "amount": "6971.09",
+        "balance_after": "289960.52",
+        "date": "2023-08-30",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:INR"
+      },
+      {
+        "amount": "4483.65",
+        "balance_after": "285476.87",
+        "date": "2023-08-31",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:INR"
+      },
+      {
+        "amount": "57100",
+        "balance_after": "228376.87",
+        "date": "2023-09-01",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1371"
+      },
+      {
+        "amount": "11512.87",
+        "balance_after": "216864.00",
+        "date": "2023-09-05",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1372"
+      },
+      {
+        "amount": "6971.09",
+        "balance_after": "209892.91",
+        "date": "2023-09-06",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:INR"
+      },
+      {
+        "amount": "4483.65",
+        "balance_after": "205409.26",
+        "date": "2023-09-07",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:INR"
+      },
+      {
+        "amount": "3510",
+        "balance_after": "201899.26",
+        "date": "2023-09-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1374"
+      },
+      {
+        "amount": "17750",
+        "balance_after": "184149.26",
+        "date": "2023-09-10",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1373"
+      },
+      {
+        "amount": "1055",
+        "balance_after": "183094.26",
+        "date": "2023-09-11",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1375"
+      },
+      {
+        "amount": "6971.09",
+        "balance_after": "176123.17",
+        "date": "2023-09-13",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:INR"
+      },
+      {
+        "amount": "4483.65",
+        "balance_after": "171639.52",
+        "date": "2023-09-14",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:INR"
+      },
+      {
+        "amount": "173000",
+        "balance_after": "344639.52",
+        "date": "2023-09-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1364"
+      },
+      {
+        "amount": "6971.09",
+        "balance_after": "337668.43",
+        "date": "2023-09-20",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:INR"
+      },
+      {
+        "amount": "4483.65",
+        "balance_after": "333184.78",
+        "date": "2023-09-21",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:INR"
+      },
+      {
+        "amount": "6971.09",
+        "balance_after": "326213.69",
+        "date": "2023-09-27",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:INR"
+      },
+      {
+        "amount": "4483.65",
+        "balance_after": "321730.04",
+        "date": "2023-09-28",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:INR"
+      },
+      {
+        "amount": "57100",
+        "balance_after": "264630.04",
+        "date": "2023-10-02",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1371"
+      },
+      {
+        "amount": "6971.09",
+        "balance_after": "257658.95",
+        "date": "2023-10-04",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:INR"
+      },
+      {
+        "amount": "11512.87",
+        "balance_after": "246146.08",
+        "date": "2023-10-05",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1372"
+      },
+      {
+        "amount": "3510",
+        "balance_after": "242636.08",
+        "date": "2023-10-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1374"
+      },
+      {
+        "amount": "17750",
+        "balance_after": "224886.08",
+        "date": "2023-10-10",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1373"
+      },
+      {
+        "amount": "1055",
+        "balance_after": "223831.08",
+        "date": "2023-10-11",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1375"
+      },
+      {
+        "amount": "4483.65",
+        "balance_after": "219347.43",
+        "date": "2023-10-12",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:INR"
+      },
+      {
+        "amount": "173000",
+        "balance_after": "392347.43",
+        "date": "2023-10-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1364"
+      },
+      {
+        "amount": "6971.09",
+        "balance_after": "385376.34",
+        "date": "2023-10-18",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:INR"
+      },
+      {
+        "amount": "4483.65",
+        "balance_after": "380892.69",
+        "date": "2023-10-19",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:INR"
+      },
+      {
+        "amount": "6971.09",
+        "balance_after": "373921.60",
+        "date": "2023-10-25",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:INR"
+      },
+      {
+        "amount": "4483.65",
+        "balance_after": "369437.95",
+        "date": "2023-10-26",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:INR"
+      },
+      {
+        "amount": "6971.09",
+        "balance_after": "362466.86",
+        "date": "2023-11-01",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:INR"
+      },
+      {
+        "amount": "57100",
+        "balance_after": "305366.86",
+        "date": "2023-11-02",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1371"
+      },
+      {
+        "amount": "11512.87",
+        "balance_after": "293853.99",
+        "date": "2023-11-05",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1372"
+      },
+      {
+        "amount": "3510",
+        "balance_after": "290343.99",
+        "date": "2023-11-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1374"
+      },
+      {
+        "amount": "4483.65",
+        "balance_after": "285860.34",
+        "date": "2023-11-09",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:INR"
+      },
+      {
+        "amount": "17750",
+        "balance_after": "268110.34",
+        "date": "2023-11-10",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1373"
+      }
+    ],
+    "minimum_balance_date": "2023-09-14",
+    "minimum_balance_observed": "171639.52",
+    "request_id": "request_16",
+    "safe": true,
+    "selected_method": "full_payment"
+  },
+  {
+    "ledger": [
+      {
+        "amount": "95194.67",
+        "balance_after": "455184.91",
+        "date": "2026-03-01",
+        "direction": "debit",
+        "kind": "hypothetical_payment",
+        "source": "option:payment_option_47:1"
+      },
+      {
+        "amount": "49600",
+        "balance_after": "405584.91",
+        "date": "2026-03-02",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1472"
+      },
+      {
+        "amount": "8487.15",
+        "balance_after": "397097.76",
+        "date": "2026-03-06",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1473"
+      },
+      {
+        "amount": "13660",
+        "balance_after": "383437.76",
+        "date": "2026-03-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1474"
+      },
+      {
+        "amount": "30200",
+        "balance_after": "353237.76",
+        "date": "2026-03-11",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1475"
+      },
+      {
+        "amount": "1675",
+        "balance_after": "351562.76",
+        "date": "2026-03-13",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1477"
+      },
+      {
+        "amount": "206000",
+        "balance_after": "557562.76",
+        "date": "2026-03-15",
+        "direction": "credit",
+        "kind": "event",
+        "source": "event_1546"
+      },
+      {
+        "amount": "8716.51",
+        "balance_after": "548846.25",
+        "date": "2026-03-27",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:INR"
+      },
+      {
+        "amount": "95194.67",
+        "balance_after": "453651.58",
+        "date": "2026-03-31",
+        "direction": "debit",
+        "kind": "hypothetical_payment",
+        "source": "option:payment_option_47:2"
+      },
+      {
+        "amount": "49600",
+        "balance_after": "404051.58",
+        "date": "2026-04-02",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1472"
+      },
+      {
+        "amount": "8487.15",
+        "balance_after": "395564.43",
+        "date": "2026-04-06",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1473"
+      },
+      {
+        "amount": "13660",
+        "balance_after": "381904.43",
+        "date": "2026-04-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1474"
+      },
+      {
+        "amount": "30200",
+        "balance_after": "351704.43",
+        "date": "2026-04-11",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1475"
+      },
+      {
+        "amount": "1675",
+        "balance_after": "350029.43",
+        "date": "2026-04-13",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1477"
+      },
+      {
+        "amount": "206000",
+        "balance_after": "556029.43",
+        "date": "2026-04-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1471"
+      },
+      {
+        "amount": "8716.51",
+        "balance_after": "547312.92",
+        "date": "2026-04-27",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:INR"
+      },
+      {
+        "amount": "95194.67",
+        "balance_after": "452118.25",
+        "date": "2026-04-30",
+        "direction": "debit",
+        "kind": "hypothetical_payment",
+        "source": "option:payment_option_47:3"
+      },
+      {
+        "amount": "49600",
+        "balance_after": "402518.25",
+        "date": "2026-05-02",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1472"
+      },
+      {
+        "amount": "8487.15",
+        "balance_after": "394031.10",
+        "date": "2026-05-06",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1473"
+      },
+      {
+        "amount": "13660",
+        "balance_after": "380371.10",
+        "date": "2026-05-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1474"
+      },
+      {
+        "amount": "30200",
+        "balance_after": "350171.10",
+        "date": "2026-05-11",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1475"
+      },
+      {
+        "amount": "1675",
+        "balance_after": "348496.10",
+        "date": "2026-05-13",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1477"
+      },
+      {
+        "amount": "206000",
+        "balance_after": "554496.10",
+        "date": "2026-05-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1471"
+      },
+      {
+        "amount": "8716.51",
+        "balance_after": "545779.59",
+        "date": "2026-05-27",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:INR"
+      }
+    ],
+    "minimum_balance_date": "2026-05-13",
+    "minimum_balance_observed": "348496.10",
+    "request_id": "request_17",
+    "safe": true,
+    "selected_method": "installments"
+  },
+  {
+    "ledger": [
+      {
+        "amount": "107.43",
+        "balance_after": "2378.57",
+        "date": "2026-07-07",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1573"
+      },
+      {
+        "amount": "68",
+        "balance_after": "2310.57",
+        "date": "2026-07-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1574"
+      },
+      {
+        "amount": "68",
+        "balance_after": "2242.57",
+        "date": "2026-07-10",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1576"
+      },
+      {
+        "amount": "147.96",
+        "balance_after": "2094.61",
+        "date": "2026-07-11",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1575"
+      },
+      {
+        "amount": "2310",
+        "balance_after": "4404.61",
+        "date": "2026-07-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1571"
+      },
+      {
+        "amount": "167",
+        "balance_after": "4237.61",
+        "date": "2026-08-04",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1577"
+      },
+      {
+        "amount": "107.43",
+        "balance_after": "4130.18",
+        "date": "2026-08-07",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1573"
+      },
+      {
+        "amount": "68",
+        "balance_after": "4062.18",
+        "date": "2026-08-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1574"
+      },
+      {
+        "amount": "68",
+        "balance_after": "3994.18",
+        "date": "2026-08-10",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1576"
+      },
+      {
+        "amount": "147.96",
+        "balance_after": "3846.22",
+        "date": "2026-08-11",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1575"
+      },
+      {
+        "amount": "2310",
+        "balance_after": "6156.22",
+        "date": "2026-08-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1571"
+      },
+      {
+        "amount": "3246.1",
+        "balance_after": "2910.12",
+        "date": "2026-08-15",
+        "direction": "debit",
+        "kind": "hypothetical_payment",
+        "source": "wait_full_payment"
+      },
+      {
+        "amount": "167",
+        "balance_after": "2743.12",
+        "date": "2026-09-04",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1577"
+      },
+      {
+        "amount": "107.43",
+        "balance_after": "2635.69",
+        "date": "2026-09-07",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1573"
+      },
+      {
+        "amount": "68",
+        "balance_after": "2567.69",
+        "date": "2026-09-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1574"
+      },
+      {
+        "amount": "68",
+        "balance_after": "2499.69",
+        "date": "2026-09-10",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1576"
+      },
+      {
+        "amount": "147.96",
+        "balance_after": "2351.73",
+        "date": "2026-09-11",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1575"
+      },
+      {
+        "amount": "2310",
+        "balance_after": "4661.73",
+        "date": "2026-09-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1571"
+      },
+      {
+        "amount": "167",
+        "balance_after": "4494.73",
+        "date": "2026-10-04",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1577"
+      }
+    ],
+    "minimum_balance_date": "2026-07-11",
+    "minimum_balance_observed": "2094.61",
+    "request_id": "request_18",
+    "safe": true,
+    "selected_method": "wait"
+  },
+  {
+    "ledger": [
+      {
+        "amount": "36100",
+        "balance_after": "163445",
+        "date": "2024-09-04",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1655"
+      },
+      {
+        "amount": "26231.32",
+        "balance_after": "137213.68",
+        "date": "2024-09-04",
+        "direction": "debit",
+        "kind": "hypothetical_payment",
+        "source": "partial_now"
+      },
+      {
+        "amount": "6129.19",
+        "balance_after": "131084.49",
+        "date": "2024-09-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1656"
+      },
+      {
+        "amount": "4744.13",
+        "balance_after": "126340.36",
+        "date": "2024-09-10",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:INR"
+      },
+      {
+        "amount": "8645.36",
+        "balance_after": "117695.00",
+        "date": "2024-09-12",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1658"
+      },
+      {
+        "amount": "11850",
+        "balance_after": "105845.00",
+        "date": "2024-09-13",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1657"
+      },
+      {
+        "amount": "395",
+        "balance_after": "105450.00",
+        "date": "2024-09-14",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1660"
+      },
+      {
+        "amount": "12650",
+        "balance_after": "92800.00",
+        "date": "2024-09-15",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1659"
+      },
+      {
+        "amount": "131000",
+        "balance_after": "223800.00",
+        "date": "2024-09-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1654"
+      },
+      {
+        "amount": "13428.68",
+        "balance_after": "210371.32",
+        "date": "2024-09-15",
+        "direction": "debit",
+        "kind": "hypothetical_payment",
+        "source": "partial_remainder"
+      },
+      {
+        "amount": "4744.13",
+        "balance_after": "205627.19",
+        "date": "2024-09-17",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:INR"
+      },
+      {
+        "amount": "4744.13",
+        "balance_after": "200883.06",
+        "date": "2024-09-24",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:INR"
+      },
+      {
+        "amount": "4744.13",
+        "balance_after": "196138.93",
+        "date": "2024-10-01",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:INR"
+      },
+      {
+        "amount": "36100",
+        "balance_after": "160038.93",
+        "date": "2024-10-04",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1655"
+      },
+      {
+        "amount": "6129.19",
+        "balance_after": "153909.74",
+        "date": "2024-10-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1656"
+      },
+      {
+        "amount": "8645.36",
+        "balance_after": "145264.38",
+        "date": "2024-10-12",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1658"
+      },
+      {
+        "amount": "11850",
+        "balance_after": "133414.38",
+        "date": "2024-10-13",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1657"
+      },
+      {
+        "amount": "395",
+        "balance_after": "133019.38",
+        "date": "2024-10-14",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1660"
+      },
+      {
+        "amount": "12650",
+        "balance_after": "120369.38",
+        "date": "2024-10-15",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1659"
+      },
+      {
+        "amount": "131000",
+        "balance_after": "251369.38",
+        "date": "2024-10-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1654"
+      },
+      {
+        "amount": "4744.13",
+        "balance_after": "246625.25",
+        "date": "2024-10-22",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:INR"
+      },
+      {
+        "amount": "4744.13",
+        "balance_after": "241881.12",
+        "date": "2024-10-29",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:INR"
+      },
+      {
+        "amount": "36100",
+        "balance_after": "205781.12",
+        "date": "2024-11-04",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1655"
+      },
+      {
+        "amount": "4744.13",
+        "balance_after": "201036.99",
+        "date": "2024-11-05",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:INR"
+      },
+      {
+        "amount": "6129.19",
+        "balance_after": "194907.80",
+        "date": "2024-11-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1656"
+      },
+      {
+        "amount": "8645.36",
+        "balance_after": "186262.44",
+        "date": "2024-11-12",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1658"
+      },
+      {
+        "amount": "11850",
+        "balance_after": "174412.44",
+        "date": "2024-11-13",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1657"
+      },
+      {
+        "amount": "395",
+        "balance_after": "174017.44",
+        "date": "2024-11-14",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1660"
+      },
+      {
+        "amount": "12650",
+        "balance_after": "161367.44",
+        "date": "2024-11-15",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1659"
+      },
+      {
+        "amount": "131000",
+        "balance_after": "292367.44",
+        "date": "2024-11-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1654"
+      },
+      {
+        "amount": "4744.13",
+        "balance_after": "287623.31",
+        "date": "2024-11-19",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:INR"
+      },
+      {
+        "amount": "4744.13",
+        "balance_after": "282879.18",
+        "date": "2024-11-26",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:INR"
+      },
+      {
+        "amount": "4744.13",
+        "balance_after": "278135.05",
+        "date": "2024-12-03",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:INR"
+      }
+    ],
+    "minimum_balance_date": "2024-09-15",
+    "minimum_balance_observed": "92800.00",
+    "request_id": "request_19",
+    "safe": true,
+    "selected_method": "partial_payment"
+  },
+  {
+    "ledger": [
+      {
+        "amount": "1574.4",
+        "balance_after": "2336.95",
+        "date": "2026-04-03",
+        "direction": "debit",
+        "kind": "hypothetical_payment",
+        "source": "full_payment"
+      },
+      {
+        "amount": "53",
+        "balance_after": "2283.95",
+        "date": "2026-04-05",
+        "direction": "debit",
+        "kind": "event",
+        "source": "event_1857"
+      },
+      {
+        "amount": "124.08",
+        "balance_after": "2159.87",
+        "date": "2026-04-06",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1814"
+      },
+      {
+        "amount": "47",
+        "balance_after": "2112.87",
+        "date": "2026-04-09",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1816"
+      },
+      {
+        "amount": "11",
+        "balance_after": "2101.87",
+        "date": "2026-04-12",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1815"
+      },
+      {
+        "amount": "2256",
+        "balance_after": "4357.87",
+        "date": "2026-04-15",
+        "direction": "credit",
+        "kind": "event",
+        "source": "event_1858"
+      },
+      {
+        "amount": "84.7",
+        "balance_after": "4273.17",
+        "date": "2026-04-16",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:USD"
+      },
+      {
+        "amount": "84.7",
+        "balance_after": "4188.47",
+        "date": "2026-04-26",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:USD"
+      },
+      {
+        "amount": "718.8",
+        "balance_after": "3469.67",
+        "date": "2026-05-02",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1818"
+      },
+      {
+        "amount": "124.08",
+        "balance_after": "3345.59",
+        "date": "2026-05-06",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1814"
+      },
+      {
+        "amount": "47",
+        "balance_after": "3298.59",
+        "date": "2026-05-09",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1816"
+      },
+      {
+        "amount": "11",
+        "balance_after": "3287.59",
+        "date": "2026-05-12",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1815"
+      },
+      {
+        "amount": "2256",
+        "balance_after": "5543.59",
+        "date": "2026-05-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1812"
+      },
+      {
+        "amount": "84.7",
+        "balance_after": "5458.89",
+        "date": "2026-05-16",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:USD"
+      },
+      {
+        "amount": "84.7",
+        "balance_after": "5374.19",
+        "date": "2026-05-26",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:USD"
+      },
+      {
+        "amount": "718.8",
+        "balance_after": "4655.39",
+        "date": "2026-06-02",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1818"
+      },
+      {
+        "amount": "84.7",
+        "balance_after": "4570.69",
+        "date": "2026-06-05",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:USD"
+      },
+      {
+        "amount": "124.08",
+        "balance_after": "4446.61",
+        "date": "2026-06-06",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1814"
+      },
+      {
+        "amount": "47",
+        "balance_after": "4399.61",
+        "date": "2026-06-09",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1816"
+      },
+      {
+        "amount": "11",
+        "balance_after": "4388.61",
+        "date": "2026-06-12",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1815"
+      },
+      {
+        "amount": "84.7",
+        "balance_after": "4303.91",
+        "date": "2026-06-15",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:USD"
+      },
+      {
+        "amount": "2256",
+        "balance_after": "6559.91",
+        "date": "2026-06-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1812"
+      },
+      {
+        "amount": "84.7",
+        "balance_after": "6475.21",
+        "date": "2026-06-25",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:USD"
+      },
+      {
+        "amount": "718.8",
+        "balance_after": "5756.41",
+        "date": "2026-07-02",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1818"
+      }
+    ],
+    "minimum_balance_date": "2026-04-12",
+    "minimum_balance_observed": "2101.87",
+    "request_id": "request_21",
+    "safe": true,
+    "selected_method": "full_payment"
+  },
+  {
+    "ledger": [
+      {
+        "amount": "12.7",
+        "balance_after": "1119.76",
+        "date": "2024-12-05",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "27.34",
+        "balance_after": "1092.42",
+        "date": "2024-12-07",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1889"
+      },
+      {
+        "amount": "43",
+        "balance_after": "1049.42",
+        "date": "2024-12-08",
+        "direction": "debit",
+        "kind": "event",
+        "source": "event_1961"
+      },
+      {
+        "amount": "253.59",
+        "balance_after": "795.83",
+        "date": "2024-12-08",
+        "direction": "debit",
+        "kind": "hypothetical_payment",
+        "source": "option:payment_option_61:1"
+      },
+      {
+        "amount": "17",
+        "balance_after": "778.83",
+        "date": "2024-12-11",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1892"
+      },
+      {
+        "amount": "6",
+        "balance_after": "772.83",
+        "date": "2024-12-12",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1890"
+      },
+      {
+        "amount": "5",
+        "balance_after": "767.83",
+        "date": "2024-12-14",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1891"
+      },
+      {
+        "amount": "20.43",
+        "balance_after": "747.40",
+        "date": "2024-12-15",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1893"
+      },
+      {
+        "amount": "616",
+        "balance_after": "1363.40",
+        "date": "2024-12-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1887"
+      },
+      {
+        "amount": "23.84",
+        "balance_after": "1339.56",
+        "date": "2024-12-18",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "12.7",
+        "balance_after": "1326.86",
+        "date": "2024-12-19",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "23.84",
+        "balance_after": "1303.02",
+        "date": "2024-12-25",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "12.7",
+        "balance_after": "1290.32",
+        "date": "2024-12-26",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "23.84",
+        "balance_after": "1266.48",
+        "date": "2025-01-01",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "12.7",
+        "balance_after": "1253.78",
+        "date": "2025-01-02",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "178.2",
+        "balance_after": "1075.58",
+        "date": "2025-01-03",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1894"
+      },
+      {
+        "amount": "253.59",
+        "balance_after": "821.99",
+        "date": "2025-01-05",
+        "direction": "debit",
+        "kind": "hypothetical_payment",
+        "source": "option:payment_option_61:2"
+      },
+      {
+        "amount": "27.34",
+        "balance_after": "794.65",
+        "date": "2025-01-07",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1889"
+      },
+      {
+        "amount": "23.84",
+        "balance_after": "770.81",
+        "date": "2025-01-08",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "12.7",
+        "balance_after": "758.11",
+        "date": "2025-01-09",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "17",
+        "balance_after": "741.11",
+        "date": "2025-01-11",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1892"
+      },
+      {
+        "amount": "6",
+        "balance_after": "735.11",
+        "date": "2025-01-12",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1890"
+      },
+      {
+        "amount": "5",
+        "balance_after": "730.11",
+        "date": "2025-01-14",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1891"
+      },
+      {
+        "amount": "20.43",
+        "balance_after": "709.68",
+        "date": "2025-01-15",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1893"
+      },
+      {
+        "amount": "616",
+        "balance_after": "1325.68",
+        "date": "2025-01-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1887"
+      },
+      {
+        "amount": "12.7",
+        "balance_after": "1312.98",
+        "date": "2025-01-16",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "23.84",
+        "balance_after": "1289.14",
+        "date": "2025-01-22",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "12.7",
+        "balance_after": "1276.44",
+        "date": "2025-01-23",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "23.84",
+        "balance_after": "1252.60",
+        "date": "2025-01-29",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "12.7",
+        "balance_after": "1239.90",
+        "date": "2025-01-30",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "253.59",
+        "balance_after": "986.31",
+        "date": "2025-02-02",
+        "direction": "debit",
+        "kind": "hypothetical_payment",
+        "source": "option:payment_option_61:3"
+      },
+      {
+        "amount": "178.2",
+        "balance_after": "808.11",
+        "date": "2025-02-03",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1894"
+      },
+      {
+        "amount": "23.84",
+        "balance_after": "784.27",
+        "date": "2025-02-05",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "12.7",
+        "balance_after": "771.57",
+        "date": "2025-02-06",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "27.34",
+        "balance_after": "744.23",
+        "date": "2025-02-07",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1889"
+      },
+      {
+        "amount": "17",
+        "balance_after": "727.23",
+        "date": "2025-02-11",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1892"
+      },
+      {
+        "amount": "6",
+        "balance_after": "721.23",
+        "date": "2025-02-12",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1890"
+      },
+      {
+        "amount": "12.7",
+        "balance_after": "708.53",
+        "date": "2025-02-13",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "5",
+        "balance_after": "703.53",
+        "date": "2025-02-14",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1891"
+      },
+      {
+        "amount": "20.43",
+        "balance_after": "683.10",
+        "date": "2025-02-15",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1893"
+      },
+      {
+        "amount": "616",
+        "balance_after": "1299.10",
+        "date": "2025-02-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1887"
+      },
+      {
+        "amount": "23.84",
+        "balance_after": "1275.26",
+        "date": "2025-02-19",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "12.7",
+        "balance_after": "1262.56",
+        "date": "2025-02-20",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "23.84",
+        "balance_after": "1238.72",
+        "date": "2025-02-26",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      },
+      {
+        "amount": "12.7",
+        "balance_after": "1226.02",
+        "date": "2025-02-27",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:transport:EUR"
+      },
+      {
+        "amount": "178.2",
+        "balance_after": "1047.82",
+        "date": "2025-03-03",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1894"
+      },
+      {
+        "amount": "23.84",
+        "balance_after": "1023.98",
+        "date": "2025-03-05",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:EUR"
+      }
+    ],
+    "minimum_balance_date": "2025-02-15",
+    "minimum_balance_observed": "683.10",
+    "request_id": "request_22",
+    "safe": true,
+    "selected_method": "installments"
+  },
+  {
+    "ledger": [
+      {
+        "amount": "1706.85",
+        "balance_after": "50251.05",
+        "date": "2025-05-07",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:ZAR"
+      },
+      {
+        "amount": "2680.15",
+        "balance_after": "47570.90",
+        "date": "2025-05-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1996"
+      },
+      {
+        "amount": "1553.2",
+        "balance_after": "46017.70",
+        "date": "2025-05-11",
+        "direction": "debit",
+        "kind": "event",
+        "source": "event_2042"
+      },
+      {
+        "amount": "1377.89",
+        "balance_after": "44639.81",
+        "date": "2025-05-12",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1998"
+      },
+      {
+        "amount": "5852",
+        "balance_after": "38787.81",
+        "date": "2025-05-13",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1997"
+      },
+      {
+        "amount": "295.9",
+        "balance_after": "38491.91",
+        "date": "2025-05-14",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_2000"
+      },
+      {
+        "amount": "4270.2",
+        "balance_after": "34221.71",
+        "date": "2025-05-15",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1999"
+      },
+      {
+        "amount": "45760",
+        "balance_after": "79981.71",
+        "date": "2025-05-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1994"
+      },
+      {
+        "amount": "1706.85",
+        "balance_after": "78274.86",
+        "date": "2025-05-21",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:ZAR"
+      },
+      {
+        "amount": "1706.85",
+        "balance_after": "76568.01",
+        "date": "2025-05-28",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:ZAR"
+      },
+      {
+        "amount": "15312",
+        "balance_after": "61256.01",
+        "date": "2025-06-04",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_2002"
+      },
+      {
+        "amount": "2680.15",
+        "balance_after": "58575.86",
+        "date": "2025-06-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1996"
+      },
+      {
+        "amount": "1706.85",
+        "balance_after": "56869.01",
+        "date": "2025-06-11",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:ZAR"
+      },
+      {
+        "amount": "1377.89",
+        "balance_after": "55491.12",
+        "date": "2025-06-12",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1998"
+      },
+      {
+        "amount": "5852",
+        "balance_after": "49639.12",
+        "date": "2025-06-13",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1997"
+      },
+      {
+        "amount": "295.9",
+        "balance_after": "49343.22",
+        "date": "2025-06-14",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_2000"
+      },
+      {
+        "amount": "4270.2",
+        "balance_after": "45073.02",
+        "date": "2025-06-15",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1999"
+      },
+      {
+        "amount": "45760",
+        "balance_after": "90833.02",
+        "date": "2025-06-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1994"
+      },
+      {
+        "amount": "1706.85",
+        "balance_after": "89126.17",
+        "date": "2025-06-18",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:ZAR"
+      },
+      {
+        "amount": "1706.85",
+        "balance_after": "87419.32",
+        "date": "2025-06-25",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:ZAR"
+      },
+      {
+        "amount": "1706.85",
+        "balance_after": "85712.47",
+        "date": "2025-07-02",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:ZAR"
+      },
+      {
+        "amount": "15312",
+        "balance_after": "70400.47",
+        "date": "2025-07-04",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_2002"
+      },
+      {
+        "amount": "2680.15",
+        "balance_after": "67720.32",
+        "date": "2025-07-08",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1996"
+      },
+      {
+        "amount": "1706.85",
+        "balance_after": "66013.47",
+        "date": "2025-07-09",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:ZAR"
+      },
+      {
+        "amount": "1377.89",
+        "balance_after": "64635.58",
+        "date": "2025-07-12",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1998"
+      },
+      {
+        "amount": "5852",
+        "balance_after": "58783.58",
+        "date": "2025-07-13",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1997"
+      },
+      {
+        "amount": "295.9",
+        "balance_after": "58487.68",
+        "date": "2025-07-14",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_2000"
+      },
+      {
+        "amount": "4270.2",
+        "balance_after": "54217.48",
+        "date": "2025-07-15",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1999"
+      },
+      {
+        "amount": "45760",
+        "balance_after": "99977.48",
+        "date": "2025-07-15",
+        "direction": "credit",
+        "kind": "recurrence",
+        "source": "recurrence:event_1994"
+      },
+      {
+        "amount": "38016",
+        "balance_after": "61961.48",
+        "date": "2025-07-15",
+        "direction": "debit",
+        "kind": "hypothetical_payment",
+        "source": "wait_full_payment"
+      },
+      {
+        "amount": "1706.85",
+        "balance_after": "60254.63",
+        "date": "2025-07-16",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:ZAR"
+      },
+      {
+        "amount": "1706.85",
+        "balance_after": "58547.78",
+        "date": "2025-07-23",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:ZAR"
+      },
+      {
+        "amount": "1706.85",
+        "balance_after": "56840.93",
+        "date": "2025-07-30",
+        "direction": "debit",
+        "kind": "variable_essential",
+        "source": "variable:groceries:ZAR"
+      },
+      {
+        "amount": "15312",
+        "balance_after": "41528.93",
+        "date": "2025-08-04",
+        "direction": "debit",
+        "kind": "recurrence",
+        "source": "recurrence:event_2002"
+      }
+    ],
+    "minimum_balance_date": "2025-05-15",
+    "minimum_balance_observed": "34221.71",
+    "request_id": "request_23",
+    "safe": true,
+    "selected_method": "wait"
+  }
+]

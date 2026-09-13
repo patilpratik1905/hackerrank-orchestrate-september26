@@ -195,8 +195,8 @@ class ForecastTests(unittest.TestCase):
         debit = event("debit", amount="150", settlement=REQUEST_DAY)
         credit = event("credit", amount="100", settlement=REQUEST_DAY, direction=Direction.CREDIT, category=Category.SALARY, event_type=EventType.INCOME)
         state, _ = self.state((debit, credit), p=profile(balance="400", minimum="200"))
-        result = simulate(state, (HypotheticalPayment(REQUEST_DAY, Decimal("60"), "pay"),))
-        self.assertEqual([entry.movement.source_id for entry in result.entries], ["debit", "pay", "credit"])
+        result = simulate(state, (HypotheticalPayment(REQUEST_DAY, Decimal("200"), "pay"),))
+        self.assertEqual([entry.movement.source_id for entry in result.entries], ["debit", "credit", "pay"])
         self.assertFalse(result.safe)
 
     def test_inclusive_horizon_and_spending_modification(self) -> None:

@@ -67,7 +67,10 @@ records and evidence, detects only supported recurring commitments, applies exac
 dated FX, and simulates the inclusive range from `request_date` through
 `request_date + 90 days`. It starts at `current_available_balance`, never replays
 historical settled cash, reserves pending debits, excludes pending credits/refunds,
-and processes debits and hypothetical payments before credits on the same date.
+and processes required debits before same-day credits, then hypothetical plan
+payments after same-day credits. This ordering is calibrated from the public
+salary-settlement examples: a payment on a confirmed salary date can use that
+day's credited salary, while debit reservations still happen first.
 
 The recurrence assumptions are global and configurable through `ForecastConfig`:
 three settled observations are required; weekly (6–8 day), monthly (25–35 day), or

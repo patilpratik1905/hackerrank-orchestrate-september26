@@ -1,0 +1,1420 @@
+{
+  "deterministic": true,
+  "diagnostics": [
+    {
+      "amount_safe_to_pay": "22744.81",
+      "candidate_count": 2,
+      "earliest_date_for_full_payment": null,
+      "eligible_count": 0,
+      "minimum_balance": null,
+      "rejections": {
+        "balance 17785.73 fell below required minimum 18000": 1,
+        "balance 17940.79 fell below required minimum 18000": 1
+      },
+      "request_id": "request_01",
+      "selected_changes": "none",
+      "selected_method": "not_recommended",
+      "selected_option_id": null
+    },
+    {
+      "amount_safe_to_pay": "5142579.66",
+      "candidate_count": 8,
+      "earliest_date_for_full_payment": "2025-10-15",
+      "eligible_count": 0,
+      "minimum_balance": null,
+      "rejections": {
+        "balance 27922934.82 fell below required minimum 29158400": 1,
+        "balance 28292484.82 fell below required minimum 29158400": 1,
+        "balance 28604798.61 fell below required minimum 29158400": 1,
+        "balance 28974348.61 fell below required minimum 29158400": 1,
+        "option exceeds max_installment_months": 4,
+        "option finishes after desired completion date": 4,
+        "option finishes after forecast horizon": 4,
+        "payment schedule exceeds forecast horizon": 4,
+        "payment schedule misses desired completion date": 4
+      },
+      "request_id": "request_02",
+      "selected_changes": "none",
+      "selected_method": "not_recommended",
+      "selected_option_id": null
+    },
+    {
+      "amount_safe_to_pay": "1537587.02",
+      "candidate_count": 19,
+      "earliest_date_for_full_payment": "2019-10-15",
+      "eligible_count": 1,
+      "minimum_balance": "3243664.59",
+      "rejections": {
+        "balance 319300 fell below required minimum 2668700": 6,
+        "option exceeds max_installment_months": 12,
+        "option finishes after desired completion date": 12,
+        "option finishes after forecast horizon": 12,
+        "payment schedule exceeds forecast horizon": 12,
+        "payment schedule misses desired completion date": 12
+      },
+      "request_id": "request_03",
+      "selected_changes": "none",
+      "selected_method": "wait",
+      "selected_option_id": null
+    },
+    {
+      "amount_safe_to_pay": "11876727.39",
+      "candidate_count": 5,
+      "earliest_date_for_full_payment": "2024-06-15",
+      "eligible_count": 2,
+      "minimum_balance": "42079649.37",
+      "rejections": {
+        "balance 29870327.39 fell below required minimum 30686600": 1,
+        "balance 30202827.39 fell below required minimum 30686600": 1,
+        "balance 30409636.78 fell below required minimum 30686600": 1
+      },
+      "request_id": "request_04",
+      "selected_changes": "none",
+      "selected_method": "wait",
+      "selected_option_id": null
+    },
+    {
+      "amount_safe_to_pay": "1521.91",
+      "candidate_count": 6,
+      "earliest_date_for_full_payment": null,
+      "eligible_count": 0,
+      "minimum_balance": null,
+      "rejections": {
+        "balance 9751.64 fell below required minimum 13100": 1,
+        "balance 9978.24 fell below required minimum 13100": 1,
+        "option exceeds max_installment_months": 4,
+        "option finishes after desired completion date": 4,
+        "option finishes after forecast horizon": 4,
+        "payment schedule exceeds forecast horizon": 4,
+        "payment schedule misses desired completion date": 4
+      },
+      "request_id": "request_05",
+      "selected_changes": "none",
+      "selected_method": "not_recommended",
+      "selected_option_id": null
+    },
+    {
+      "amount_safe_to_pay": "620.4",
+      "candidate_count": 2,
+      "earliest_date_for_full_payment": "2026-01-03",
+      "eligible_count": 2,
+      "minimum_balance": "946.61",
+      "rejections": {},
+      "request_id": "request_06",
+      "selected_changes": "none",
+      "selected_method": "full_payment",
+      "selected_option_id": null
+    },
+    {
+      "amount_safe_to_pay": "0",
+      "candidate_count": 2,
+      "earliest_date_for_full_payment": null,
+      "eligible_count": 0,
+      "minimum_balance": null,
+      "rejections": {
+        "balance 90680.07 fell below required minimum 93000": 1,
+        "option exceeds max_installment_months": 1,
+        "option finishes after desired completion date": 1,
+        "option finishes after forecast horizon": 1,
+        "payment schedule exceeds forecast horizon": 1,
+        "payment schedule misses desired completion date": 1
+      },
+      "request_id": "request_07",
+      "selected_changes": "none",
+      "selected_method": "not_recommended",
+      "selected_option_id": null
+    },
+    {
+      "amount_safe_to_pay": "0",
+      "candidate_count": 2,
+      "earliest_date_for_full_payment": null,
+      "eligible_count": 0,
+      "minimum_balance": null,
+      "rejections": {
+        "balance 450.97 fell below required minimum 800": 2
+      },
+      "request_id": "request_08",
+      "selected_changes": "none",
+      "selected_method": "not_recommended",
+      "selected_option_id": null
+    },
+    {
+      "amount_safe_to_pay": "166.61",
+      "candidate_count": 3,
+      "earliest_date_for_full_payment": "2026-07-04",
+      "eligible_count": 1,
+      "minimum_balance": "793.73",
+      "rejections": {
+        "option exceeds max_installment_months": 2,
+        "option finishes after desired completion date": 2,
+        "option finishes after forecast horizon": 2,
+        "payment schedule exceeds forecast horizon": 2,
+        "payment schedule misses desired completion date": 2
+      },
+      "request_id": "request_09",
+      "selected_changes": "none",
+      "selected_method": "full_payment",
+      "selected_option_id": null
+    },
+    {
+      "amount_safe_to_pay": "266700",
+      "candidate_count": 15,
+      "earliest_date_for_full_payment": "2024-12-06",
+      "eligible_count": 0,
+      "minimum_balance": null,
+      "rejections": {
+        "option exceeds max_installment_months": 15,
+        "option finishes after desired completion date": 15,
+        "option finishes after forecast horizon": 15,
+        "payment schedule exceeds forecast horizon": 15,
+        "payment schedule misses desired completion date": 15
+      },
+      "request_id": "request_10",
+      "selected_changes": "none",
+      "selected_method": "not_recommended",
+      "selected_option_id": null
+    },
+    {
+      "amount_safe_to_pay": "13110000",
+      "candidate_count": 4,
+      "earliest_date_for_full_payment": "2025-05-03",
+      "eligible_count": 4,
+      "minimum_balance": "37250977.90",
+      "rejections": {},
+      "request_id": "request_11",
+      "selected_changes": "none",
+      "selected_method": "full_payment",
+      "selected_option_id": null
+    },
+    {
+      "amount_safe_to_pay": "65164",
+      "candidate_count": 4,
+      "earliest_date_for_full_payment": "2026-04-05",
+      "eligible_count": 2,
+      "minimum_balance": "50909.33",
+      "rejections": {
+        "option exceeds max_installment_months": 2,
+        "option finishes after desired completion date": 2,
+        "option finishes after forecast horizon": 2,
+        "payment schedule exceeds forecast horizon": 2,
+        "payment schedule misses desired completion date": 2
+      },
+      "request_id": "request_12",
+      "selected_changes": "none",
+      "selected_method": "installments",
+      "selected_option_id": "payment_option_33"
+    },
+    {
+      "amount_safe_to_pay": "941.6",
+      "candidate_count": 8,
+      "earliest_date_for_full_payment": "2024-03-07",
+      "eligible_count": 8,
+      "minimum_balance": "1604.79",
+      "rejections": {},
+      "request_id": "request_13",
+      "selected_changes": "none",
+      "selected_method": "full_payment",
+      "selected_option_id": null
+    },
+    {
+      "amount_safe_to_pay": "0",
+      "candidate_count": 0,
+      "earliest_date_for_full_payment": null,
+      "eligible_count": 0,
+      "minimum_balance": null,
+      "rejections": {},
+      "request_id": "request_14",
+      "selected_changes": "none",
+      "selected_method": "not_recommended",
+      "selected_option_id": null
+    },
+    {
+      "amount_safe_to_pay": "0",
+      "candidate_count": 0,
+      "earliest_date_for_full_payment": null,
+      "eligible_count": 0,
+      "minimum_balance": null,
+      "rejections": {},
+      "request_id": "request_15",
+      "selected_changes": "none",
+      "selected_method": "not_recommended",
+      "selected_option_id": null
+    },
+    {
+      "amount_safe_to_pay": "122500",
+      "candidate_count": 3,
+      "earliest_date_for_full_payment": "2023-08-12",
+      "eligible_count": 1,
+      "minimum_balance": "171639.52",
+      "rejections": {
+        "option exceeds max_installment_months": 2,
+        "option finishes after desired completion date": 2,
+        "option finishes after forecast horizon": 2,
+        "payment schedule exceeds forecast horizon": 2,
+        "payment schedule misses desired completion date": 2
+      },
+      "request_id": "request_16",
+      "selected_changes": "none",
+      "selected_method": "full_payment",
+      "selected_option_id": null
+    },
+    {
+      "amount_safe_to_pay": "274600",
+      "candidate_count": 4,
+      "earliest_date_for_full_payment": "2026-03-01",
+      "eligible_count": 2,
+      "minimum_balance": "348496.10",
+      "rejections": {
+        "option exceeds max_installment_months": 2,
+        "option finishes after desired completion date": 2,
+        "option finishes after forecast horizon": 2,
+        "payment schedule exceeds forecast horizon": 2,
+        "payment schedule misses desired completion date": 2
+      },
+      "request_id": "request_17",
+      "selected_changes": "none",
+      "selected_method": "installments",
+      "selected_option_id": "payment_option_47"
+    },
+    {
+      "amount_safe_to_pay": "694.61",
+      "candidate_count": 4,
+      "earliest_date_for_full_payment": "2026-08-15",
+      "eligible_count": 1,
+      "minimum_balance": "2094.61",
+      "rejections": {
+        "balance -867.53 fell below required minimum 1400": 3
+      },
+      "request_id": "request_18",
+      "selected_changes": "none",
+      "selected_method": "wait",
+      "selected_option_id": null
+    },
+    {
+      "amount_safe_to_pay": "26231.32",
+      "candidate_count": 5,
+      "earliest_date_for_full_payment": "2024-09-15",
+      "eligible_count": 3,
+      "minimum_balance": "92800.00",
+      "rejections": {
+        "option exceeds max_installment_months": 2,
+        "option finishes after desired completion date": 2,
+        "payment schedule misses desired completion date": 2
+      },
+      "request_id": "request_19",
+      "selected_changes": "none",
+      "selected_method": "partial_payment",
+      "selected_option_id": null
+    },
+    {
+      "amount_safe_to_pay": "21614.85",
+      "candidate_count": 8,
+      "earliest_date_for_full_payment": null,
+      "eligible_count": 0,
+      "minimum_balance": null,
+      "rejections": {
+        "balance -209830.95 fell below required minimum 64500": 4,
+        "option exceeds max_installment_months": 4,
+        "option finishes after desired completion date": 4,
+        "option finishes after forecast horizon": 4,
+        "payment schedule exceeds forecast horizon": 4,
+        "payment schedule misses desired completion date": 4
+      },
+      "request_id": "request_20",
+      "selected_changes": "none",
+      "selected_method": "not_recommended",
+      "selected_option_id": null
+    },
+    {
+      "amount_safe_to_pay": "1574.4",
+      "candidate_count": 6,
+      "earliest_date_for_full_payment": "2026-04-03",
+      "eligible_count": 6,
+      "minimum_balance": "2101.87",
+      "rejections": {},
+      "request_id": "request_21",
+      "selected_changes": "none",
+      "selected_method": "full_payment",
+      "selected_option_id": null
+    },
+    {
+      "amount_safe_to_pay": "500.99",
+      "candidate_count": 8,
+      "earliest_date_for_full_payment": "2025-01-15",
+      "eligible_count": 4,
+      "minimum_balance": "683.10",
+      "rejections": {
+        "option exceeds max_installment_months": 4,
+        "option finishes after desired completion date": 4,
+        "option finishes after forecast horizon": 4,
+        "payment schedule exceeds forecast horizon": 4,
+        "payment schedule misses desired completion date": 4
+      },
+      "request_id": "request_22",
+      "selected_changes": "none",
+      "selected_method": "installments",
+      "selected_option_id": "payment_option_61"
+    },
+    {
+      "amount_safe_to_pay": "7221.71",
+      "candidate_count": 7,
+      "earliest_date_for_full_payment": "2025-07-15",
+      "eligible_count": 1,
+      "minimum_balance": "34221.71",
+      "rejections": {
+        "balance 12235.05 fell below required minimum 27000": 2,
+        "option exceeds max_installment_months": 4,
+        "option finishes after desired completion date": 4,
+        "option finishes after forecast horizon": 4,
+        "payment schedule exceeds forecast horizon": 4,
+        "payment schedule misses desired completion date": 4
+      },
+      "request_id": "request_23",
+      "selected_changes": "none",
+      "selected_method": "wait",
+      "selected_option_id": null
+    },
+    {
+      "amount_safe_to_pay": "23118.25",
+      "candidate_count": 0,
+      "earliest_date_for_full_payment": "2026-03-15",
+      "eligible_count": 0,
+      "minimum_balance": null,
+      "rejections": {},
+      "request_id": "request_24",
+      "selected_changes": "none",
+      "selected_method": "not_recommended",
+      "selected_option_id": null
+    },
+    {
+      "amount_safe_to_pay": "4268528.45",
+      "candidate_count": 3,
+      "earliest_date_for_full_payment": null,
+      "eligible_count": 0,
+      "minimum_balance": null,
+      "rejections": {
+        "balance -29634853.67 fell below required minimum 23379100": 1,
+        "option exceeds max_installment_months": 2,
+        "option finishes after desired completion date": 2,
+        "option finishes after forecast horizon": 2,
+        "payment schedule exceeds forecast horizon": 2,
+        "payment schedule misses desired completion date": 2
+      },
+      "request_id": "request_25",
+      "selected_changes": "none",
+      "selected_method": "not_recommended",
+      "selected_option_id": null
+    }
+  ],
+  "metrics": {
+    "affordability_status": {
+      "accuracy": 0.68,
+      "matched": 17,
+      "total": 25
+    },
+    "amount_safe_to_pay": {
+      "comparable_rows": 25,
+      "exact_to_cent": {
+        "accuracy": 0.12,
+        "matched": 3,
+        "total": 25
+      },
+      "maximum_absolute_error": "12086559.54",
+      "mean_absolute_error": "803055.456",
+      "median_absolute_error": "1930.29"
+    },
+    "complete_structured_row_exact_match": {
+      "accuracy": 0.12,
+      "matched": 3,
+      "total": 25
+    },
+    "decision_explanation_consistency": {
+      "accuracy": 1.0,
+      "matched": 25,
+      "total": 25
+    },
+    "earliest_date_for_full_payment": {
+      "blank_nonblank": {
+        "accuracy": 0.8,
+        "matched": 20,
+        "total": 25
+      },
+      "both_dates_present": 15,
+      "exact_match": {
+        "accuracy": 0.48,
+        "matched": 12,
+        "total": 25
+      },
+      "maximum_absolute_day_error": 73,
+      "mean_absolute_day_error": 18.133333333333333,
+      "median_absolute_day_error": 12
+    },
+    "payment_plan": {
+      "exact_string": {
+        "accuracy": 0.6,
+        "matched": 15,
+        "total": 25
+      },
+      "parsed_schedule_validity": {
+        "accuracy": 1.0,
+        "matched": 25,
+        "total": 25
+      }
+    },
+    "recommended_payment_method": {
+      "accuracy": 0.8,
+      "matched": 20,
+      "total": 25
+    },
+    "spending_changes_needed": {
+      "exact_match": {
+        "accuracy": 0.88,
+        "matched": 22,
+        "total": 25
+      },
+      "structural_validity": {
+        "accuracy": 1.0,
+        "matched": 25,
+        "total": 25
+      }
+    },
+    "validator_pass_rate": {
+      "accuracy": 1.0,
+      "matched": 25,
+      "total": 25
+    }
+  },
+  "mismatches": [
+    {
+      "actual": "22744.81",
+      "expected": "25256",
+      "field": "amount_safe_to_pay",
+      "request_id": "request_01"
+    },
+    {
+      "actual": "not_affordable",
+      "expected": "affordable_now",
+      "field": "affordability_status",
+      "request_id": "request_01"
+    },
+    {
+      "actual": "not_recommended",
+      "expected": "full_payment",
+      "field": "recommended_payment_method",
+      "request_id": "request_01"
+    },
+    {
+      "actual": "none",
+      "expected": "2024-03-03:25256",
+      "field": "payment_plan",
+      "request_id": "request_01"
+    },
+    {
+      "actual": "",
+      "expected": "2024-03-03",
+      "field": "earliest_date_for_full_payment",
+      "request_id": "request_01"
+    },
+    {
+      "actual": "5142579.66",
+      "expected": "17229139.2",
+      "field": "amount_safe_to_pay",
+      "request_id": "request_02"
+    },
+    {
+      "actual": "not_affordable",
+      "expected": "affordable_with_plan",
+      "field": "affordability_status",
+      "request_id": "request_02"
+    },
+    {
+      "actual": "not_recommended",
+      "expected": "installments",
+      "field": "recommended_payment_method",
+      "request_id": "request_02"
+    },
+    {
+      "actual": "none",
+      "expected": "2025-08-08:15952906.67|2025-09-07:15952906.67|2025-10-07:15952906.67",
+      "field": "payment_plan",
+      "request_id": "request_02"
+    },
+    {
+      "actual": "2025-10-15",
+      "expected": "2025-09-15",
+      "field": "earliest_date_for_full_payment",
+      "request_id": "request_02"
+    },
+    {
+      "actual": "1537587.02",
+      "expected": "873000",
+      "field": "amount_safe_to_pay",
+      "request_id": "request_03"
+    },
+    {
+      "actual": "2019-10-15:5491000",
+      "expected": "2019-11-15:5491000",
+      "field": "payment_plan",
+      "request_id": "request_03"
+    },
+    {
+      "actual": "2019-10-15",
+      "expected": "2019-11-15",
+      "field": "earliest_date_for_full_payment",
+      "request_id": "request_03"
+    },
+    {
+      "actual": "11876727.39",
+      "expected": "8401800",
+      "field": "amount_safe_to_pay",
+      "request_id": "request_04"
+    },
+    {
+      "actual": "1521.91",
+      "expected": "737",
+      "field": "amount_safe_to_pay",
+      "request_id": "request_05"
+    },
+    {
+      "actual": "620.4",
+      "expected": "603.3",
+      "field": "amount_safe_to_pay",
+      "request_id": "request_06"
+    },
+    {
+      "actual": "affordable_now",
+      "expected": "affordable_with_plan",
+      "field": "affordability_status",
+      "request_id": "request_06"
+    },
+    {
+      "actual": "2026-01-03:620.4",
+      "expected": "2026-01-03:620.40",
+      "field": "payment_plan",
+      "request_id": "request_06"
+    },
+    {
+      "actual": "2026-01-03",
+      "expected": "2026-01-15",
+      "field": "earliest_date_for_full_payment",
+      "request_id": "request_06"
+    },
+    {
+      "actual": "none",
+      "expected": "stop:event_476",
+      "field": "spending_changes_needed",
+      "request_id": "request_06"
+    },
+    {
+      "actual": "0",
+      "expected": "87170.56",
+      "field": "amount_safe_to_pay",
+      "request_id": "request_07"
+    },
+    {
+      "actual": "not_affordable",
+      "expected": "affordable_with_plan",
+      "field": "affordability_status",
+      "request_id": "request_07"
+    },
+    {
+      "actual": "not_recommended",
+      "expected": "installments",
+      "field": "recommended_payment_method",
+      "request_id": "request_07"
+    },
+    {
+      "actual": "none",
+      "expected": "2024-09-12:68432|2024-10-10:68432|2024-11-07:68432",
+      "field": "payment_plan",
+      "request_id": "request_07"
+    },
+    {
+      "actual": "",
+      "expected": "2024-10-23",
+      "field": "earliest_date_for_full_payment",
+      "request_id": "request_07"
+    },
+    {
+      "actual": "0",
+      "expected": "284.57",
+      "field": "amount_safe_to_pay",
+      "request_id": "request_08"
+    },
+    {
+      "actual": "not_affordable",
+      "expected": "affordable_later",
+      "field": "affordability_status",
+      "request_id": "request_08"
+    },
+    {
+      "actual": "not_recommended",
+      "expected": "wait",
+      "field": "recommended_payment_method",
+      "request_id": "request_08"
+    },
+    {
+      "actual": "none",
+      "expected": "2025-04-15:996.60",
+      "field": "payment_plan",
+      "request_id": "request_08"
+    },
+    {
+      "actual": "",
+      "expected": "2025-04-15",
+      "field": "earliest_date_for_full_payment",
+      "request_id": "request_08"
+    },
+    {
+      "actual": "266700",
+      "expected": "12700",
+      "field": "amount_safe_to_pay",
+      "request_id": "request_10"
+    },
+    {
+      "actual": "2024-12-06",
+      "expected": "",
+      "field": "earliest_date_for_full_payment",
+      "request_id": "request_10"
+    },
+    {
+      "actual": "13110000",
+      "expected": "12510645",
+      "field": "amount_safe_to_pay",
+      "request_id": "request_11"
+    },
+    {
+      "actual": "affordable_now",
+      "expected": "affordable_with_plan",
+      "field": "affordability_status",
+      "request_id": "request_11"
+    },
+    {
+      "actual": "2025-05-03",
+      "expected": "2025-07-15",
+      "field": "earliest_date_for_full_payment",
+      "request_id": "request_11"
+    },
+    {
+      "actual": "none",
+      "expected": "reduce_to:event_989:665950",
+      "field": "spending_changes_needed",
+      "request_id": "request_11"
+    },
+    {
+      "actual": "941.6",
+      "expected": "433.4",
+      "field": "amount_safe_to_pay",
+      "request_id": "request_13"
+    },
+    {
+      "actual": "affordable_now",
+      "expected": "affordable_later",
+      "field": "affordability_status",
+      "request_id": "request_13"
+    },
+    {
+      "actual": "full_payment",
+      "expected": "wait",
+      "field": "recommended_payment_method",
+      "request_id": "request_13"
+    },
+    {
+      "actual": "2024-03-07:941.6",
+      "expected": "2024-05-15:941.60",
+      "field": "payment_plan",
+      "request_id": "request_13"
+    },
+    {
+      "actual": "2024-03-07",
+      "expected": "2024-05-15",
+      "field": "earliest_date_for_full_payment",
+      "request_id": "request_13"
+    },
+    {
+      "actual": "0",
+      "expected": "597.74",
+      "field": "amount_safe_to_pay",
+      "request_id": "request_14"
+    },
+    {
+      "actual": "0",
+      "expected": "83.05",
+      "field": "amount_safe_to_pay",
+      "request_id": "request_15"
+    },
+    {
+      "actual": "274600",
+      "expected": "243849.58",
+      "field": "amount_safe_to_pay",
+      "request_id": "request_17"
+    },
+    {
+      "actual": "2026-03-01",
+      "expected": "2026-03-15",
+      "field": "earliest_date_for_full_payment",
+      "request_id": "request_17"
+    },
+    {
+      "actual": "694.61",
+      "expected": "462",
+      "field": "amount_safe_to_pay",
+      "request_id": "request_18"
+    },
+    {
+      "actual": "2026-08-15:3246.1",
+      "expected": "2026-09-15:3246.10",
+      "field": "payment_plan",
+      "request_id": "request_18"
+    },
+    {
+      "actual": "2026-08-15",
+      "expected": "2026-09-15",
+      "field": "earliest_date_for_full_payment",
+      "request_id": "request_18"
+    },
+    {
+      "actual": "26231.32",
+      "expected": "28820",
+      "field": "amount_safe_to_pay",
+      "request_id": "request_19"
+    },
+    {
+      "actual": "2024-09-04:26231.32|2024-09-15:13428.68",
+      "expected": "2024-09-04:28820|2024-09-15:10840",
+      "field": "payment_plan",
+      "request_id": "request_19"
+    },
+    {
+      "actual": "21614.85",
+      "expected": "5400",
+      "field": "amount_safe_to_pay",
+      "request_id": "request_20"
+    },
+    {
+      "actual": "1574.4",
+      "expected": "1543.35",
+      "field": "amount_safe_to_pay",
+      "request_id": "request_21"
+    },
+    {
+      "actual": "affordable_now",
+      "expected": "affordable_with_plan",
+      "field": "affordability_status",
+      "request_id": "request_21"
+    },
+    {
+      "actual": "2026-04-03:1574.4",
+      "expected": "2026-04-03:1574.40",
+      "field": "payment_plan",
+      "request_id": "request_21"
+    },
+    {
+      "actual": "2026-04-03",
+      "expected": "2026-04-15",
+      "field": "earliest_date_for_full_payment",
+      "request_id": "request_21"
+    },
+    {
+      "actual": "none",
+      "expected": "stop:event_1815|reduce_to:event_1816:23.50",
+      "field": "spending_changes_needed",
+      "request_id": "request_21"
+    },
+    {
+      "actual": "500.99",
+      "expected": "475.46",
+      "field": "amount_safe_to_pay",
+      "request_id": "request_22"
+    },
+    {
+      "actual": "7221.71",
+      "expected": "9152",
+      "field": "amount_safe_to_pay",
+      "request_id": "request_23"
+    },
+    {
+      "actual": "23118.25",
+      "expected": "13420",
+      "field": "amount_safe_to_pay",
+      "request_id": "request_24"
+    },
+    {
+      "actual": "2026-03-15",
+      "expected": "",
+      "field": "earliest_date_for_full_payment",
+      "request_id": "request_24"
+    },
+    {
+      "actual": "4268528.45",
+      "expected": "1425000",
+      "field": "amount_safe_to_pay",
+      "request_id": "request_25"
+    }
+  ],
+  "production_label_access": false,
+  "root_causes": [
+    {
+      "actual": "22744.81",
+      "expected": "25256",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_01",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "not_affordable",
+      "expected": "affordable_now",
+      "field": "affordability_status",
+      "first_divergent_stage": "candidate eligibility/ranking",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_01",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "not_recommended",
+      "expected": "full_payment",
+      "field": "recommended_payment_method",
+      "first_divergent_stage": "candidate eligibility/ranking",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_01",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "none",
+      "expected": "2024-03-03:25256",
+      "field": "payment_plan",
+      "first_divergent_stage": "candidate eligibility/ranking",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_01",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "",
+      "expected": "2024-03-03",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_01",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "5142579.66",
+      "expected": "17229139.2",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_02",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "not_affordable",
+      "expected": "affordable_with_plan",
+      "field": "affordability_status",
+      "first_divergent_stage": "candidate eligibility/ranking",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_02",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "not_recommended",
+      "expected": "installments",
+      "field": "recommended_payment_method",
+      "first_divergent_stage": "candidate eligibility/ranking",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_02",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "none",
+      "expected": "2025-08-08:15952906.67|2025-09-07:15952906.67|2025-10-07:15952906.67",
+      "field": "payment_plan",
+      "first_divergent_stage": "candidate eligibility/ranking",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_02",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2025-10-15",
+      "expected": "2025-09-15",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_02",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "1537587.02",
+      "expected": "873000",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_03",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2019-10-15:5491000",
+      "expected": "2019-11-15:5491000",
+      "field": "payment_plan",
+      "first_divergent_stage": "candidate eligibility/ranking",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_03",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2019-10-15",
+      "expected": "2019-11-15",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_03",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "11876727.39",
+      "expected": "8401800",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_04",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "1521.91",
+      "expected": "737",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_05",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "620.4",
+      "expected": "603.3",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_06",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "affordable_now",
+      "expected": "affordable_with_plan",
+      "field": "affordability_status",
+      "first_divergent_stage": "candidate eligibility/ranking",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_06",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2026-01-03:620.4",
+      "expected": "2026-01-03:620.40",
+      "field": "payment_plan",
+      "first_divergent_stage": "candidate eligibility/ranking",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_06",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2026-01-03",
+      "expected": "2026-01-15",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_06",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "none",
+      "expected": "stop:event_476",
+      "field": "spending_changes_needed",
+      "first_divergent_stage": "spending changes",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_06",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "0",
+      "expected": "87170.56",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_07",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "not_affordable",
+      "expected": "affordable_with_plan",
+      "field": "affordability_status",
+      "first_divergent_stage": "candidate eligibility/ranking",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_07",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "not_recommended",
+      "expected": "installments",
+      "field": "recommended_payment_method",
+      "first_divergent_stage": "candidate eligibility/ranking",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_07",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "none",
+      "expected": "2024-09-12:68432|2024-10-10:68432|2024-11-07:68432",
+      "field": "payment_plan",
+      "first_divergent_stage": "candidate eligibility/ranking",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_07",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "",
+      "expected": "2024-10-23",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_07",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "0",
+      "expected": "284.57",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_08",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "not_affordable",
+      "expected": "affordable_later",
+      "field": "affordability_status",
+      "first_divergent_stage": "candidate eligibility/ranking",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_08",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "not_recommended",
+      "expected": "wait",
+      "field": "recommended_payment_method",
+      "first_divergent_stage": "candidate eligibility/ranking",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_08",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "none",
+      "expected": "2025-04-15:996.60",
+      "field": "payment_plan",
+      "first_divergent_stage": "candidate eligibility/ranking",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_08",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "",
+      "expected": "2025-04-15",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_08",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "266700",
+      "expected": "12700",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_10",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2024-12-06",
+      "expected": "",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_10",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "13110000",
+      "expected": "12510645",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_11",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "affordable_now",
+      "expected": "affordable_with_plan",
+      "field": "affordability_status",
+      "first_divergent_stage": "candidate eligibility/ranking",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_11",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2025-05-03",
+      "expected": "2025-07-15",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_11",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "none",
+      "expected": "reduce_to:event_989:665950",
+      "field": "spending_changes_needed",
+      "first_divergent_stage": "spending changes",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_11",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "941.6",
+      "expected": "433.4",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_13",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "affordable_now",
+      "expected": "affordable_later",
+      "field": "affordability_status",
+      "first_divergent_stage": "candidate eligibility/ranking",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_13",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "full_payment",
+      "expected": "wait",
+      "field": "recommended_payment_method",
+      "first_divergent_stage": "candidate eligibility/ranking",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_13",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2024-03-07:941.6",
+      "expected": "2024-05-15:941.60",
+      "field": "payment_plan",
+      "first_divergent_stage": "candidate eligibility/ranking",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_13",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2024-03-07",
+      "expected": "2024-05-15",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_13",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "0",
+      "expected": "597.74",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_14",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "0",
+      "expected": "83.05",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_15",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "274600",
+      "expected": "243849.58",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_17",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2026-03-01",
+      "expected": "2026-03-15",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_17",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "694.61",
+      "expected": "462",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_18",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2026-08-15:3246.1",
+      "expected": "2026-09-15:3246.10",
+      "field": "payment_plan",
+      "first_divergent_stage": "candidate eligibility/ranking",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_18",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2026-08-15",
+      "expected": "2026-09-15",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_18",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "26231.32",
+      "expected": "28820",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_19",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2024-09-04:26231.32|2024-09-15:13428.68",
+      "expected": "2024-09-04:28820|2024-09-15:10840",
+      "field": "payment_plan",
+      "first_divergent_stage": "candidate eligibility/ranking",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_19",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "21614.85",
+      "expected": "5400",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_20",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "1574.4",
+      "expected": "1543.35",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_21",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "affordable_now",
+      "expected": "affordable_with_plan",
+      "field": "affordability_status",
+      "first_divergent_stage": "candidate eligibility/ranking",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_21",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2026-04-03:1574.4",
+      "expected": "2026-04-03:1574.40",
+      "field": "payment_plan",
+      "first_divergent_stage": "candidate eligibility/ranking",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_21",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2026-04-03",
+      "expected": "2026-04-15",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_21",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "none",
+      "expected": "stop:event_1815|reduce_to:event_1816:23.50",
+      "field": "spending_changes_needed",
+      "first_divergent_stage": "spending changes",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_21",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "500.99",
+      "expected": "475.46",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_22",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "7221.71",
+      "expected": "9152",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_23",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "23118.25",
+      "expected": "13420",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_24",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2026-03-15",
+      "expected": "",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_24",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "4268528.45",
+      "expected": "1425000",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_25",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    }
+  ],
+  "sample_rows": 25,
+  "steps": [
+    7,
+    8,
+    9
+  ],
+  "summary": {
+    "expected_rows": 25,
+    "feasibility_validation": "not_run",
+    "file_valid": true,
+    "prediction_rows": 25,
+    "structurally_valid": true
+  }
+}

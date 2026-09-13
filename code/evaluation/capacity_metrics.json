@@ -1,0 +1,347 @@
+{
+  "amount_safe_to_pay": {
+    "comparable_rows": 25,
+    "exact_to_cent": {
+      "accuracy": 0.12,
+      "matched": 3,
+      "total": 25
+    },
+    "maximum_absolute_error": "12086559.54",
+    "mean_absolute_error": "803055.456",
+    "median_absolute_error": "1930.29"
+  },
+  "earliest_date_for_full_payment": {
+    "blank_nonblank": {
+      "accuracy": 0.8,
+      "matched": 20,
+      "total": 25
+    },
+    "both_dates_present": 15,
+    "exact_match": {
+      "accuracy": 0.48,
+      "matched": 12,
+      "total": 25
+    },
+    "maximum_absolute_day_error": 73,
+    "mean_absolute_day_error": 18.133333333333333,
+    "median_absolute_day_error": 12
+  },
+  "mismatches": [
+    {
+      "actual": "22744.81",
+      "expected": "25256",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_01",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "",
+      "expected": "2024-03-03",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_01",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "5142579.66",
+      "expected": "17229139.2",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_02",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2025-10-15",
+      "expected": "2025-09-15",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_02",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "1537587.02",
+      "expected": "873000",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_03",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2019-10-15",
+      "expected": "2019-11-15",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_03",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "11876727.39",
+      "expected": "8401800",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_04",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "1521.91",
+      "expected": "737",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_05",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "620.4",
+      "expected": "603.3",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_06",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2026-01-03",
+      "expected": "2026-01-15",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_06",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "0",
+      "expected": "87170.56",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_07",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "",
+      "expected": "2024-10-23",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_07",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "0",
+      "expected": "284.57",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_08",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "",
+      "expected": "2025-04-15",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_08",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "266700",
+      "expected": "12700",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_10",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2024-12-06",
+      "expected": "",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_10",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "13110000",
+      "expected": "12510645",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_11",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2025-05-03",
+      "expected": "2025-07-15",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_11",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "941.6",
+      "expected": "433.4",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_13",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2024-03-07",
+      "expected": "2024-05-15",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_13",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "0",
+      "expected": "597.74",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_14",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "0",
+      "expected": "83.05",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_15",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "274600",
+      "expected": "243849.58",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_17",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2026-03-01",
+      "expected": "2026-03-15",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_17",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "694.61",
+      "expected": "462",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_18",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2026-08-15",
+      "expected": "2026-09-15",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_18",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "26231.32",
+      "expected": "28820",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_19",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "21614.85",
+      "expected": "5400",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_20",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "1574.4",
+      "expected": "1543.35",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_21",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2026-04-03",
+      "expected": "2026-04-15",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_21",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "500.99",
+      "expected": "475.46",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_22",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "7221.71",
+      "expected": "9152",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_23",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "23118.25",
+      "expected": "13420",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_24",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "2026-03-15",
+      "expected": "",
+      "field": "earliest_date_for_full_payment",
+      "first_divergent_stage": "earliest date",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_24",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    },
+    {
+      "actual": "4268528.45",
+      "expected": "1425000",
+      "field": "amount_safe_to_pay",
+      "first_divergent_stage": "safe amount",
+      "regression_action": "retain as solved-sample regression; never patch request ID",
+      "request_id": "request_25",
+      "root_cause": "systemic forecast/capacity calibration or candidate selection; inspect ledger trace"
+    }
+  ],
+  "sample_rows": 25
+}

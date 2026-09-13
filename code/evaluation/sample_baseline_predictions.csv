@@ -1,0 +1,26 @@
+request_id,amount_safe_to_pay,affordability_status,recommended_payment_method,payment_plan,earliest_date_for_full_payment,spending_changes_needed,decision_explanation
+request_01,22744.81,not_affordable,not_recommended,none,,none,No safe option completes the request within the required deadline.
+request_02,5142579.66,not_affordable,not_recommended,none,2025-10-15,none,No safe option completes the request within the required deadline.
+request_03,1537587.02,affordable_later,wait,2019-10-15:5491000,2019-10-15,none,Wait until the projected full-payment date to preserve the required minimum balance.
+request_04,11876727.39,affordable_later,wait,2024-06-15:12693000,2024-06-15,none,Wait until the projected full-payment date to preserve the required minimum balance.
+request_05,1521.91,not_affordable,not_recommended,none,,none,No safe option completes the request within the required deadline.
+request_06,620.4,affordable_now,full_payment,2026-01-03:620.4,2026-01-03,none,Full payment is safe while preserving the required minimum balance.
+request_07,0,not_affordable,not_recommended,none,,none,No safe option completes the request within the required deadline.
+request_08,0,not_affordable,not_recommended,none,,none,No safe option completes the request within the required deadline.
+request_09,166.61,affordable_now,full_payment,2026-07-04:166.61,2026-07-04,none,Full payment is safe while preserving the required minimum balance.
+request_10,266700,not_affordable,not_recommended,none,2024-12-06,none,No safe option completes the request within the required deadline.
+request_11,13110000,affordable_now,full_payment,2025-05-03:13110000,2025-05-03,none,Full payment is safe while preserving the required minimum balance.
+request_12,65164,affordable_with_plan,installments,2026-04-19:22590.19|2026-05-20:22590.19|2026-06-20:22590.19,2026-04-05,none,Installments complete the request safely within the user’s permitted duration.
+request_13,941.6,affordable_now,full_payment,2024-03-07:941.6,2024-03-07,none,Full payment is safe while preserving the required minimum balance.
+request_14,0,not_affordable,not_recommended,none,,none,No safe option completes the request within the required deadline.
+request_15,0,not_affordable,not_recommended,none,,none,No safe option completes the request within the required deadline.
+request_16,122500,affordable_now,full_payment,2023-08-12:122500,2023-08-12,none,Full payment is safe while preserving the required minimum balance.
+request_17,274600,affordable_with_plan,installments,2026-03-01:95194.67|2026-03-31:95194.67|2026-04-30:95194.67,2026-03-01,none,Installments complete the request safely within the user’s permitted duration.
+request_18,694.61,affordable_later,wait,2026-08-15:3246.1,2026-08-15,none,Wait until the projected full-payment date to preserve the required minimum balance.
+request_19,26231.32,affordable_with_plan,partial_payment,2024-09-04:26231.32|2024-09-15:13428.68,2024-09-15,none,A partial payment is safe now and the remainder is scheduled when full payment is safe.
+request_20,21614.85,not_affordable,not_recommended,none,,none,No safe option completes the request within the required deadline.
+request_21,1574.4,affordable_now,full_payment,2026-04-03:1574.4,2026-04-03,none,Full payment is safe while preserving the required minimum balance.
+request_22,500.99,affordable_with_plan,installments,2024-12-08:253.59|2025-01-05:253.59|2025-02-02:253.59,2025-01-15,none,Installments complete the request safely within the user’s permitted duration.
+request_23,7221.71,affordable_later,wait,2025-07-15:38016,2025-07-15,none,Wait until the projected full-payment date to preserve the required minimum balance.
+request_24,23118.25,not_affordable,not_recommended,none,2026-03-15,none,No safe option completes the request within the required deadline.
+request_25,4268528.45,not_affordable,not_recommended,none,,none,No safe option completes the request within the required deadline.
