@@ -29,3 +29,33 @@ by the user's foreign-currency cash events. Sample requests and their completed
 labels are stored separately; production `Request` objects never contain labels.
 
 See `evaluation/README.md` for sample-scoring commands.
+
+## Evidence extraction
+
+Build or reuse the hash-bound evidence cache and verify that all 16 blank event
+amounts resolve:
+
+```text
+python code/evidence/main.py --dataset-dir dataset
+```
+
+The checked-in reviewed-image manifest records the context-selected value, visible
+document label, source hash, and confidence for every supplied image. Messages are
+parsed deterministically from the supplied multilingual templates. Source text is
+always treated as untrusted data.
+
+To deliberately re-extract images with a structured vision model, configure
+`EVIDENCE_API_URL`, `EVIDENCE_API_KEY`, and `EVIDENCE_MODEL` in the environment,
+then run:
+
+```text
+python code/evidence/main.py --dataset-dir dataset --refresh-images
+```
+
+Add `--model-ambiguous-messages` to route only messages outside the deterministic
+template rules through the configured structured multilingual model. Valid model
+results use a separate extractor version and cache key.
+
+The refresh path uses a 20-second timeout and two attempts by default. Credentials
+are never stored in the cache. The cache records provider/model token metadata for
+later aggregation into `evaluation/usage_report.md`.
