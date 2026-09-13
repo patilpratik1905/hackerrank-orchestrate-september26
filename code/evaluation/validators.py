@@ -16,30 +16,10 @@ from decimal import Decimal
 from pathlib import Path
 from typing import Callable, Iterable, Mapping, Sequence
 
+from buy_or_wait.schema import OUTPUT_COLUMNS, REQUEST_INPUT_COLUMNS
 from evaluation.data_audit import parse_decimal, parse_iso_date, read_csv_table
 
-
-OUTPUT_COLUMNS = (
-    "request_id",
-    "amount_safe_to_pay",
-    "affordability_status",
-    "recommended_payment_method",
-    "payment_plan",
-    "earliest_date_for_full_payment",
-    "spending_changes_needed",
-    "decision_explanation",
-)
-
-SAMPLE_INPUT_COLUMNS = (
-    "request_id",
-    "user_id",
-    "request_date",
-    "request_type",
-    "requested_amount",
-    "desired_completion_date",
-    "allows_partial_payment",
-    "request_text",
-)
+SAMPLE_INPUT_COLUMNS = REQUEST_INPUT_COLUMNS
 
 ALLOWED_AFFORDABILITY_STATUSES = {
     "affordable_now",
