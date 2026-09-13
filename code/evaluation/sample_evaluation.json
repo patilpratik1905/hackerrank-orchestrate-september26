@@ -1,0 +1,243 @@
+{
+  "file_issues": [],
+  "global_file_issues": [],
+  "metrics": {
+    "affordability_status": {
+      "accuracy": 1.0,
+      "matched": 25,
+      "total": 25
+    },
+    "amount_safe_to_pay": {
+      "comparable_rows": 25,
+      "exact_to_cent": {
+        "accuracy": 1.0,
+        "matched": 25,
+        "total": 25
+      },
+      "maximum_absolute_error": "0",
+      "mean_absolute_error": "0.00",
+      "median_absolute_error": "0.0"
+    },
+    "complete_structured_row_exact_match": {
+      "accuracy": 1.0,
+      "matched": 25,
+      "total": 25
+    },
+    "decision_explanation_consistency": {
+      "accuracy": 1.0,
+      "matched": 25,
+      "total": 25
+    },
+    "earliest_date_for_full_payment": {
+      "blank_nonblank": {
+        "accuracy": 1.0,
+        "matched": 25,
+        "total": 25
+      },
+      "both_dates_present": 18,
+      "exact_match": {
+        "accuracy": 1.0,
+        "matched": 25,
+        "total": 25
+      },
+      "maximum_absolute_day_error": 0,
+      "mean_absolute_day_error": 0,
+      "median_absolute_day_error": 0.0
+    },
+    "payment_plan": {
+      "exact_string": {
+        "accuracy": 1.0,
+        "matched": 25,
+        "total": 25
+      },
+      "parsed_schedule_validity": {
+        "accuracy": 1.0,
+        "matched": 25,
+        "total": 25
+      }
+    },
+    "recommended_payment_method": {
+      "accuracy": 1.0,
+      "matched": 25,
+      "total": 25
+    },
+    "spending_changes_needed": {
+      "exact_match": {
+        "accuracy": 1.0,
+        "matched": 25,
+        "total": 25
+      },
+      "structural_validity": {
+        "accuracy": 1.0,
+        "matched": 25,
+        "total": 25
+      }
+    },
+    "validator_pass_rate": {
+      "accuracy": 1.0,
+      "matched": 25,
+      "total": 25
+    }
+  },
+  "mismatches": [],
+  "row_validations": [
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_01"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_02"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_03"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_04"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_05"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_06"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_07"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_08"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_09"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_10"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_11"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_12"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_13"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_14"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_15"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_16"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_17"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_18"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_19"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_20"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_21"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_22"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_23"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_24"
+    },
+    {
+      "feasibility_status": "not_run",
+      "issues": [],
+      "passed": true,
+      "request_id": "request_25"
+    }
+  ],
+  "summary": {
+    "expected_rows": 25,
+    "feasibility_validation": "not_run",
+    "file_valid": true,
+    "prediction_rows": 25,
+    "structurally_valid": true
+  },
+  "validation_issue_count": 0
+}
